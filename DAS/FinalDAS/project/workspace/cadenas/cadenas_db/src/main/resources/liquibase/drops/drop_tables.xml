@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+		xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+	<!--   TABLE DROP CHANGE-SETS      -->
+
+	<changeSet id="Drop table precioProducto" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="precioProducto"/>
+		</preConditions>
+		<dropTable tableName="precioProducto"/>
+	</changeSet>
+
+	<changeSet id="Drop table producto_sucursal" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="producto_sucursal"/>
+		</preConditions>
+		<dropTable tableName="producto_sucursal"/>
+	</changeSet>
+
+	<changeSet id="Drop table sucursal" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="sucursal"/>
+		</preConditions>
+		<dropTable tableName="sucursal"/>
+	</changeSet>
+
+	<changeSet id="Drop table localidad" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="localidad"/>
+		</preConditions>
+		<dropTable tableName="localidad"/>
+	</changeSet>
+
+	<changeSet id="Drop table provincia" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="provincia"/>
+		</preConditions>
+		<dropTable tableName="provincia"/>
+	</changeSet>
+
+	<changeSet id="Drop table producto" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="producto"/>
+		</preConditions>
+		<dropTable tableName="producto"/>
+	</changeSet>
+
+	<changeSet id="Drop table marcaProducto" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="marcaProducto"/>
+		</preConditions>
+		<dropTable tableName="marcaProducto"/>
+	</changeSet>
+
+</databaseChangeLog>

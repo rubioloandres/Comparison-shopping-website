@@ -1,0 +1,15 @@
+utilities\GSON.class
+db\DaoFactory.class
+db\DaoProp.class
+db\daos\MSSucursalesDao.class
+db\Bean.class
+db\DaoImpl.class
+bean\Producto.class
+service\SimuladorDePrecios.class
+bean\Sucursal.class
+db\daos\MSPreciosProductosDao.class
+service\CadenaAPI.class
+db\Dao.class
+bean\CriterioLocalizacionSucursal.class
+bean\CriterioBusquedaProductos.class
+db\daos\MSPreciosSucursalesDao.class

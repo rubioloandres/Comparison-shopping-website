@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cadenas_axis</artifactId>
+        <groupId>cadenas</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cadenas_axis</groupId>
+    <artifactId>cadena_axis_one</artifactId>
+    <packaging>war</packaging>
+    <!-- Dependency properties -->
+    <properties>
+        <serviceLocation>ws.CadenaAxisOne</serviceLocation>
+    </properties>
+
+    <!-- Plugin configuration -->
+    <build>
+        <!-- Name of the generated WAR file -->
+        <finalName>cadena_axis_one</finalName>
+        <plugins>
+            <!-- AXIS2 SERVICE GENERATOR -->
+            <plugin>
+                <groupId>org.apache.axis2</groupId>
+                <artifactId>axis2-java2wsdl-maven-plugin</artifactId>
+                <version>1.6.2</version>
+                <executions>
+                    <execution>
+                        <phase>process-classes</phase>
+                        <goals>
+                            <goal>java2wsdl</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <className>${serviceLocation}</className>
+                    <outputFileName>${project.build.directory}/classes/ws/CadenaAxisOne.wsdl</outputFileName>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

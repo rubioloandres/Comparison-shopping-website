@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+		xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+	
+	<!-- ******************************** -->
+	<!--   TABLE POPULATION CHANGE-SETS   -->
+	<!-- ******************************** -->
+
+	<changeSet id="Populate table marcaProducto" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="marcaProducto"/>
+		</preConditions>
+		<sqlFile path="/src/main/resources/liquibase/populates/marcaProducto.sql"/>
+	</changeSet>
+
+	<changeSet id="Populate table producto" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="producto"/>
+		</preConditions>
+		<sqlFile path="/src/main/resources/liquibase/populates/producto.sql"/>
+	</changeSet>
+
+	<changeSet id="Populate table provincia" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="provincia"/>
+		</preConditions>
+		<sqlFile path="/src/main/resources/liquibase/populates/provincia.sql"/>
+	</changeSet>
+
+	<changeSet id="Populate table localidad" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="localidad"/>
+		</preConditions>
+		<sqlFile path="/src/main/resources/liquibase/populates/localidad.sql"/>
+	</changeSet>
+
+</databaseChangeLog>

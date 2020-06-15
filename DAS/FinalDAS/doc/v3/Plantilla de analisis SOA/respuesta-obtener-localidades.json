@@ -1,0 +1,2902 @@
+[
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Agrelo"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Agua Escondida"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Alto del Olvido"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Alto Salvador"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Alto Verde"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Andrade"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Bardas Blancas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Barrancas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Barrio ADINA"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Barrio Belgrano Norte"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Barrio Chivilcoy"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Barrio Cooperativa Los Campamentos"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Barrio Echeverría"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Barrio El Nevado"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Barrio Empleados de Comercio"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Barrio Intendencia"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Barrio Jesús de Nazaret"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Barrio Jocolí II"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Barrio La Esperanza"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Barrio Las Rosas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Barrio Los Jarilleros"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Barrio María Auxiliadora"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Barrio Perdriel IV"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Barrio Primavera"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Barrio Rivadavia"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Barrio San Cayetano"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Barrio Tres Olivos"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Blanco Encalada"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Bowen"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Cacheuta"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Campo de los Andes"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Capdevilla"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Capitán Montoya"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Carmensa"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Chacras de Coria"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Chapanay"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Chilecito"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Chivilcoy"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Ciudad de Tupungato"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Colonia Las Rosas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Colonia Segovia"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Cordón del Plata"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Costa de Araujo"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Costa El Toledano"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Costa Flores"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Cruz de Piedra"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Cuadro Benegas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Cuadro Nacional"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Cuadro Ortega"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Desaguadero"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Doce de Octubre"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "El Carmelo"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "El Carrizal"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "El Central"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "El Cepillo"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "El Challao"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "El Manzano Histórico"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "El Marcado"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "El Mirador"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "El Nihuil"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "El Paramillo"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "El Pedregal"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "El Peral"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "El Plumerillo"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "El Retamo"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "El Salto"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "El Sosneado"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "El Tropezón"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "El Vergel"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Estación Polvaredas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Eugenio Bustos"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "General Alvear"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Goudge"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Ingeniero Giagnoni"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Ingeniero Gustavo André"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Jaime Prats"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Jocolí"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Jocolí Viejo"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Junín"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "La Arboleda"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "La Central"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "La Colonia"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "La Consulta"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "La Dormida"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "La Esperanza"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "La Florida"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "La Libertad"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "La Llave"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "La Palmera"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "La Paz"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "La Pega"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "La Reducción"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Lagunas de Bartoluzzi"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Las Carditas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Las Catitas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Las Compuertas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Las Cuevas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Las Leñas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Las Malvinas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Las Paredes"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Las Vegas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Las Violetas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Los Árboles"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Los Barriales"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Los Campamentos"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Los Charabones"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Los Compartos"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Los Corralitos"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Los Penitentes"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Los Reyunos"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Los Sauces"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Malargüe"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Manantiales"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Medrano"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Monte Comán"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Montecaseros"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Mundo Nuevo"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Nueva California"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Palmira"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Papagayos"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Pareditas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Perdriel"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Phillips"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Piedras Blancas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Pobre Diablo"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Polvaredas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Potrerillos"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Puente de Hierro"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Puente del Inca"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Punta de Vacas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Punta del Agua"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Rama Caída"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Real del Padre"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Rivadavia"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Rodeo del Medio"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Rodríguez Peña"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Russell"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Salto de las Rosas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "San Isidro"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "San José"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "San Martín"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "San Roque"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Santa María de Oro"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Santa Rosa"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Tres de Mayo"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Tres Esquinas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Tres Porteñas"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Tunuyán"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Ugarteche"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Uspallata"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Valle del Sol"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Vallecitos"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Villa Antigua"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Villa Atuel"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Villa Atuel Norte"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Villa Bastías"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Villa El Refugio"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Villa San Carlos"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Villa Teresa"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Villa Tulumaya"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Villa Veinticinco de Mayo"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Vista Flores"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreLocalidad": "Vistalba"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Acebal"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Alcorta"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Alejandra"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Álvarez"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Alvear"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Arequito"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Armstrong"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Arroyo Seco"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Arteaga"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Avellaneda"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Barrancas"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Barrio Arroyo del Medio"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Barrio Mitre"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Barrios Acapulco y Veracruz"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Berabevú"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Bigand"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Bombal"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Calchaquí"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Cañada Rosquín"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Capitán Bermúdez"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Carcarañá"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Carlos Pellegrini"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Casilda"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Cayastá"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Centeno"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Ceres"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Chovet"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Colonia Hansen"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Coronda"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Correa"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "El Trébol"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Elortondo"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Empalme Villa Constitución"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Esperanza"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Espín"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Estación Clucellas"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Fighiera"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Firmat"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Florencia"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Franck"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Frontera"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Fuentes"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Gálvez"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "General Lagos"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Gobernador Crespo"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Helvecia"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Hersilia"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Hughes"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Humboldt "
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Ibarlucea"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Juan de Garay"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "La Gallareta"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Laguna Paiva"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Las Parejas"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Las Rosas"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Las Toscas"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Lehmann"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Llambi Campbell"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Los Quirquinchos"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Maciel"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Malabrigo"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Margarita"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "María Juana"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "María Susana"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "María Teresa"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Máximo Paz"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Melincué"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Moisés Ville"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Monte Oscuridad"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Monte Vera"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Montes de Oca"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Moussy"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Murphy"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Nelson"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Ogilvie"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Oliveros"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Peyrano"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Piamonte"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Pilar"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Progreso"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Pueblo Esther"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Puerto Gaboto"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Pujato"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Ricardone"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Rivadavia"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Romang"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Rufino"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "San Antonio de Obligado"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "San Carlos Centro"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "San Carlos Sud"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "San Genaro"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "San Genaro Norte"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "San Gregorio"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "San Guillermo"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "San Javier"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "San Jerónimo Norte"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "San Jerónimo Sud"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "San Jorge"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "San José de la Esquina"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "San Justo"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "San Martín de las Escobas"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "San Vicente"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Sancti Spiritu"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Santa Clara de Buena Vista"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Santa Clara de Saguier"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Santa Emilia"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Santa Isabel"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Santa María Norte"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Santa Rosa de Calchines"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Santa Teresa"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Sastre y Ortiz"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Serodino"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Soutomayor"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Suardi"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Sunchales"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Tacuarendí"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Teodelina"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Timbúes"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Tortugas"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Tostado"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Totoras"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Vera"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Vicente Echeverría"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Videla"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Villa Cañás"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Villa Eloísa"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Villa Guillermina"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Villa Minetti"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Villa Mugueta"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Villa Ocampo"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Villa Trinidad"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Wheelwright"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreLocalidad": "Zavalla"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "12"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Achiras"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Adelia Maria"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Agua de Oro"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Alcira Gigena"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Aldea Santa Maria"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Alejandro Roca"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Alejo Ledesma"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Alicia"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Almafuerte"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Alpa Corral"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Alta Gracia"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Alto Alegre"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Alto de Los Quebrachos"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Altos de Chipion"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Amboy"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Ambul"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Ana Zumaran"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Anisacate"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Arguello"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Arias"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Arroyito"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Arroyo Algodon"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Arroyo Cabral"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Arroyo Los Patos"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Assunta"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Atahona"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Ausonia"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Avellaneda"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Ballesteros"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Ballesteros Sud"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Balnearia"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Bañado de Soto"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Bell Ville"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Bengolea"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Benjamin Gould"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Berrotaran"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Bialet Masse"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Bouwer"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Brinkmann"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Buchardo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Bulnes"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Cabalango"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Calamuchita"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Calchin"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Calchin Oeste"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Calmayo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Camilo Aldao"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Caminiaga"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Cañada de Luque"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Cañada de Machado"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Cañada de Rio Pinto"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Cañada del Sauce"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Canals"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Candelaria Sud"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Capilla de Remedios"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Capilla de Siton"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Capilla del Carmen"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Capilla del Monte"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Capital"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Capitan Gral B. O´Higgins"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Carnerillo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Carrilobo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Casa Grande"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Cavanagh"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Cerro Colorado"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Chaján"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Chalacea"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Chañar Viejo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Chancaní"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Charbonier"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Charras"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Chazón"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Chilibroste"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Chucul"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Chuña"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Chuña Huasi"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Churqui Cañada"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Cienaga Del Coro"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Cintra"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Col. Almada"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Col. Anita"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Col. Barge"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Col. Bismark"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Col. Bremen"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Col. Caroya"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Col. Italiana"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Col. Iturraspe"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Col. Las Cuatro Esquinas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Col. Las Pichanas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Col. Marina"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Col. Prosperidad"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Col. San Bartolome"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Col. San Pedro"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Col. Tirolesa"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Col. Vicente Aguero"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Col. Videla"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Col. Vignaud"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Col. Waltelina"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Colazo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Comechingones"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Conlara"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Copacabana"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Coronel Baigorria"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Coronel Moldes"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Corral de Bustos"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Corralito"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Cosquín"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Costa Sacate"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Cruz Alta"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Cruz de Caña"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Cruz del Eje"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Cuesta Blanca"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Dean Funes"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Del Campillo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Despeñaderos"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Devoto"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Diego de Rojas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Dique Chico"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "El Arañado"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "El Brete"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "El Chacho"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "El Crispín"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "El Fortín"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "El Manzano"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "El Rastreador"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "El Rodeo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "El Tío"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Elena"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Embalse"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Esquina"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Estación Gral. Paz"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Estación Juárez Celman"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Estancia de Guadalupe"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Estancia Vieja"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Etruria"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Eufrasio Loza"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Falda del Carmen"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Freyre"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Gral. Baldissera"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Gral. Cabrera"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Gral. Deheza"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Gral. Fotheringham"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Gral. Levalle"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Gral. Roca"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Guanaco Muerto"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Guasapampa"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Guatimozin"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Gutenberg"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Hernando"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Huanchillas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Huerta Grande"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Huinca Renanco"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Idiazabal"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Impira"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Inriville"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Isla Verde"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Italó"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "James Craik"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Jesús María"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Jovita"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Justiniano Posse"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Km 658"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "L. V. Mansilla"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Batea"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Calera"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Carlota"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Carolina"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Cautiva"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Cesira"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Cruz"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Cumbre"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Cumbrecita"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Falda"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Francia"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Granja"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Higuera"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Laguna"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Paisanita"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Palestina"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Paquita"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Para"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Paz"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Playa"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Playosa"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Población"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Posta"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Puerta"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Quinta"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Rancherita"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Rinconada"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Serranita"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "La Tordilla"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Laborde"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Laboulaye"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Laguna Larga"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Acequias"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Albahacas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Arrias"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Bajadas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Caleras"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Calles"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Cañadas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Gramillas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Higueras"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Isletillas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Junturas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Palmas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Peñas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Peñas Sud"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Perdices"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Playas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Rabonas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Saladas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Tapias"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Varas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Varillas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Las Vertientes"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Leguizamón"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Leones"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Los Cedros"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Los Cerrillos"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Los Chañaritos (C.E)"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Los Chanaritos (R.S)"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Los Cisnes"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Los Cocos"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Los Cóndores"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Los Hornillos"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Los Hoyos"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Los Mistoles"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Los Molinos"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Los Pozos"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Los Reartes"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Los Surgentes"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Los Talares"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Los Zorros"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Lozada"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Luca"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Luque"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Luyaba"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Malagueño"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Malena"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Malvinas Argentinas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Manfredi"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Maquinista Gallini"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Marcos Juárez"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Marull"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Matorrales"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Mattaldi"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Mayu Sumaj"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Media Naranja"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Melo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Mendiolaza"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Mi Granja"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Mina Clavero"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Miramar"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Morrison"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Morteros"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Mte. Buey"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Mte. Cristo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Mte. De Los Gauchos"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Mte. Leña"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Mte. Maíz"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Mte. Ralo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Nicolás Bruzone"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Noetinger"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Nono"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Nueva 7"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Obispo Trejo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Olaeta"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Oliva"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Olivares San Nicolás"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Onagolty"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Oncativo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Ordoñez"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Pacheco De Melo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Pampayasta N."
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Pampayasta S."
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Panaholma"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Pascanas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Pasco"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Paso del Durazno"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Paso Viejo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Pilar"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Pincén"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Piquillín"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Plaza de Mercedes"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Plaza Luxardo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Porteña"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Potrero de Garay"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Pozo del Molle"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Pozo Nuevo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Pueblo Italiano"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Puesto de Castro"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Punta del Agua"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Quebracho Herrado"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Quilino"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Rafael García"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Ranqueles"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Rayo Cortado"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Reducción"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Rincón"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Río Bamba"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Río Ceballos"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Río Cuarto"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Río de Los Sauces"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Río Primero"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Río Segundo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Río Tercero"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Rosales"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Rosario del Saladillo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Sacanta"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Sagrada Familia"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Saira"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Saladillo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Saldán"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Salsacate"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Salsipuedes"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Sampacho"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San Agustín"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San Antonio de Arredondo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San Antonio de Litín"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San Basilio"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San Carlos Minas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San Clemente"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San Esteban"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San Francisco"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San Ignacio"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San Javier"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San Jerónimo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San Joaquín"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San José de La Dormida"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San José de Las Salinas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San Lorenzo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San Marcos Sierras"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San Marcos Sud"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San Pedro"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San Pedro N."
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San Roque"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "San Vicente"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Santa Catalina"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Santa Elena"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Santa Eufemia"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Santa Maria"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Sarmiento"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Saturnino M.Laspiur"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Sauce Arriba"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Sebastián Elcano"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Seeber"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Segunda Usina"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Serrano"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Serrezuela"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Sgo. Temple"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Silvio Pellico"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Simbolar"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Sinsacate"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Sta. Rosa de Calamuchita"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Sta. Rosa de Río Primero"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Suco"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Tala Cañada"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Tala Huasi"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Talaini"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Tancacha"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Tanti"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Ticino"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Tinoco"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Tío Pujio"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Toledo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Toro Pujio"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Tosno"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Tosquita"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Tránsito"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Tuclame"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Tutti"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Ucacha"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Unquillo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Valle de Anisacate"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Valle Hermoso"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Vélez Sarfield"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Viamonte"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Vicuña Mackenna"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa 21"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Allende"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Amancay"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Ascasubi"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Candelaria N."
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Carlos Paz"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Cerro Azul"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Ciudad de América"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Ciudad Pque Los Reartes"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Concepción del Tío"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Cura Brochero"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa de Las Rosas"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa de María"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa de Pocho"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa de Soto"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa del Dique"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa del Prado"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa del Rosario"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa del Totoral"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Dolores"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa El Chancay"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Elisa"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Flor Serrana"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Fontana"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Giardino"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Gral. Belgrano"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Gutierrez"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Huidobro"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa La Bolsa"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Los Aromos"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Los Patos"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa María"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Nueva"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Pque. Santa Ana"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Pque. Siquiman"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Quillinzo"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Rossi"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Rumipal"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa San Esteban"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa San Isidro"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Sarmiento (G.R)"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Sarmiento (S.A)"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Tulumba"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Valeria"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Villa Yacanto"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Washington"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Wenceslao Escalante"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreLocalidad": "Ycho Cruz Sierras"
+  }
+]

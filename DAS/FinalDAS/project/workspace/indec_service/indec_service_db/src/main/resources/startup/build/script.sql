@@ -1,0 +1,3 @@
+:ON ERROR EXIT
+CREATE DATABASE db_indec_service;
+GO

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:jaxws="http://cxf.apache.org/jaxws"
+	   xsi:schemaLocation="
+         http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans.xsd
+         http://cxf.apache.org/jaxws
+         http://cxf.apache.org/schemas/jaxws.xsd">
+
+<jaxws:endpoint
+		id="cadena_cxf_one"
+		implementor="ws.CadenaCXFOne"
+		address="/cadena_cxf_one">
+</jaxws:endpoint>
+</beans>
+
+<!--
+
+<jaxws:endpoint id="classImpl"
+    implementor="org.apache.cxf.jaxws.service.Hello"
+    endpointName="e:HelloEndpointCustomized"
+    serviceName="s:HelloServiceCustomized"
+    address="http://localhost:8080/test"
+    xmlns:e="http://service.jaxws.cxf.apache.org/endpoint"
+    xmlns:s="http://service.jaxws.cxf.apache.org/service"/>
+
+
+-->

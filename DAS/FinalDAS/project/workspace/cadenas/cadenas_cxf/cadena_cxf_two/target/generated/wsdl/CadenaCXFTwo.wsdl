@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions name="CadenaCXFTwoService" targetNamespace="http://ws.das.edu.ubp.ar/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ws.das.edu.ubp.ar/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/">
+  <wsdl:types>
+<xs:schema xmlns:tns="http://ws.das.edu.ubp.ar/" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://ws.das.edu.ubp.ar/">
+  <xs:element name="health" type="tns:health"/>
+  <xs:element name="healthResponse" type="tns:healthResponse"/>
+  <xs:element name="preciosSucursales" type="tns:preciosSucursales"/>
+  <xs:element name="preciosSucursalesResponse" type="tns:preciosSucursalesResponse"/>
+  <xs:element name="simularPrecios" type="tns:simularPrecios"/>
+  <xs:element name="simularPreciosResponse" type="tns:simularPreciosResponse"/>
+  <xs:element name="sucursales" type="tns:sucursales"/>
+  <xs:element name="sucursalesResponse" type="tns:sucursalesResponse"/>
+  <xs:complexType name="simularPrecios">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="codigoentidadfederal" type="xs:string"/>
+      <xs:element minOccurs="0" name="localidad" type="xs:string"/>
+      <xs:element minOccurs="0" name="codigos" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="simularPreciosResponse">
+    <xs:sequence/>
+  </xs:complexType>
+  <xs:complexType name="sucursales">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="codigoentidadfederal" type="xs:string"/>
+      <xs:element minOccurs="0" name="localidad" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="sucursalesResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="health">
+    <xs:sequence/>
+  </xs:complexType>
+  <xs:complexType name="healthResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="preciosSucursales">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="codigoentidadfederal" type="xs:string"/>
+      <xs:element minOccurs="0" name="localidad" type="xs:string"/>
+      <xs:element minOccurs="0" name="codigos" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="preciosSucursalesResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Exception" type="tns:Exception"/>
+  <xs:complexType name="Exception">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="simularPrecios">
+    <wsdl:part name="parameters" element="tns:simularPrecios">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="Exception">
+    <wsdl:part name="Exception" element="tns:Exception">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="simularPreciosResponse">
+    <wsdl:part name="parameters" element="tns:simularPreciosResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="preciosSucursalesResponse">
+    <wsdl:part name="parameters" element="tns:preciosSucursalesResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="health">
+    <wsdl:part name="parameters" element="tns:health">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="sucursales">
+    <wsdl:part name="parameters" element="tns:sucursales">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="healthResponse">
+    <wsdl:part name="parameters" element="tns:healthResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="sucursalesResponse">
+    <wsdl:part name="parameters" element="tns:sucursalesResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="preciosSucursales">
+    <wsdl:part name="parameters" element="tns:preciosSucursales">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="CadenaCXFTwo">
+    <wsdl:operation name="simularPrecios">
+      <wsdl:input name="simularPrecios" message="tns:simularPrecios">
+    </wsdl:input>
+      <wsdl:output name="simularPreciosResponse" message="tns:simularPreciosResponse">
+    </wsdl:output>
+      <wsdl:fault name="Exception" message="tns:Exception">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="sucursales">
+      <wsdl:input name="sucursales" message="tns:sucursales">
+    </wsdl:input>
+      <wsdl:output name="sucursalesResponse" message="tns:sucursalesResponse">
+    </wsdl:output>
+      <wsdl:fault name="Exception" message="tns:Exception">
+    </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="health">
+      <wsdl:input name="health" message="tns:health">
+    </wsdl:input>
+      <wsdl:output name="healthResponse" message="tns:healthResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="preciosSucursales">
+      <wsdl:input name="preciosSucursales" message="tns:preciosSucursales">
+    </wsdl:input>
+      <wsdl:output name="preciosSucursalesResponse" message="tns:preciosSucursalesResponse">
+    </wsdl:output>
+      <wsdl:fault name="Exception" message="tns:Exception">
+    </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CadenaCXFTwoServiceSoapBinding" type="tns:CadenaCXFTwo">
+    <soap12:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="simularPrecios">
+      <soap12:operation soapAction="urn:SimularPrecios" style="document"/>
+      <wsdl:input name="simularPrecios">
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="simularPreciosResponse">
+        <soap12:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap12:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="sucursales">
+      <soap12:operation soapAction="urn:Sucursales" style="document"/>
+      <wsdl:input name="sucursales">
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="sucursalesResponse">
+        <soap12:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap12:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="health">
+      <soap12:operation soapAction="urn:Health" style="document"/>
+      <wsdl:input name="health">
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="healthResponse">
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="preciosSucursales">
+      <soap12:operation soapAction="urn:PreciosSucursales" style="document"/>
+      <wsdl:input name="preciosSucursales">
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="preciosSucursalesResponse">
+        <soap12:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="Exception">
+        <soap12:fault name="Exception" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CadenaCXFTwoService">
+    <wsdl:port name="CadenaCXFTwoPort" binding="tns:CadenaCXFTwoServiceSoapBinding">
+      <soap12:address location="http://localhost:9090/CadenaCXFTwoPort"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

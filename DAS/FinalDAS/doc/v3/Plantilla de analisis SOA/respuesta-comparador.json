@@ -1,0 +1,218 @@
+[
+  {
+    "idCadena": 1,
+    "nombreCadena": "Walmart",
+    "sucursales": [],
+    "disponible": false
+  },
+  {
+    "idCadena": 4,
+    "nombreCadena": "Libertad",
+    "sucursales": [
+      {
+        "idSucursal": 1,
+        "nombreSucursal": "Disco Velez I",
+        "direccion": "Av. Velez Sarsfield 132",
+        "latitud": "-64.187568",
+        "longitud": "-31.416599",
+        "email": "disco1email@gmail.com",
+        "telefono": "0810-777-8888",
+        "cuit": "30-53707910-6",
+        "localidad": "Capital",
+        "provincia": "Córdoba",
+        "codigoEntidadFederal": "AR-X",
+        "idCadena": 4,
+        "productos": [
+          {
+            "codigoDeBarras": "7622300742645",
+            "precio": 36.69,
+            "validoDesde": "2019-07-24 19:05:07.77",
+            "nombre": "Galletitas Vainilla con Relleno de Limon Duquesa 115 Gr",
+            "marca": "DUQUESA",
+            "mejorPrecio": false,
+            "idIngrediente": 0
+          },
+          {
+            "codigoDeBarras": "7790070410610",
+            "precio": 25.0,
+            "validoDesde": "2019-07-24 19:05:07.77",
+            "nombre": "Arroz Largo Fino 0000 Lucchetti 500 Gr",
+            "marca": "LUCCHETTI",
+            "mejorPrecio": false,
+            "idIngrediente": 0
+          },
+          {
+            "codigoDeBarras": "7790580980900",
+            "precio": 55.04,
+            "validoDesde": "2019-07-24 19:05:07.77",
+            "nombre": "Porotos Alubia Remojados Arcor 300 Gr",
+            "marca": "ARCOR",
+            "mejorPrecio": false,
+            "idIngrediente": 0
+          }
+        ],
+        "cantidadDeProductosConPrecioMasBajo": 0,
+        "mejorOpcion": false,
+        "total": 116.73
+      },
+      {
+        "idSucursal": 2,
+        "nombreSucursal": "Disco Estrada",
+        "direccion": "Jose Manuel Estrada 66",
+        "latitud": "-64.187982",
+        "longitud": "-31.427744",
+        "email": "disco2email@gmail.com",
+        "telefono": "0351 433-3004",
+        "cuit": "30-53707910-6",
+        "localidad": "Capital",
+        "provincia": "Córdoba",
+        "codigoEntidadFederal": "AR-X",
+        "idCadena": 4,
+        "productos": [
+          {
+            "codigoDeBarras": "7622300742645",
+            "precio": 45.82,
+            "validoDesde": "2019-07-24 19:05:07.883",
+            "nombre": "Galletitas Vainilla con Relleno de Limon Duquesa 115 Gr",
+            "marca": "DUQUESA",
+            "mejorPrecio": false,
+            "idIngrediente": 0
+          },
+          {
+            "codigoDeBarras": "7790070410610",
+            "precio": 27.31,
+            "validoDesde": "2019-07-24 19:05:07.883",
+            "nombre": "Arroz Largo Fino 0000 Lucchetti 500 Gr",
+            "marca": "LUCCHETTI",
+            "mejorPrecio": false,
+            "idIngrediente": 0
+          },
+          {
+            "codigoDeBarras": "7790580980900",
+            "precio": 58.23,
+            "validoDesde": "2019-07-24 19:05:07.883",
+            "nombre": "Porotos Alubia Remojados Arcor 300 Gr",
+            "marca": "ARCOR",
+            "mejorPrecio": false,
+            "idIngrediente": 0
+          }
+        ],
+        "cantidadDeProductosConPrecioMasBajo": 0,
+        "mejorOpcion": false,
+        "total": 131.36
+      }
+    ],
+    "disponible": true
+  },
+  {
+    "idCadena": 5,
+    "nombreCadena": "Disco",
+    "sucursales": [],
+    "disponible": false
+  },
+  {
+    "idCadena": 2,
+    "nombreCadena": "Jumbo",
+    "sucursales": [],
+    "disponible": false
+  },
+  {
+    "idCadena": 3,
+    "nombreCadena": "Carrefour",
+    "sucursales": [
+      {
+        "idSucursal": 1,
+        "nombreSucursal": "Disco Velez I",
+        "direccion": "Av. Velez Sarsfield 132",
+        "latitud": "-64.187568",
+        "longitud": "-31.416599",
+        "email": "disco1email@gmail.com",
+        "telefono": "0810-777-8888",
+        "cuit": "30-53707910-6",
+        "localidad": "Capital",
+        "provincia": "Córdoba",
+        "codigoEntidadFederal": "AR-X",
+        "idCadena": 3,
+        "productos": [
+          {
+            "codigoDeBarras": "7622300742645",
+            "precio": 35.26,
+            "validoDesde": "2019-07-24 19:05:05.937",
+            "nombre": "Galletitas Vainilla con Relleno de Limon Duquesa 115 Gr",
+            "marca": "DUQUESA",
+            "mejorPrecio": true,
+            "idIngrediente": 0
+          },
+          {
+            "codigoDeBarras": "7790070410610",
+            "precio": 23.45,
+            "validoDesde": "2019-07-24 19:05:05.94",
+            "nombre": "Arroz Largo Fino 0000 Lucchetti 500 Gr",
+            "marca": "LUCCHETTI",
+            "mejorPrecio": false,
+            "idIngrediente": 0
+          },
+          {
+            "codigoDeBarras": "7790580980900",
+            "precio": 46.53,
+            "validoDesde": "2019-07-24 19:05:05.94",
+            "nombre": "Porotos Alubia Remojados Arcor 300 Gr",
+            "marca": "ARCOR",
+            "mejorPrecio": true,
+            "idIngrediente": 0
+          }
+        ],
+        "cantidadDeProductosConPrecioMasBajo": 2,
+        "mejorOpcion": true,
+        "total": 105.24
+      },
+      {
+        "idSucursal": 2,
+        "nombreSucursal": "Disco Estrada",
+        "direccion": "Jose Manuel Estrada 66",
+        "latitud": "-64.187982",
+        "longitud": "-31.427744",
+        "email": "disco2email@gmail.com",
+        "telefono": "0351 433-3004",
+        "cuit": "30-53707910-6",
+        "localidad": "Capital",
+        "provincia": "Córdoba",
+        "codigoEntidadFederal": "AR-X",
+        "idCadena": 3,
+        "productos": [
+          {
+            "codigoDeBarras": "7622300742645",
+            "precio": 38.4,
+            "validoDesde": "2019-07-24 19:05:06.083",
+            "nombre": "Galletitas Vainilla con Relleno de Limon Duquesa 115 Gr",
+            "marca": "DUQUESA",
+            "mejorPrecio": false,
+            "idIngrediente": 0
+          },
+          {
+            "codigoDeBarras": "7790070410610",
+            "precio": 20.38,
+            "validoDesde": "2019-07-24 19:05:06.083",
+            "nombre": "Arroz Largo Fino 0000 Lucchetti 500 Gr",
+            "marca": "LUCCHETTI",
+            "mejorPrecio": true,
+            "idIngrediente": 0
+          },
+          {
+            "codigoDeBarras": "7790580980900",
+            "precio": 60.82,
+            "validoDesde": "2019-07-24 19:05:06.083",
+            "nombre": "Porotos Alubia Remojados Arcor 300 Gr",
+            "marca": "ARCOR",
+            "mejorPrecio": false,
+            "idIngrediente": 0
+          }
+        ],
+        "cantidadDeProductosConPrecioMasBajo": 1,
+        "mejorOpcion": false,
+        "total": 119.6
+      }
+    ],
+    "disponible": true
+  }
+]

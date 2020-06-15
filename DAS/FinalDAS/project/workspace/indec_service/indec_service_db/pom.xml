@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <artifactId>indec_service</artifactId>
+        <groupId>indec_service</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>indec_service</groupId>
+    <artifactId>indec_service_db</artifactId>
+    <packaging>jar</packaging>
+
+    <properties>
+        <driverDB>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverDB>
+        <urlDB>jdbc:sqlserver://192.168.99.100:1439;databaseName=db_indec_service;</urlDB>
+
+        <usernameDB>SA</usernameDB>
+        <passwordDB>Das12345</passwordDB>
+        <contextDB>db_indec_service</contextDB>
+    </properties>
+
+    <!--INDEC PROFILE -->
+    <profiles>
+        <profile>
+            <id>indec_rest_service_profile_id</id>
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>indec_rest_service_env</value>
+                </property>
+            </activation>
+            <properties>
+                <driverDB>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverDB>
+                <urlDB>jdbc:sqlserver://192.168.99.100:1439;databaseName=db_indec_service</urlDB>
+                <usernameDB>SA</usernameDB>
+                <passwordDB>Das12345</passwordDB>
+                <contextDB>db_indec_service</contextDB>
+            </properties>
+        </profile>
+    </profiles>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>6.1.0.jre8</version>
+            <scope>runtime</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.liquibase/liquibase-maven-plugin -->
+        <dependency>
+            <groupId>org.liquibase</groupId>
+            <artifactId>liquibase-maven-plugin</artifactId>
+            <version>${liquibase.version}</version>
+        </dependency>
+    </dependencies>
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.liquibase</groupId>
+            <artifactId>liquibase-maven-plugin</artifactId>
+            <version>${liquibase.version}</version>
+            <configuration>
+                <changeLogFile>dbchangelog.xml</changeLogFile>
+                <driver>${driverDB}</driver>
+                <url>${urlDB}</url>
+                <username>${usernameDB}</username>
+                <password>${passwordDB}</password>
+                <contexts>${contextDB}</contexts>
+                <!--<propertyFile>${db.property.file.path}</propertyFile>-->
+            </configuration>
+            <executions>
+                <execution>
+                    <phase>process-resources</phase>
+                    <goals>
+                        <goal>update</goal>
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+    </plugins>
+</build>
+</project>
+

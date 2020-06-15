@@ -1,0 +1,102 @@
+[
+  {
+    "idCadena": 1,
+    "nombreCadena": "Walmart",
+    "sucursales": [],
+    "disponible": false
+  },
+  {
+    "idCadena": 4,
+    "nombreCadena": "Libertad",
+    "sucursales": [
+      {
+        "idSucursal": 1,
+        "nombreSucursal": "Disco Velez I",
+        "direccion": "Av. Velez Sarsfield 132",
+        "latitud": "-64.187568",
+        "longitud": "-31.416599",
+        "email": "disco1email@gmail.com",
+        "telefono": "0810-777-8888",
+        "cuit": "30-53707910-6",
+        "localidad": "Capital",
+        "provincia": "Córdoba",
+        "codigoEntidadFederal": "AR-X",
+        "idCadena": 4,
+        "cantidadDeProductosConPrecioMasBajo": 0,
+        "mejorOpcion": false,
+        "total": 0.0
+      },
+      {
+        "idSucursal": 2,
+        "nombreSucursal": "Disco Estrada",
+        "direccion": "Jose Manuel Estrada 66",
+        "latitud": "-64.187982",
+        "longitud": "-31.427744",
+        "email": "disco2email@gmail.com",
+        "telefono": "0351 433-3004",
+        "cuit": "30-53707910-6",
+        "localidad": "Capital",
+        "provincia": "Córdoba",
+        "codigoEntidadFederal": "AR-X",
+        "idCadena": 4,
+        "cantidadDeProductosConPrecioMasBajo": 0,
+        "mejorOpcion": false,
+        "total": 0.0
+      }
+    ],
+    "disponible": true
+  },
+  {
+    "idCadena": 5,
+    "nombreCadena": "Disco",
+    "sucursales": [],
+    "disponible": false
+  },
+  {
+    "idCadena": 2,
+    "nombreCadena": "Jumbo",
+    "sucursales": [],
+    "disponible": false
+  },
+  {
+    "idCadena": 3,
+    "nombreCadena": "Carrefour",
+    "sucursales": [
+      {
+        "idSucursal": 1,
+        "nombreSucursal": "Disco Velez I",
+        "direccion": "Av. Velez Sarsfield 132",
+        "latitud": "-64.187568",
+        "longitud": "-31.416599",
+        "email": "disco1email@gmail.com",
+        "telefono": "0810-777-8888",
+        "cuit": "30-53707910-6",
+        "localidad": "Capital",
+        "provincia": "Córdoba",
+        "codigoEntidadFederal": "AR-X",
+        "idCadena": 3,
+        "cantidadDeProductosConPrecioMasBajo": 0,
+        "mejorOpcion": false,
+        "total": 0.0
+      },
+      {
+        "idSucursal": 2,
+        "nombreSucursal": "Disco Estrada",
+        "direccion": "Jose Manuel Estrada 66",
+        "latitud": "-64.187982",
+        "longitud": "-31.427744",
+        "email": "disco2email@gmail.com",
+        "telefono": "0351 433-3004",
+        "cuit": "30-53707910-6",
+        "localidad": "Capital",
+        "provincia": "Córdoba",
+        "codigoEntidadFederal": "AR-X",
+        "idCadena": 3,
+        "cantidadDeProductosConPrecioMasBajo": 0,
+        "mejorOpcion": false,
+        "total": 0.0
+      }
+    ],
+    "disponible": true
+  }
+]

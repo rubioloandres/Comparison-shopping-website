@@ -1,0 +1,1643 @@
+[
+  {
+    "idMenu": 1,
+    "nombreMenu": "Verduras",
+    "dia": "LUNES",
+    "platos": [
+      {
+        "idPlato": 1,
+        "nombrePlato": "Tortilla de Verduras",
+        "preparacion": "Bata los huevos con pimienta, orégano o albahaca, y queso en un cuenco o tazón mediano.\r\n                                                                                                         Caliente el aceite en una sartén medio. Añada cebolla, ajo, y otros vegetales y cocínelos a fuego medio\r\n                                                                                                         (300 grados F en una sartén eléctrica) hasta que estén tiernos.\r\n                                                                                                         Ponga la mezcla de huevos sobre los vegetales. Con el cuchillo o la espátula,\r\n                                                                                                         levante los bordes de los huevos para que la mezcla se mueva fácilmente en el fondo de la sartén.\r\n                                                                                                         Cocine hasta que los huevos estén cocinados a su gusto, más o menos 6 minutos. Ponga encima rebanadas de tomate.\r\n                                                                                                         Corte en 8 pedazos; sirva caliente.\r\n                                                                                                         Refrigere lo que sobre dentro de las siguientes 2 horas.",
+        "imagenPlato": "./../../../assets/img/menu/lunes/tortilla_verdura.jpg",
+        "idMenu": 1,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Arroz Blanco",
+            "idIngrediente": 5,
+            "descripcion": "1 taza"
+          },
+          {
+            "nombreIngrediente": "Huevo",
+            "idIngrediente": 9,
+            "descripcion": "6 un"
+          },
+          {
+            "nombreIngrediente": "Queso Rallado",
+            "idIngrediente": 11,
+            "descripcion": "50 gr"
+          },
+          {
+            "nombreIngrediente": "Aceite de Girasol",
+            "idIngrediente": 12,
+            "descripcion": "2 cucharadas"
+          },
+          {
+            "nombreIngrediente": "Cebolla",
+            "idIngrediente": 16,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Pimienta Blanca Molida",
+            "idIngrediente": 19,
+            "descripcion": "1 cucharadita"
+          },
+          {
+            "nombreIngrediente": "Oregano",
+            "idIngrediente": 20,
+            "descripcion": "1/2 cucharada"
+          },
+          {
+            "nombreIngrediente": "Poroto Alubia",
+            "idIngrediente": 21,
+            "descripcion": "1/2 taza"
+          },
+          {
+            "nombreIngrediente": "Arveja Seca",
+            "idIngrediente": 22,
+            "descripcion": "1/2 taza"
+          },
+          {
+            "nombreIngrediente": "Ajo Deshidratado",
+            "idIngrediente": 23,
+            "descripcion": "1 cucharadita"
+          },
+          {
+            "nombreIngrediente": "Tomate Pelado",
+            "idIngrediente": 24,
+            "descripcion": "250 gr"
+          }
+        ]
+      },
+      {
+        "idPlato": 8,
+        "nombrePlato": "Espinacas Gratinadas",
+        "preparacion": "PRECALIENTA el horno a 180°\r\n                                                                                           MEZCLA todos los ingredientes, reservando un poco de queso manchego rallado.\r\n                                                                                           COLOCA la mezcla de espinacas con queso cottage en un refractario y espolvorea con el queso restante.\r\n                                                                                           HORNEA durante 25 minutos.\r\n                                                                                           SIRVE estas espinacas con queso gratinado para la dieta como plato fuerte acompañado de arroz o como guarnición.",
+        "imagenPlato": "./../../../assets/img/menu/lunes/espinacas_gratinadas.jpg",
+        "idMenu": 1,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Huevo",
+            "idIngrediente": 9,
+            "descripcion": "3 claras"
+          },
+          {
+            "nombreIngrediente": "Queso Rallado",
+            "idIngrediente": 11,
+            "descripcion": "1/2 taza"
+          },
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "A gusto"
+          },
+          {
+            "nombreIngrediente": "Pimienta Blanca Molida",
+            "idIngrediente": 19,
+            "descripcion": "A gusto"
+          },
+          {
+            "nombreIngrediente": "Ajo Deshidratado",
+            "idIngrediente": 23,
+            "descripcion": "1/2 cucharadita"
+          },
+          {
+            "nombreIngrediente": "Pimenton",
+            "idIngrediente": 30,
+            "descripcion": "1 cucharada"
+          },
+          {
+            "nombreIngrediente": "Ricota",
+            "idIngrediente": 37,
+            "descripcion": "2 tazas"
+          },
+          {
+            "nombreIngrediente": "Espinaca",
+            "idIngrediente": 38,
+            "descripcion": "1 paquete grande"
+          }
+        ]
+      },
+      {
+        "idPlato": 9,
+        "nombrePlato": "Lasagna de berenjena",
+        "preparacion": "Limpiar las berenjenas. Cortar los extremos y partirlas por la mitad. Luego, hacer lonchas no muy finas. Pintar con aceite de oliva por ambas caras y dorar en una sartén. Retirar. Sofría la cebolla hasta que esté dorada pero sin quemarse\r\n                                                                                           Cortar el tomate en dados, picar las hierbas frescas y mezclar todo en un bol. Condimentar con sal marina y aceite de oliva y, en la misma sartén, saltear unos minutos hasta que los tomates se ablanden. Agregar el vinagre, remover unos minutos, y retirar.\r\n                                                                                           Cortar el queso fresco en lonchas.\r\n                                                                                           Para montar el plato, disponer primero una loncha de berenjena, luego una lámina de queso, y finalmente el tomate y la cebolla. Repetir esta operación y decorar con berenjena y tomate.",
+        "imagenPlato": "./../../../assets/img/menu/lunes/lasagna_de_berenjenas.jpg",
+        "idMenu": 1,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Aceite de Girasol",
+            "idIngrediente": 12,
+            "descripcion": "2 cucharada"
+          },
+          {
+            "nombreIngrediente": "Aji Molido",
+            "idIngrediente": 13,
+            "descripcion": "1 cucharada"
+          },
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "A gusto"
+          },
+          {
+            "nombreIngrediente": "Cebolla",
+            "idIngrediente": 16,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Oregano",
+            "idIngrediente": 20,
+            "descripcion": "1 cucharada"
+          },
+          {
+            "nombreIngrediente": "Tomate Pelado",
+            "idIngrediente": 24,
+            "descripcion": "700 gr"
+          },
+          {
+            "nombreIngrediente": "Berenjena",
+            "idIngrediente": 39,
+            "descripcion": "2 un"
+          },
+          {
+            "nombreIngrediente": "Provenzal",
+            "idIngrediente": 40,
+            "descripcion": "1 cucharada"
+          },
+          {
+            "nombreIngrediente": "Queso Cremoso",
+            "idIngrediente": 41,
+            "descripcion": "350 gr"
+          },
+          {
+            "nombreIngrediente": "Vinagre",
+            "idIngrediente": 42,
+            "descripcion": "1 cucharada"
+          }
+        ]
+      },
+      {
+        "idPlato": 10,
+        "nombrePlato": "Zapallos rellenos",
+        "preparacion": "Cocer los zapallos en una olla con abundante agua por unos 10 a 15 minutos. Luego retirar, estilar y dejar enfriar.\r\n                                                                                                En un sartén freír con el aceite el ajo picado y la cebolla en cuadritos. Luego agregar la carne molida. Posteriormente agregar disuelto el caldo y los aliños.\r\n                                                                                                Mientras tanto se cortan los zapallos en dos, para poder sacarle el interior con mucho cuidado de no romper la cáscara. Se muele un poco con un tenedor el interior del zapallo. Luego se agrega esto al sartén con la carne, se revuelve bien y se agregan dos huevos enteros. Una vez listo esto, se colocan las cáscaras en una fuente para ir al horno. Se rellenan los zapallos y encima se coloca queso entero o rallado (suizo, parmesano), luego se lleva al horno hasta que el queso este dorado.\r\n                                                                                                Como acompañamiento, puede ser arroz, puré o lo que su imaginación le diga. Y para completar una rica comida, no puede faltar un buen Vino Gato y en esta ocasión les recomendamos un rico Cabernet Sauvignon.",
+        "imagenPlato": "./../../../assets/img/menu/lunes/zapallos_rellenos.jpg",
+        "idMenu": 1,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Huevo",
+            "idIngrediente": 9,
+            "descripcion": "2 un"
+          },
+          {
+            "nombreIngrediente": "Aceite de Girasol",
+            "idIngrediente": 12,
+            "descripcion": "2 cucharadas"
+          },
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "1/2 cucharadita"
+          },
+          {
+            "nombreIngrediente": "Pimienta Negra Molida",
+            "idIngrediente": 15,
+            "descripcion": "1/2 cucharadita"
+          },
+          {
+            "nombreIngrediente": "Cebolla",
+            "idIngrediente": 16,
+            "descripcion": "1/2 un"
+          },
+          {
+            "nombreIngrediente": "Oregano",
+            "idIngrediente": 20,
+            "descripcion": "1/2 cucharadita"
+          },
+          {
+            "nombreIngrediente": "Ajo Deshidratado",
+            "idIngrediente": 23,
+            "descripcion": "1/2 un"
+          },
+          {
+            "nombreIngrediente": "Caldo Para Verduras",
+            "idIngrediente": 28,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Comino Molido",
+            "idIngrediente": 29,
+            "descripcion": "1/2 cucharadita"
+          },
+          {
+            "nombreIngrediente": "Zapallo",
+            "idIngrediente": 43,
+            "descripcion": "2 un"
+          },
+          {
+            "nombreIngrediente": "Carne Molida",
+            "idIngrediente": 44,
+            "descripcion": "150 gr"
+          },
+          {
+            "nombreIngrediente": "Queso Dambo",
+            "idIngrediente": 45,
+            "descripcion": "2 lonjas"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idMenu": 2,
+    "nombreMenu": "Pollo",
+    "dia": "MARTES",
+    "platos": [
+      {
+        "idPlato": 2,
+        "nombrePlato": "Panqueques de Pollo",
+        "preparacion": "– Lavar la pechuga de pollo y poner en una olla con 4 tazas de agua.\r\n                                                                                                              Sazonar con sal, pimienta, orégano y aliños de su gusto. Cocinar a fuego alto hasta que hierva,\r\n                                                                                                               reducir el calor y cocinar tapado 20-25 minutos o hasta que el pollo esté cocido.\r\n                                                                                                               Retirar el pollo de la olla, colar y reservar el caldo para usarlo más adelante.\r\n                                                                                                              – Eliminar la piel del pollo, enfriar ligeramente, desmenuzar y reservar.\r\n                                                                                                              – En un recipiente, añadir la leche, 1 taza de agua, 3 huevos y 1 taza de harina.\r\n                                                                                                              Batir para incorporar todos los ingredientes y colar a otro recipiente.\r\n                                                                                                              – Calentar un sartén de unos 20 cm de diámetro y con la ayuda de un papel absorbente pintar\r\n                                                                                                              el fondo con aceite. Agregar 1/2 taza de la mezcla de panqueque y mover rápidamente el sartén\r\n                                                                                                              para esparcir la mezcla por todo el fondo. Cocinar 2-3 minutos hasta dorar, dar vuelta y cocinar\r\n                                                                                                              por el otro lado 1-2 minutos también hasta dorar. No dorar mucho para que no queden muy rígidos.\r\n                                                                                                              Repetir el proceso con el resto del batido hasta completar 8 panqueques.\r\n                                                                                                              – Calentar 3 tazas del caldo del pollo a fuego medio hasta hervir.\r\n                                                                                                              – En un bol aparte, poner 3/4 taza de harina y disolver con agua.\r\n                                                                                                              Agregar de a poco el caldo del pollo, revolviendo hasta que la mezcla espese.\r\n                                                                                                              Incorporar la crema, mezclar y sazonar con sal, pimienta, una pizca de orégano,\r\n                                                                                                               2 cucharadas de ají de color y la mitad del queso rallado.\r\n                                                                                                              – Reservar 3 tazas de la mezcla y al resto que queda agregar el pollo desmenuzado y revolver.\r\n                                                                                                              – Rellenar cada uno de los panqueques con 2 -3 cucharadas de la mezcla del pollo.\r\n                                                                                                              – Poner los panqueques rellenados en una fuente de horno,\r\n                                                                                                              cubrir con las 3 tazas de crema reservada, espolvorear con el resto del queso rallado y 1 cucharadita de ají de color.\r\n                                                                                                              – Cocinar en el horno hasta calentar y dorar. Servir caliente 2 panqueques por persona.que tengas en casa",
+        "imagenPlato": "./../../../assets/img/menu/martes/panqueques_de_pollo.jpg",
+        "idMenu": 2,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Pechuga Pollo",
+            "idIngrediente": 6,
+            "descripcion": "700 gr"
+          },
+          {
+            "nombreIngrediente": "Leche",
+            "idIngrediente": 7,
+            "descripcion": "200 cc"
+          },
+          {
+            "nombreIngrediente": "Harina de Trigo 000",
+            "idIngrediente": 8,
+            "descripcion": "1 kg"
+          },
+          {
+            "nombreIngrediente": "Huevo",
+            "idIngrediente": 9,
+            "descripcion": "6 un"
+          },
+          {
+            "nombreIngrediente": "Crema de Leche",
+            "idIngrediente": 10,
+            "descripcion": "200 cc"
+          },
+          {
+            "nombreIngrediente": "Queso Rallado",
+            "idIngrediente": 11,
+            "descripcion": "50 gr"
+          },
+          {
+            "nombreIngrediente": "Aceite de Girasol",
+            "idIngrediente": 12,
+            "descripcion": "2 cucharadas"
+          },
+          {
+            "nombreIngrediente": "Aji Molido",
+            "idIngrediente": 13,
+            "descripcion": "1/2 cucharada"
+          },
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "1/2 cucharada"
+          },
+          {
+            "nombreIngrediente": "Pimienta Negra Molida",
+            "idIngrediente": 15,
+            "descripcion": "1 cucharadita"
+          }
+        ]
+      },
+      {
+        "idPlato": 11,
+        "nombrePlato": "Tartaletas de pollo",
+        "preparacion": "En esta receta puedes aprovechar pollo que te haya sobrado de otra comida. Le quitas huesos y piel y los desmigajas en trozos pequeños.Si usas pollo en crudo usa una pechuga grande deshuesada y sin piel. Cortarla primero en filetes y luego cortar tiras longitudinales y por último cortar perpendicularmente formando dados pequeños de carne de pollo.Poner los 2 huevos a cocer cubiertos con agua caliente, cuando hierva bajar al mínimo o apagar si es una vitro y dejar 10-12 minutos. Retirar y enfriar bajo el grifo.Mientras se hacen los huevos picar la cebolla y el pimiento morrón.Echar un poco de aceite en una sartén, cacerola o wok. Cuando esté caliente echar la cebolla y el pimiento y rehogar o sofreír hasta que esté cocido. Retirar.En la misma sartén o wok cocinar el pollo si es que lo tienes crudo. Sellar bien por todos lados.Pelar los huevos y picarlos. Echar sobre el pollo. Añadir el sofrito de cebolla y pimiento y mezclar.Batir el huevo con las 2 cucharadas de leche, echarlo por arriba del relleno.Condimentar con sal, pimienta y si gustas algún otro condimento o hierba aromática. Mezclar todo bien y ya tienes listo el relleno!!Untar un molde para muffins o magdalenas con mantequilla, manteca o pincelar con aceite.Colocar una oblea o tapa de empanada en cada hueco. Yo formo una canastita con cada círculo de masa, hago primero una «pinza»  de cada lado, el doblez lo pego por detrás haciendo presión entre los dedos, hago otras «pinzas» en cruz y vuelvo a pegar el pliegue de masa por detrás. Quedan así como en la foto y de ahí coloco cada uno en el hueco del molde y lo ajusto haciendo coincidir la forma.Una vez que está todo el molde listo con las 12 canastitas de masa colocar el relleno de a cucharadas bien hasta arriba. Es más o menos una cucharada y media en cada uno.Meter al horno precalentado a 190ºC y cocinar las Canastita de Pollo hasta dorar a gusto.Sacar y con mucho cuidado que no se rompan desmoldar, yo uso el mango de una cuchara o tenedor a modo de calzador y levanto cada Canastita de Pollo del molde con cuidado de no romperla.",
+        "imagenPlato": "./../../../assets/img/menu/martes/tartaletas_de_pollo.jpg",
+        "idMenu": 2,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Pechuga Pollo",
+            "idIngrediente": 6,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Leche",
+            "idIngrediente": 7,
+            "descripcion": "2 cucharadas"
+          },
+          {
+            "nombreIngrediente": "Huevo",
+            "idIngrediente": 9,
+            "descripcion": "3 un"
+          },
+          {
+            "nombreIngrediente": "Aceite de Girasol",
+            "idIngrediente": 12,
+            "descripcion": "2 cucharadas"
+          },
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "A gusto"
+          },
+          {
+            "nombreIngrediente": "Pimienta Negra Molida",
+            "idIngrediente": 15,
+            "descripcion": "A gusto"
+          },
+          {
+            "nombreIngrediente": "Cebolla",
+            "idIngrediente": 16,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Ajo Deshidratado",
+            "idIngrediente": 23,
+            "descripcion": "A gusto"
+          },
+          {
+            "nombreIngrediente": "Tapa de Empanada",
+            "idIngrediente": 46,
+            "descripcion": "12 un"
+          },
+          {
+            "nombreIngrediente": "Pimiento Rojo",
+            "idIngrediente": 47,
+            "descripcion": "1 un"
+          }
+        ]
+      },
+      {
+        "idPlato": 12,
+        "nombrePlato": "Pollo arvejado",
+        "preparacion": "Lavar y retirar la piel del pollo. Reservar en una cacerola, poner las 3 cucharadas de aceite y sofreír ajo y cebolla,\r\n                                                                                 Cuando empiece a blanquear, añadir las presas de pollo y dorar un poco por ambos lados.Añadir los pimientos, zanahorias y tomates. Mezclar y dejar unos minutos a fuego medio para que los ingredientes suelten sus jugos y se integren los sabores.\r\n                                                                                 En este punto, condimentar con el laurel, orégano y pimienta. Añadir el concentrado de pollo y el vino. Revolver o remover la cacerola para que todo quede muy bien integrado.\r\n                                                                                 Una vez que suelte el hervor, tapar y dejar cocer a fuego medio entre 5 a 10 minutos.\r\n                                                                                 Añadir las arvejitas y si fuese necesario, algo de agua para que se complete la cocción sin que se reseque. Verificar la sal y rectificar si fuese necesario.\r\n                                                                                 Una vez que las arvejitas estén blandas, retirar el guiso del fuego.\r\n                                                                                 Si se observa exceso de jugo, puede espesarse con un poco de maicena o harina disuelta en unas cucharadas de agua. Dejar cocinar un par de minutos a fuego bajo.\r\n                                                                                 Acompañamiento:\r\n                                                                                 Freír las papas que teníamos cortadas en cubitos y distribuir una porción en cada plato, junto con una porción de arroz y el pollo bañado con su salsa y verduras.",
+        "imagenPlato": "./../../../assets/img/menu/martes/pollo_arvejado.jpg",
+        "idMenu": 2,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Arroz Blanco",
+            "idIngrediente": 5,
+            "descripcion": "1/2 taza"
+          },
+          {
+            "nombreIngrediente": "Pechuga Pollo",
+            "idIngrediente": 6,
+            "descripcion": "2 un"
+          },
+          {
+            "nombreIngrediente": "Aceite de Girasol",
+            "idIngrediente": 12,
+            "descripcion": "3 cucharadas"
+          },
+          {
+            "nombreIngrediente": "Pimienta Negra Molida",
+            "idIngrediente": 15,
+            "descripcion": "A gusto"
+          },
+          {
+            "nombreIngrediente": "Cebolla",
+            "idIngrediente": 16,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Zanahoria",
+            "idIngrediente": 17,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Oregano",
+            "idIngrediente": 20,
+            "descripcion": "A gusto"
+          },
+          {
+            "nombreIngrediente": "Arveja Seca",
+            "idIngrediente": 22,
+            "descripcion": "1 1/2 taza"
+          },
+          {
+            "nombreIngrediente": "Ajo Deshidratado",
+            "idIngrediente": 23,
+            "descripcion": "1 cucharada"
+          },
+          {
+            "nombreIngrediente": "Tomate Pelado",
+            "idIngrediente": 24,
+            "descripcion": "1 tomate"
+          },
+          {
+            "nombreIngrediente": "Caldo Para Verduras",
+            "idIngrediente": 28,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Pimiento Rojo",
+            "idIngrediente": 47,
+            "descripcion": "1/2 un"
+          },
+          {
+            "nombreIngrediente": "Pata Pollo",
+            "idIngrediente": 48,
+            "descripcion": "4 un"
+          },
+          {
+            "nombreIngrediente": "Vino Blanco",
+            "idIngrediente": 49,
+            "descripcion": "1/2 taza"
+          },
+          {
+            "nombreIngrediente": "Papa blanca",
+            "idIngrediente": 50,
+            "descripcion": "1 un"
+          }
+        ]
+      },
+      {
+        "idPlato": 13,
+        "nombrePlato": "Ensalada Cesar",
+        "preparacion": "1.Para hacer los picatostes (croutons) pon el horno a 200ºC con calor arriba y abajo. Corta una rodaja de pan de unos 50 gramos en varias tiras a lo largo. Luego corta cada tira en cuadraditos para hacer los picatostes. Pon el pan en una bandeja, métela en el horno y deja durante 5 minutos o hasta que estén bien tostados. Luego saca del horno y reserva.\r\n                                                                               2.Corta un trozo de unos 40 gramos de una cuña de queso parmesano. Y luego utilizando un cuchillo bien afilado (yo usé un cuchillo Arcos como estos) corta el queso en lonchas finas cuadradas y reserva (fíjate en el vídeo).\r\n                                                                               3.Saca un filete grueso de una pechuga de pollo y añade sal y pimienta negra por ambos lados. Pon una sartén a fuego fuerte con 1 cucharada de aceite de oliva. Cuando el aceite esté caliente pon el pollo en la sartén y deja que se dore. Dependiendo del grosor del filete necesitará entre entre 3 y 5 minutos por cada cara. Cuando un lado esté bien dorado dale la vuelta al pollo y deja otros 3 o 5 minutos. Una vez que el pollo esté bien hecho desglasamos la sartén añadiendo un chorrito de limón exprimido y moviendo el pollo por la sartén para se imprenge de sabor y color. Luego saca el pollo de la sartén y reserva.\r\n                                                                               4.Corta 200 gramos de lechuga romana bien lavada (puedes usar cogollos). Ponla en un cuenco y añade la mitad de los picatostes y la mitad del queso parmesano. Echa dos o cuatro cucharadas de la salsa cesar que preparamos el otro día (aquí la receta de la salsa para ensalada cesar) y mezcla bien.\r\n                                                                               5.Cuando esté todo bien mezclado pasa la ensalada a una ensaladera limpia y reparte por el encima el resto del queso y de los picatostes.\r\n                                                                               6.Ahora corta el pollo en tiras a lo ancho y colócalo encima de la ensalada. Por último añade un par de cucharadas más de salsa cesar y listo.",
+        "imagenPlato": "./../../../assets/img/menu/martes/ensalada_cesar.jpg",
+        "idMenu": 2,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Pechuga Pollo",
+            "idIngrediente": 6,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Queso Rallado",
+            "idIngrediente": 11,
+            "descripcion": "40 gr"
+          },
+          {
+            "nombreIngrediente": "Aceite de Girasol",
+            "idIngrediente": 12,
+            "descripcion": "1 cucharada"
+          },
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "1 pizca"
+          },
+          {
+            "nombreIngrediente": "Pimienta Negra Molida",
+            "idIngrediente": 15,
+            "descripcion": "1 pizca"
+          },
+          {
+            "nombreIngrediente": "Limon",
+            "idIngrediente": 26,
+            "descripcion": "1 chorrito"
+          },
+          {
+            "nombreIngrediente": "Salsa Cesar",
+            "idIngrediente": 51,
+            "descripcion": "5 cucharadas"
+          },
+          {
+            "nombreIngrediente": "Lechuga",
+            "idIngrediente": 52,
+            "descripcion": "200 gr"
+          },
+          {
+            "nombreIngrediente": "Pan Lacteado",
+            "idIngrediente": 53,
+            "descripcion": "50 gr"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idMenu": 3,
+    "nombreMenu": "Budin y Guisos",
+    "dia": "MIÉRCOLES",
+    "platos": [
+      {
+        "idPlato": 3,
+        "nombrePlato": "Tortilla de Zanahorias",
+        "preparacion": "Calentar a fuego medio-alto 1 cucharada de aceite en una sartén mediana\r\n                                                                                                                     anti-adherente, agregar la cebolla picada y dejar dorar por 5-8 minutos hasta que este\r\n                                                                                                                     empezando a cambiar de color.\r\n                                                                                                                     Juntar la cebolla con la zanahoria rallada en un bol y revolver mezclando bien.\r\n                                                                                                                     En un bol pequeño mezclar los huevos con la crema, perejil si desean, sal y pimienta,\r\n                                                                                                                     batir por 2 minutos con un tenedor hasta que este espumoso.\r\n                                                                                                                     En la misma sartén de la cebolla, la pueden limpiar con una toalla de papel (fuera del fuego)\r\n                                                                                                                     calentar 1 cucharada de aceite a fuego medio, agregar la mezcla de zanahoria y cebolla\r\n                                                                                                                     y aplastar bien de manera de cubrir toda la sartén de manera pareja, agregar de inmediato\r\n                                                                                                                     la mezcla de huevos y dejar que escurra. Dejar cocinar la tortilla a fuego medio por unos\r\n                                                                                                                     15 minutos, agitarla de vez en cuando para que no se pegue.\r\n                                                                                                                     Cuando el centro este cocido (deje de estar húmedo) dar vuelta la tortilla,\r\n                                                                                                                     yo lo hago con la ayuda de un plato y dejarla dorar por el otro lado unos 3 minutos mas.\r\n                                                                                                                     Servir caliente o a temperatura ambiente, espolvoreada con ciboulette si desean.\r\n                                                                                                                     Si no quieren dar vuelta la tortilla, pueden usar el broiler del horno para dorarla arriba,     quedan igual de bien. Yo hago eso en mi casa.",
+        "imagenPlato": "./../../../assets/img/menu/miercoles/tortilla_de_zanahoria.jpg",
+        "idMenu": 3,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Huevo",
+            "idIngrediente": 9,
+            "descripcion": "2 un"
+          },
+          {
+            "nombreIngrediente": "Crema de Leche",
+            "idIngrediente": 10,
+            "descripcion": "150 cc"
+          },
+          {
+            "nombreIngrediente": "Aceite de Girasol",
+            "idIngrediente": 12,
+            "descripcion": "2 cucharadas"
+          },
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "1/2 cucharada"
+          },
+          {
+            "nombreIngrediente": "Cebolla",
+            "idIngrediente": 16,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Zanahoria",
+            "idIngrediente": 17,
+            "descripcion": "4 un"
+          },
+          {
+            "nombreIngrediente": "Perejil Deshidratado",
+            "idIngrediente": 18,
+            "descripcion": "1/2 cucharada"
+          },
+          {
+            "nombreIngrediente": "Pimienta Blanca Molida",
+            "idIngrediente": 19,
+            "descripcion": "1 cucharadita"
+          }
+        ]
+      },
+      {
+        "idPlato": 14,
+        "nombrePlato": "Budin de brocoli",
+        "preparacion": "1. Limpia el brócoli sumergiéndolo por unos instantes en agua con un buen chorrito de vinagre o jugo de limón. Seca bien con un paño de cocina limpio.\r\n                                                                                    2. Pica el brócoli en trocitos pequeños.\r\n                                                                                    3. Pon una olla al fuego y lleva el brócoli a ebullición por 4-5 minutos. Cuando esté tierno pero crujiente, retíralo del fuego e introdúcelo inmediatamente en agua muy fría para detener la cocción.\r\n                                                                                    4. En un bol grande mezcla muy bien el brócoli, los huevos, la leche caliente con el caldo de verduras y las migas de pan fresco.\r\n                                                                                    5. Ahora utiliza la mantequilla o la margarina para engrasar un molde en forma de anillo.\r\n                                                                                    6. Precalienta el horno a 170º. Cuece el budin de brocoli al baño maría, a unos 160º por 20-25 minutos\r\n                                                                                    7. Deja reposar el budin de brocoli por al menos 5 minutos\r\n                                                                                    8. Puedes decorar tu budin de brocoli con unas zanahorias cortadas artísticamente y cocidas.\r\n                                                                                    Las ventajas de budin de brocoli es que además de aprovechar ingredientes que tengas por casa también puedes hacerlo la noche anterior, de hecho los budins tienen fama de quedar incluso más exquisitos de un día para otro.",
+        "imagenPlato": "./../../../assets/img/menu/miercoles/budin_de_brocoli.jpg",
+        "idMenu": 3,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Leche",
+            "idIngrediente": 7,
+            "descripcion": "1 taza"
+          },
+          {
+            "nombreIngrediente": "Huevo",
+            "idIngrediente": 9,
+            "descripcion": "3 un"
+          },
+          {
+            "nombreIngrediente": "Caldo Para Verduras",
+            "idIngrediente": 28,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Margarina",
+            "idIngrediente": 33,
+            "descripcion": "1/2 cucharada"
+          },
+          {
+            "nombreIngrediente": "Pan Rallado",
+            "idIngrediente": 36,
+            "descripcion": "1 taza"
+          },
+          {
+            "nombreIngrediente": "Brocoli",
+            "idIngrediente": 54,
+            "descripcion": "1 un"
+          }
+        ]
+      },
+      {
+        "idPlato": 15,
+        "nombrePlato": "Charquican",
+        "preparacion": "1.En una olla con aceite, freír la carne por 3 min. aprox. y agregar la cebolla y freír por 3 min. aprox. más. Luego, añadir las papas, el zapallo, los dientes de ajo, los aliños y el caldo de carne. Una vez que hierva, cocinar a fuego moderado por 25 min. aprox. o hasta que las papas estén casi cocidas.\r\n                                                                         2.Finalmente, agregar el choclo y cocinar por 5 min. más.\r\n                                                                         3.Con una cuchara deshacer parcialmente los trozos de papas y zapallo.",
+        "imagenPlato": "./../../../assets/img/menu/miercoles/charquican.jpg",
+        "idMenu": 3,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Aceite de Girasol",
+            "idIngrediente": 12,
+            "descripcion": "1 cucharada"
+          },
+          {
+            "nombreIngrediente": "Aji Molido",
+            "idIngrediente": 13,
+            "descripcion": "1 cucharadita"
+          },
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "1/2 cucharadita"
+          },
+          {
+            "nombreIngrediente": "Cebolla",
+            "idIngrediente": 16,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Oregano",
+            "idIngrediente": 20,
+            "descripcion": "1/2 cucharadita"
+          },
+          {
+            "nombreIngrediente": "Ajo Deshidratado",
+            "idIngrediente": 23,
+            "descripcion": "2 cucharadas"
+          },
+          {
+            "nombreIngrediente": "Comino Molido",
+            "idIngrediente": 29,
+            "descripcion": "1/4 cucharadita"
+          },
+          {
+            "nombreIngrediente": "Zapallo",
+            "idIngrediente": 43,
+            "descripcion": "1/4 kg"
+          },
+          {
+            "nombreIngrediente": "Papa blanca",
+            "idIngrediente": 50,
+            "descripcion": "4 un"
+          },
+          {
+            "nombreIngrediente": "Bola de Lomo",
+            "idIngrediente": 55,
+            "descripcion": "1/2 kg"
+          },
+          {
+            "nombreIngrediente": "Choclo",
+            "idIngrediente": 56,
+            "descripcion": "2 tazas"
+          },
+          {
+            "nombreIngrediente": "Caldo Para Carne",
+            "idIngrediente": 57,
+            "descripcion": "1/2 taza"
+          }
+        ]
+      },
+      {
+        "idPlato": 16,
+        "nombrePlato": "Budin de acelga",
+        "preparacion": "1.Lavar bien la acelga, cortar las pencas y blanquear las hojas en agua hirviendo con sal por apenas un minuto.\r\n                                                                              2.Retirar, escurrir y picar. Dejar enfriar y reservar. Por otro lado picar la cebolla y rehogarla en la manteca.\r\n                                                                              3.Una vez dorada agregar la acelga picada, revolver y saltear todo junto unos minutos.\r\n                                                                              4.Aparte y en un bol grande, batir ligeramente los huevos, salpimentar y volcar allí la acelga fría y mitad del queso rallado.\r\n                                                                              5.Mezclar bien, volcar en una budinera enmantecada, cubrir la superficie con el resto de queso, y hornear a baño María y temperatura moderada, hasta que la superficie quede resistente al tacto y dorada.\r\n                                                                              6.Servir enseguida.",
+        "imagenPlato": "./../../../assets/img/menu/miercoles/charquican.jpg",
+        "idMenu": 3,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Huevo",
+            "idIngrediente": 9,
+            "descripcion": "3 un"
+          },
+          {
+            "nombreIngrediente": "Queso Rallado",
+            "idIngrediente": 11,
+            "descripcion": "150 gr"
+          },
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "a gusto"
+          },
+          {
+            "nombreIngrediente": "Pimienta Negra Molida",
+            "idIngrediente": 15,
+            "descripcion": "a gusto"
+          },
+          {
+            "nombreIngrediente": "Cebolla",
+            "idIngrediente": 16,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Margarina",
+            "idIngrediente": 33,
+            "descripcion": "25 gr"
+          },
+          {
+            "nombreIngrediente": "Acelga",
+            "idIngrediente": 58,
+            "descripcion": "1 paquete"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idMenu": 4,
+    "nombreMenu": "Legumbres",
+    "dia": "JUEVES",
+    "platos": [
+      {
+        "idPlato": 4,
+        "nombrePlato": "Hummus",
+        "preparacion": "Podemos usar garbanzos de bote o cocer los garbanzos. Si optamos por esta opción,\r\n                                                                                   tenemos que dejar los garbanzos en remojo entre 8 y 12 horas en abundante agua.\r\n                                                                                   A diferencia de otras legumbres, los garbanzos deben echarse en la olla cuando el agua esté\r\n                                                                                   hirviendo, dejamos cocer durante 2 horas y le añadimos la sal al final.\r\n                                                                                   Escurrimos y dejamos enfriar.\r\n                                                                                   Echamos los garbanzos en una batidora o robot de cocina junto con el zumo de medio limón,\r\n                                                                                   el tahín, el ajo, la sal, el comino y el caldo de cocción (o agua en caso de que los garbanzos\r\n                                                                                    sean de bote) y batimos hasta crear una crema homogénea. Si se desea que el hummus quede\r\n                                                                                    más líquido basta con añadir más caldo o agua.\r\n                                                                                   Para la presentación del hummus vertemos la crema en un plato o cuenco y con una cuchara\r\n                                                                                   creamos surcos en la superficie. Añadimos aceite de oliva virgen extra al gusto, aceitunas\r\n                                                                                   y pimentón dulce para decorarlo. Por último, elegimos el acompañamiento deseado.",
+        "imagenPlato": "./../../../assets/img/menu/jueves/hummus.jpg",
+        "idMenu": 4,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Aceite de Girasol",
+            "idIngrediente": 12,
+            "descripcion": "2 cucharadas"
+          },
+          {
+            "nombreIngrediente": "Ajo Deshidratado",
+            "idIngrediente": 23,
+            "descripcion": "1 cucharada"
+          },
+          {
+            "nombreIngrediente": "Garbanzo Seco",
+            "idIngrediente": 25,
+            "descripcion": "400 gr"
+          },
+          {
+            "nombreIngrediente": "Limon",
+            "idIngrediente": 26,
+            "descripcion": "1/2 un"
+          },
+          {
+            "nombreIngrediente": "Sesamo",
+            "idIngrediente": 27,
+            "descripcion": "1 cucharada"
+          },
+          {
+            "nombreIngrediente": "Caldo Para Verduras",
+            "idIngrediente": 28,
+            "descripcion": "1/2 taza"
+          },
+          {
+            "nombreIngrediente": "Comino Molido",
+            "idIngrediente": 29,
+            "descripcion": "1/2 cucharada"
+          },
+          {
+            "nombreIngrediente": "Pimenton",
+            "idIngrediente": 30,
+            "descripcion": "1 cucharada"
+          }
+        ]
+      },
+      {
+        "idPlato": 17,
+        "nombrePlato": "Guiso de lentejas con carne",
+        "preparacion": "1. CALIENTA el aceite de oliva en una olla grande a fuego alto. Saltea la cebolla por 3 minutos y agrega el ajo y la carne.\r\n                                                                                                        2. DORA la carne, moviendo regularmente por 5 - 10 minutos.\r\n                                                                                                        3. AGREGA las lentejas, las zanahorias, el apio, el tomate, el caldo de carne, el vino, las hojas de laurel, tomillo y una cucharadita de sal.\r\n                                                                                                        4. HIERVE, cubre y baja el fuego y deja cocinar por 45-60 minutos hasta que las lentejas estén suaves.\r\n                                                                                                        5. SAZONA con sal y pimienta.",
+        "imagenPlato": "./../../../assets/img/menu/jueves/guiso_de_lentejas_con_carne.jpg",
+        "idMenu": 4,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Aceite de Girasol",
+            "idIngrediente": 12,
+            "descripcion": "2 cucharadas"
+          },
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "a gusto"
+          },
+          {
+            "nombreIngrediente": "Pimienta Negra Molida",
+            "idIngrediente": 15,
+            "descripcion": "a gusto"
+          },
+          {
+            "nombreIngrediente": "Cebolla",
+            "idIngrediente": 16,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Zanahoria",
+            "idIngrediente": 17,
+            "descripcion": "4 un"
+          },
+          {
+            "nombreIngrediente": "Ajo Deshidratado",
+            "idIngrediente": 23,
+            "descripcion": "2 cucharadas"
+          },
+          {
+            "nombreIngrediente": "Tomate Pelado",
+            "idIngrediente": 24,
+            "descripcion": "800 gr"
+          },
+          {
+            "nombreIngrediente": "Bola de Lomo",
+            "idIngrediente": 55,
+            "descripcion": "1 kg cubos"
+          },
+          {
+            "nombreIngrediente": "Caldo Para Carne",
+            "idIngrediente": 57,
+            "descripcion": "6 tazas"
+          },
+          {
+            "nombreIngrediente": "Apio",
+            "idIngrediente": 59,
+            "descripcion": "3 ramas"
+          },
+          {
+            "nombreIngrediente": "Lenteja",
+            "idIngrediente": 60,
+            "descripcion": "1/2 taza"
+          },
+          {
+            "nombreIngrediente": "Vino Tinto",
+            "idIngrediente": 61,
+            "descripcion": "1 copa"
+          },
+          {
+            "nombreIngrediente": "Laurel",
+            "idIngrediente": 62,
+            "descripcion": "1 cucharada"
+          },
+          {
+            "nombreIngrediente": "Tomillo",
+            "idIngrediente": 63,
+            "descripcion": "1 cucharada"
+          }
+        ]
+      },
+      {
+        "idPlato": 18,
+        "nombrePlato": "Porotos granados",
+        "preparacion": "1.En una olla grande, calentar el aceite a fuego medio y saltear la cebolla hasta que esté blanda y transparente, alrededor de 10 minutos. Agregar el Ají de Color Gourmet y cocinar revolviendo hasta integrar. Agregar los porotos y cocinar por 5 minutos. Agregar los cubos de zapallo, 2,5 tazas de choclo rebanado, cocinar por 5 minutos revolviendo siempre.\r\n                                                                                  2.Agregar el Comino Molido Gourmet, Pimienta Negra Molida Gourmet y Sal de Mar Gourmet. Luego añadir 1 litro de de agua y revolver para mezclar bien. Dejar que hierva la mezcla, bajar el fuego y cocinar semi-tapado, revolviendo ocasionalmente, hasta que los porotos estén blandos (30 a 50 minutos).\r\n                                                                                  3.Para hacer la mazamorra licuar la leche con la albahaca y las 2,5 tazas de choclo que sobraron.\r\n                                                                                  4.Luego agregar la mazamorra a la mezcla y cocinar durante 10 a 15 minutos.\r\n                                                                                  5.Servir caliente, decorado con albahaca fresca.",
+        "imagenPlato": "./../../../assets/img/menu/jueves/porotos_granados.jpg",
+        "idMenu": 4,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Leche",
+            "idIngrediente": 7,
+            "descripcion": "1/2 litro"
+          },
+          {
+            "nombreIngrediente": "Aceite de Girasol",
+            "idIngrediente": 12,
+            "descripcion": "1/4 taza"
+          },
+          {
+            "nombreIngrediente": "Aji Molido",
+            "idIngrediente": 13,
+            "descripcion": "1 cucharadita"
+          },
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "a gusto"
+          },
+          {
+            "nombreIngrediente": "Pimienta Negra Molida",
+            "idIngrediente": 15,
+            "descripcion": "a gusto"
+          },
+          {
+            "nombreIngrediente": "Cebolla",
+            "idIngrediente": 16,
+            "descripcion": "1/2 un"
+          },
+          {
+            "nombreIngrediente": "Poroto Alubia",
+            "idIngrediente": 21,
+            "descripcion": "2 kg"
+          },
+          {
+            "nombreIngrediente": "Comino Molido",
+            "idIngrediente": 29,
+            "descripcion": "1/2 cucharadita"
+          },
+          {
+            "nombreIngrediente": "Zapallo",
+            "idIngrediente": 43,
+            "descripcion": "250 gr"
+          },
+          {
+            "nombreIngrediente": "Choclo",
+            "idIngrediente": 56,
+            "descripcion": "5 tazas"
+          },
+          {
+            "nombreIngrediente": "Albahaca",
+            "idIngrediente": 64,
+            "descripcion": "1/3 taza"
+          },
+          {
+            "nombreIngrediente": "Agua",
+            "idIngrediente": 65,
+            "descripcion": "1 litro"
+          }
+        ]
+      },
+      {
+        "idPlato": 19,
+        "nombrePlato": "Ensalada de Porotos",
+        "preparacion": "1.Colocar los porotos en una fuente de servir y agregar el tomate, cebollines, cebolla, cilantro y ají verde; revolver.\r\n                                                                                        2.En un bol, colocar los ingredientes del aliño. Batir para obtener una salsa homogénea.\r\n                                                                                        3.Verter sobre los porotos y mezclar. Dejar reposar la ensalada 8-10 minutos antes de servir.",
+        "imagenPlato": "./../../../assets/img/menu/jueves/ensalada_de_porotos.jpg",
+        "idMenu": 4,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Aceite de Girasol",
+            "idIngrediente": 12,
+            "descripcion": "1 taza"
+          },
+          {
+            "nombreIngrediente": "Aji Molido",
+            "idIngrediente": 13,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "a gusto"
+          },
+          {
+            "nombreIngrediente": "Pimienta Negra Molida",
+            "idIngrediente": 15,
+            "descripcion": "a gusto"
+          },
+          {
+            "nombreIngrediente": "Cebolla",
+            "idIngrediente": 16,
+            "descripcion": "1/2 un"
+          },
+          {
+            "nombreIngrediente": "Perejil Deshidratado",
+            "idIngrediente": 18,
+            "descripcion": "1/2 taza"
+          },
+          {
+            "nombreIngrediente": "Oregano",
+            "idIngrediente": 20,
+            "descripcion": "1 cucharadita"
+          },
+          {
+            "nombreIngrediente": "Poroto Alubia",
+            "idIngrediente": 21,
+            "descripcion": "2 tazas"
+          },
+          {
+            "nombreIngrediente": "Tomate Pelado",
+            "idIngrediente": 24,
+            "descripcion": "2 un"
+          },
+          {
+            "nombreIngrediente": "Vinagre",
+            "idIngrediente": 42,
+            "descripcion": "1/4 taza"
+          },
+          {
+            "nombreIngrediente": "Cebolla Verdeo",
+            "idIngrediente": 66,
+            "descripcion": "4 ramas"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idMenu": 5,
+    "nombreMenu": "Pastas",
+    "dia": "VIERNES",
+    "platos": [
+      {
+        "idPlato": 5,
+        "nombrePlato": "Tallarines alfredo",
+        "preparacion": "Cocina los tallarines como los sueles preparar.\r\n                                                                                                    Luego en una olla aparte debes derretir la mantequilla con la leche,\r\n                                                                                                    agregar el queso parmesano rallado y dejar a fuego lento por algunos minutos (revolver al mismo tiempo).\r\n                                                                                                    Después condimenta esta mezcla con sal al gusto y añade el jamón cortado en cuadrados.  Posteriormente agrega la salsa sobre los tallarines y finaliza decorando con perejil si deseas. ¡Provecho!",
+        "imagenPlato": "./../../../assets/img/menu/viernes/tallarines.jpg",
+        "idMenu": 5,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Leche",
+            "idIngrediente": 7,
+            "descripcion": "1 taza"
+          },
+          {
+            "nombreIngrediente": "Queso Rallado",
+            "idIngrediente": 11,
+            "descripcion": "1/2 taza"
+          },
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "1 cucharada"
+          },
+          {
+            "nombreIngrediente": "Perejil Deshidratado",
+            "idIngrediente": 18,
+            "descripcion": "1 cucharadita"
+          },
+          {
+            "nombreIngrediente": "Tallarines",
+            "idIngrediente": 31,
+            "descripcion": "500 gr"
+          },
+          {
+            "nombreIngrediente": "Jamon Cocido",
+            "idIngrediente": 32,
+            "descripcion": "400 gr"
+          },
+          {
+            "nombreIngrediente": "Margarina",
+            "idIngrediente": 33,
+            "descripcion": "100 gr"
+          }
+        ]
+      },
+      {
+        "idPlato": 20,
+        "nombrePlato": "Pastel de papas",
+        "preparacion": "1.Hervir las papas con cáscara.\r\n                                                                                 2.Cuando están tiernas, retirarlas, pelarlas en caliente y hacer un puré junto con la manteca, consistente pero sin grumos.\r\n                                                                                 3.Por otro lado, en una sartén poner un chorro de aceite y rehogar en él la cebolla finamente picada junto con el morrón cortado en cubos chiquitos.\r\n                                                                                 4.Agregar la carne, removerla un poco y dejarla sobre el fuego hasta que cambie de color.\r\n                                                                                 5.Retirar e incorporar las aceitunas descarozadas y cortadas por la mitad, la sal y el comino.\r\n                                                                                 6.Enmantecar una fuente para horno más bien profunda.\r\n                                                                                 7.Colocar la mitad del puré en el fondo y por encima la carne.\r\n                                                                                 8.Cortar los huevos duros en rodajas, disponerlas sobre el relleno y tapar todo con el resto del puré.\r\n                                                                                 9.Decorar la superficie haciendo dibujos con un tenedor y llevar a horno bien caliente, de 25 a 30 minutos, o hasta que se dore la superficie.",
+        "imagenPlato": "./../../../assets/img/menu/viernes/pastel_de_papas.jpg",
+        "idMenu": 5,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Huevo",
+            "idIngrediente": 9,
+            "descripcion": "6 un"
+          },
+          {
+            "nombreIngrediente": "Aceite de Girasol",
+            "idIngrediente": 12,
+            "descripcion": "2 cucharadas"
+          },
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "a gusto"
+          },
+          {
+            "nombreIngrediente": "Cebolla",
+            "idIngrediente": 16,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Comino Molido",
+            "idIngrediente": 29,
+            "descripcion": "1 cucharadita"
+          },
+          {
+            "nombreIngrediente": "Margarina",
+            "idIngrediente": 33,
+            "descripcion": "100 gr"
+          },
+          {
+            "nombreIngrediente": "Carne Molida",
+            "idIngrediente": 44,
+            "descripcion": "1 kg"
+          },
+          {
+            "nombreIngrediente": "Pimiento Rojo",
+            "idIngrediente": 47,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Papa blanca",
+            "idIngrediente": 50,
+            "descripcion": "1 kg"
+          },
+          {
+            "nombreIngrediente": "Aceituna",
+            "idIngrediente": 67,
+            "descripcion": "100 gr"
+          }
+        ]
+      },
+      {
+        "idPlato": 21,
+        "nombrePlato": "Gnoquis",
+        "preparacion": "1.Alistamos todos los ingredientes para preparar la masa de los famosos ñoquis de patata caseros. Te sorprenderá lo fácil que es esta receta de ñoquis.\r\n                                                                         2.Lavamos bien las papas y las cocinamos con la piel en una cacerola con agua y sal. Este es el detalle que queríamos destacar para saber cómo hacer ñoquis perfectos, puesto que las papas con cáscara absorben menos agua durante la cocción y, de esta manera, necesitarán menos cantidad de harina a la hora de preparar la masa de los ñoquis argentinos.\r\n                                                                         3.Una vez que las papas estén tiernas, las retiramos de la cacerola y las pelamos. Para facilitar este procedimiento puedes pincharlas con un tenedor y quitarles la piel con un cuchillo.\r\n                                                                         4.Cuando hayamos pelado todas las papas, las colocamos en un bol y las trituramos con un pasapurés. Si las papas están calientes mucho mejor, porque se pueden pisar con más facilidad.\r\n                                                                         5.Una vez que hayamos pisado bien las papas, incorporamos las yemas, el queso rallado, sal, pimienta y nuez moscada para elaborar los ñoquis caseros. Mezclamos todos los ingredientes con las manos.\r\n                                                                         6.Es muy importante añadir los ingredientes en este orden para que la receta de ñoquis de papa quede perfecta.\r\n                                                                         7.Comenzamos a agregarle la harina poco a poco y, cuando la masa para los ñoquis caseros fáciles comience a tomar consistencia, la volcamos sobre la mesada para trabajar con más comodidad.\r\n                                                                         8.Amasamos lo suficiente hasta formar una masa tierna y consistente. Este es el aspecto que debe tener la masa de ñoquis de papa en este punto.\r\n                                                                         9.Esta receta paso a paso con fotos te permitirá comprobar que vas por buen camino en su preparación, así que no pierdas detalle.\r\n                                                                         10.Tomamos porciones pequeñas de masa y vamos formando rollos finos y largos, fíjate en la fotografía.\r\n                                                                         11.Cortamos los ñoquis caseros de aproximadamente 2 centímetros y medio de largo, dejándolos sobre la mesa enharinada para que no se peguen. Luego, los pasamos por los dientes de un tenedor haciendo una leve presión con el dedo pulgar. De esta manera, los ñoquis de papa argentinos tomarán la forma que todos conocemos.\r\n                                                                         12.Mientras tanto, colocamos al fuego una olla con abundante agua y un puñado de sal gruesa. Cuando esta rompa a hervir, incorporamos los ñoquis caseros con cuidado. A medida que vayan subiendo a la superficie estarán listos y podremos retirarlos con una espumadera. Y si ahora que sabes cómo hacer ñoquis prefieres congelarlos para cocinarlos en otro momento, puedes hacerlo en un recipiente adecuado o bolsa de congelación, antes de hervirlos.",
+        "imagenPlato": "./../../../assets/img/menu/viernes/gnoquis_de_papa.jpg",
+        "idMenu": 5,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Huevo",
+            "idIngrediente": 9,
+            "descripcion": "2 yemas"
+          },
+          {
+            "nombreIngrediente": "Queso Rallado",
+            "idIngrediente": 11,
+            "descripcion": "50 gr"
+          },
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "1 cucharada"
+          },
+          {
+            "nombreIngrediente": "Pimienta Negra Molida",
+            "idIngrediente": 15,
+            "descripcion": "1 pizca"
+          },
+          {
+            "nombreIngrediente": "Papa blanca",
+            "idIngrediente": 50,
+            "descripcion": "1 kg"
+          },
+          {
+            "nombreIngrediente": "Sal Gruesa",
+            "idIngrediente": 68,
+            "descripcion": "1 puñado"
+          },
+          {
+            "nombreIngrediente": "Harina de Trigo 0000",
+            "idIngrediente": 69,
+            "descripcion": "300 gr"
+          }
+        ]
+      },
+      {
+        "idPlato": 22,
+        "nombrePlato": "Sorrentinos de calabaza",
+        "preparacion": "1.Primero preparamos la receta de la masa de las pastas caseras que pueden encontrar en este mismo blog.\r\n                                                                                                 2.En este caso use medio kilo de harina Pureza 0000 y 5 huevos. Amasar y dejar reposar en la heladera media hora.\r\n                                                                                                 3.Estirar con palote y utilizar los moldes de los sorrentinos.\r\n                                                                                                 4.Mientras tanto corte la calabaza al medio retire las semillas y condimente con aceite de oliva, ajos machacados, romero, tomillo y lo mande a la parrilla, ya que le da un gusto ahumado por 45 minutos, depende el tamaño, yo use dos calabazas medianas, una vez que se acostumbren hacerlo así es un camino de ida, mismo para hacer el clásico puré de calabaza.\r\n                                                                                                 5.Una vez que estaba listo lo pise y condimente con mucha nuez moscada y pimienta. Espere que se enfriara un poco y agregue la mozzarella aproximadamente 400 gr. Prepare los sorrentinos recuerden que la masa se pega con 1 huevo y una pizca de agua. Los podemos comer en el momento o frezar por 3 meses.",
+        "imagenPlato": "./../../../assets/img/menu/viernes/sorrentinos_de_calabaza.jpg",
+        "idMenu": 5,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Harina de Trigo 000",
+            "idIngrediente": 8,
+            "descripcion": "1/2 kg"
+          },
+          {
+            "nombreIngrediente": "Huevo",
+            "idIngrediente": 9,
+            "descripcion": "5 un"
+          },
+          {
+            "nombreIngrediente": "Pimienta Negra Molida",
+            "idIngrediente": 15,
+            "descripcion": "a gusto"
+          },
+          {
+            "nombreIngrediente": "Zapallo",
+            "idIngrediente": 43,
+            "descripcion": "2 un"
+          },
+          {
+            "nombreIngrediente": "Nuez Moscada",
+            "idIngrediente": 70,
+            "descripcion": "a gusto"
+          },
+          {
+            "nombreIngrediente": "Queso Mozzarella",
+            "idIngrediente": 71,
+            "descripcion": "400 gr"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idMenu": 6,
+    "nombreMenu": "Carne",
+    "dia": "SÁBADO",
+    "platos": [
+      {
+        "idPlato": 6,
+        "nombrePlato": "Bistec a la plancha",
+        "preparacion": "Lo primero antes de preparar, debemos sazonar la carne con todos los aliños y\r\n                                                                                                             colocarlo a macerar con la salsa inglesa, por lo menos una media hora antes de cocer.\r\n                                                                                                             Luego colocamos la plancha o la sartén en fuego medio, cuando esté caliente añadimos un chorito minimo\r\n                                                                                                             de aceite y colocamos los filetes a cocinar. Debemos vigilar que doren bien sin llegar a resecarse,\r\n                                                                                                             por eso no debemos subir mucho la llama. Se pueden acompañar con arroz blanco, papas, puré, y una fresca ensalada verde de lechuga, cebolla y tomate.",
+        "imagenPlato": "./../../../assets/img/menu/sabado/bistec_a_la_plancha.jpg",
+        "idMenu": 6,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Aceite de Girasol",
+            "idIngrediente": 12,
+            "descripcion": "2 cucharadas"
+          },
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "1 cucharada"
+          },
+          {
+            "nombreIngrediente": "Pimienta Blanca Molida",
+            "idIngrediente": 19,
+            "descripcion": "1/2 cucharada"
+          },
+          {
+            "nombreIngrediente": "Ajo Deshidratado",
+            "idIngrediente": 23,
+            "descripcion": "1 cucharada"
+          },
+          {
+            "nombreIngrediente": "Comino Molido",
+            "idIngrediente": 29,
+            "descripcion": "1/2 cucharada"
+          },
+          {
+            "nombreIngrediente": "Bistec",
+            "idIngrediente": 34,
+            "descripcion": "2 un"
+          }
+        ]
+      },
+      {
+        "idPlato": 23,
+        "nombrePlato": "Carne al horno",
+        "preparacion": "1.Desgrasar la carne, hay que hacerlo con ayuda de un cuchillo filoso, pero dejando un poco de grasa adherida a la carne para que no se seque al cocinarla.\r\n                                                                              2.Frotar la carne con la sal parrillera y pimienta. Untarla con la mostaza y espolvorear con las hierbas.\r\n                                                                              3.Colocarla en una fuente que tenga casi su mismo tamaño.\r\n                                                                              4.Rociarla con el aceite y el vino.\r\n                                                                              5.Cortar en trozos grandes la cebolla, el morrón, el puerro y el tomate y acomodarlos alrededor de la carne.\r\n                                                                              6.Diluir el cubo de caldo en media taza de agua caliente y verterlo sobre los vegetales.\r\n                                                                              7.Cocinar la carne con los vegetales primero en horno caliente (250 grados) de 10 a 12 minutos y luego darla vuelta.8) Después bajar la temperatura a moderado (180 grados) y proseguir la cocción de 15 a 18 minutos. El tiempo de cocción varía según el gusto de los comensales.",
+        "imagenPlato": "./../../../assets/img/menu/sabado/carne_al_horno.jpg",
+        "idMenu": 6,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Aceite de Girasol",
+            "idIngrediente": 12,
+            "descripcion": "2 cucharadas"
+          },
+          {
+            "nombreIngrediente": "Pimienta Negra Molida",
+            "idIngrediente": 15,
+            "descripcion": "1 cucharadita"
+          },
+          {
+            "nombreIngrediente": "Cebolla",
+            "idIngrediente": 16,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Oregano",
+            "idIngrediente": 20,
+            "descripcion": "1 cucharada"
+          },
+          {
+            "nombreIngrediente": "Tomate Pelado",
+            "idIngrediente": 24,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Pimiento Rojo",
+            "idIngrediente": 47,
+            "descripcion": "1/2 un"
+          },
+          {
+            "nombreIngrediente": "Vino Blanco",
+            "idIngrediente": 49,
+            "descripcion": "1/2 copa"
+          },
+          {
+            "nombreIngrediente": "Caldo Para Carne",
+            "idIngrediente": 57,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Sal Gruesa",
+            "idIngrediente": 68,
+            "descripcion": "1 cucharada"
+          },
+          {
+            "nombreIngrediente": "Colita de Cuadril",
+            "idIngrediente": 72,
+            "descripcion": "500 gr"
+          },
+          {
+            "nombreIngrediente": "Mostaza",
+            "idIngrediente": 73,
+            "descripcion": "1 cucharada"
+          },
+          {
+            "nombreIngrediente": "Romero",
+            "idIngrediente": 74,
+            "descripcion": "1 cucharada"
+          },
+          {
+            "nombreIngrediente": "Puerro",
+            "idIngrediente": 75,
+            "descripcion": "1 un"
+          }
+        ]
+      },
+      {
+        "idPlato": 24,
+        "nombrePlato": "Empanadas Arabes",
+        "preparacion": "1.Poner la carne en un recipiente de vidrio o enlosado, agregarle el jugo del limón ó en su defecto de los limones.\r\n                                                                                  2.Picar la cebolla, y el tomate luego agregarlo a la carne.\r\n                                                                                  3.Condimentar con las tres pimientas en partes iguales y agregar la sal aproximadamente una cucharada. Mezclar bien todo. Dejar reposar en la heladera por lo menos unas cinco horas y si son más horas mejor.\r\n                                                                                  4.Calentar el horno, colocar el relleno en cada masa y doblar dándole forma de \"avioncito\", colocar en fuente que quede espacio entre una y otra empanada así no se pegan, cocinar, hasta que la masa este cocida.",
+        "imagenPlato": "./../../../assets/img/menu/sabado/empanadas_arabes.jpg",
+        "idMenu": 6,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "a gusto"
+          },
+          {
+            "nombreIngrediente": "Pimienta Negra Molida",
+            "idIngrediente": 15,
+            "descripcion": "a gusto"
+          },
+          {
+            "nombreIngrediente": "Cebolla",
+            "idIngrediente": 16,
+            "descripcion": "200 gr"
+          },
+          {
+            "nombreIngrediente": "Tomate Pelado",
+            "idIngrediente": 24,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Limon",
+            "idIngrediente": 26,
+            "descripcion": "2 un"
+          },
+          {
+            "nombreIngrediente": "Carne Molida",
+            "idIngrediente": 44,
+            "descripcion": "370 gr"
+          },
+          {
+            "nombreIngrediente": "Tapa de Empanada",
+            "idIngrediente": 46,
+            "descripcion": "2 docenas"
+          }
+        ]
+      },
+      {
+        "idPlato": 25,
+        "nombrePlato": "Solomillo",
+        "preparacion": "1.Pela la cebolla, el puerro y la zanahoria y córtalos a trozos grandes. Ponlo en una olla con el Caldo Casero de Carne 100% Natural Gallina Blanca y deja cocer a fuego lento unos 30 min.\r\n                                                                    2.Pon en una cazuela, con dos cucharadas de aceite de oliva, la cebolla, el puerro, la zanahoria y los ajos con la piel.\r\n                                                                    3.Deja que se doren bien todas las verduras y añade el Oporto.\r\n                                                                    4.Deja hervir hasta que se haya evaporado casi todo el vino.\r\n                                                                    5.Cuela el conjunto por el colador chino, apretando bien para que suelte todo el jugo.\r\n                                                                    6.Échalo de nuevo en la cazuela y deja que vaya cociendo muy lentamente, hasta que veas que espesa y tiene una consistencia de salsa.\r\n                                                                    7.Pela las manzanas y sácales el corazón con la ayuda de un descorazonador.\r\n                                                                    8.Corta las manzanas a láminas gruesas, échales sal y pimienta por encima, pásalas por harina y dóralas en una sartén con la mantequilla. Sácalas y escúrrelas sobre un papel de cocina, para sacar el exceso de grasa.\r\n                                                                    9.Pon una plancha a calentar, añade dos cucharadas de aceite de oliva y dora los solomillos, salpimentados, hasta que tengan un color tostado por los dos lados, pero queden rosaditos por el centro (al punto).\r\n                                                                    10.Pon en un plato las láminas de manzana, encima el solomillo y salsea con la salsa de Oporto alrededor.",
+        "imagenPlato": "./../../../assets/img/menu/sabado/solomillo.jpg",
+        "idMenu": 6,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Harina de Trigo 000",
+            "idIngrediente": 8,
+            "descripcion": "1 pizca"
+          },
+          {
+            "nombreIngrediente": "Aceite de Girasol",
+            "idIngrediente": 12,
+            "descripcion": "2 cucharadas"
+          },
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "1 pizca"
+          },
+          {
+            "nombreIngrediente": "Pimienta Negra Molida",
+            "idIngrediente": 15,
+            "descripcion": "1 pizca"
+          },
+          {
+            "nombreIngrediente": "Cebolla",
+            "idIngrediente": 16,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Zanahoria",
+            "idIngrediente": 17,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Ajo Deshidratado",
+            "idIngrediente": 23,
+            "descripcion": "2 cucharadas"
+          },
+          {
+            "nombreIngrediente": "Margarina",
+            "idIngrediente": 33,
+            "descripcion": "20 gr"
+          },
+          {
+            "nombreIngrediente": "Caldo Para Carne",
+            "idIngrediente": 57,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Puerro",
+            "idIngrediente": 75,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Solomillo",
+            "idIngrediente": 76,
+            "descripcion": "4 trozos"
+          },
+          {
+            "nombreIngrediente": "Vino Oporto",
+            "idIngrediente": 77,
+            "descripcion": "1 vaso"
+          },
+          {
+            "nombreIngrediente": "Manzana",
+            "idIngrediente": 78,
+            "descripcion": "2 un"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idMenu": 7,
+    "nombreMenu": "Pescado",
+    "dia": "DOMINGO",
+    "platos": [
+      {
+        "idPlato": 7,
+        "nombrePlato": "Croquetas de Atun",
+        "preparacion": "Retirar el atún de la lata y escurrir su líquido.\r\n                                                                                                          En un recipiente grande verter el atún, los huevos, el perejil y el pan rallado,\r\n                                                                                                          se salpimienta la preparación y se mezcla muy bien.\r\n                                                                                                          Se agrega harina a la mezcla, hasta crear consistencia.\r\n                                                                                                           Se arman las croquetas y se fríen.",
+        "imagenPlato": "./../../../assets/img/menu/domingo/croquetas_de_atun.jpg",
+        "idMenu": 7,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Harina de Trigo 000",
+            "idIngrediente": 8,
+            "descripcion": "1/2 taza"
+          },
+          {
+            "nombreIngrediente": "Huevo",
+            "idIngrediente": 9,
+            "descripcion": "2 un"
+          },
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "1 cucharada"
+          },
+          {
+            "nombreIngrediente": "Pimienta Negra Molida",
+            "idIngrediente": 15,
+            "descripcion": "1/2 cucharada"
+          },
+          {
+            "nombreIngrediente": "Perejil Deshidratado",
+            "idIngrediente": 18,
+            "descripcion": "1/4 taza"
+          },
+          {
+            "nombreIngrediente": "Atun En Lomitos",
+            "idIngrediente": 35,
+            "descripcion": "2 un"
+          },
+          {
+            "nombreIngrediente": "Pan Rallado",
+            "idIngrediente": 36,
+            "descripcion": "1/2 taza"
+          }
+        ]
+      },
+      {
+        "idPlato": 26,
+        "nombrePlato": "Pescado al horno",
+        "preparacion": "1.Precalentamos el horno a 180ºC. Será lo primero que hagamos, sobre todo si nuestro horno es lento a la hora de calentarse, ya que tardaremos tan poco muy poco en hacer el resto de cosas.\r\n                                                                                   2.Cortamos el calabacín en rodajas, las colocamos sobre una fuente apta para horno y las salamos ligeramente.\r\n                                                                                   3.Pelamos y cortamos la cebolla en rodajas finas, las colocamos sobre el calabacín y salamos.\r\n                                                                                   4.Con las patatas tenemos dos opciones, podemos ponerlas crudas o dorarlas ligeramente en las 3 cucharadas de aceite. En casa las prefieren de la segunda forma así que esta vez lo hemos hecho así. Una vez doraditas las rodajas de patata las colocamos sobre la cama de cebolla y les ponemos un pelín de sal.\r\n                                                                                   5.Salpimentamos el pescado, le damos unos cortes transversales en el lomo y metemos en ellos media rodaja de lima. Lo colocamos sobre la cama de patatas, cebolla y calabacín, regamos con el aceite (si doramos las patatas, usaremos ese aceite) y espolvoreamos con el pan rallado.\r\n                                                                                   6.Cocinamos en el horno a 180ºC durante 20-25 minutos. El tiempo dependerá del tamaño y del tipo de pescado, por eso cuando lleve unos 20 minutos mirad cómo está, si veis que está crudo, le dais 5 minutos más y volvéis a comprobar, así hasta que esté listo.",
+        "imagenPlato": "./../../../assets/img/menu/domingo/pescado_al_horno.jpg",
+        "idMenu": 7,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Aceite de Girasol",
+            "idIngrediente": 12,
+            "descripcion": "3 cucharadas"
+          },
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "a gusto"
+          },
+          {
+            "nombreIngrediente": "Pimienta Negra Molida",
+            "idIngrediente": 15,
+            "descripcion": "a gusto"
+          },
+          {
+            "nombreIngrediente": "Limon",
+            "idIngrediente": 26,
+            "descripcion": "1/2 un"
+          },
+          {
+            "nombreIngrediente": "Pan Rallado",
+            "idIngrediente": 36,
+            "descripcion": "1 cucharada"
+          },
+          {
+            "nombreIngrediente": "Zapallo",
+            "idIngrediente": 43,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Papa blanca",
+            "idIngrediente": 50,
+            "descripcion": "2 un"
+          },
+          {
+            "nombreIngrediente": "Cebolla Verdeo",
+            "idIngrediente": 66,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Filet de Merluza",
+            "idIngrediente": 79,
+            "descripcion": "900 gr"
+          }
+        ]
+      },
+      {
+        "idPlato": 27,
+        "nombrePlato": "Ceviche de atun",
+        "preparacion": "1.En un tazón grande mezcla el atún, los tomates, la cebolla y los chiles serranos.\r\n                                                                                 2.Exprime el jugo de 8 a 10 limones encima del atún; sazona con sal al gusto.\r\n                                                                                 3.Refrigera el ceviche por al menos 30 minutos antes de servir, para que los sabores se mezclen.\r\n                                                                                 4.Acompaña con tostadas o galletas saladas y adorna con aguacate.",
+        "imagenPlato": "./../../../assets/img/menu/domingo/ceviche_de_atun.jpg",
+        "idMenu": 7,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Galletita Saladas",
+            "idIngrediente": 3,
+            "descripcion": "1/2 paquete"
+          },
+          {
+            "nombreIngrediente": "Aji Molido",
+            "idIngrediente": 13,
+            "descripcion": "3 un"
+          },
+          {
+            "nombreIngrediente": "Cebolla",
+            "idIngrediente": 16,
+            "descripcion": "1/2 un"
+          },
+          {
+            "nombreIngrediente": "Tomate Pelado",
+            "idIngrediente": 24,
+            "descripcion": "3 un"
+          },
+          {
+            "nombreIngrediente": "Limon",
+            "idIngrediente": 26,
+            "descripcion": "9 un"
+          },
+          {
+            "nombreIngrediente": "Atun En Lomitos",
+            "idIngrediente": 35,
+            "descripcion": "4 un"
+          }
+        ]
+      },
+      {
+        "idPlato": 28,
+        "nombrePlato": "Sopa de pescado",
+        "preparacion": "– Picar la cebolla.\r\n                                                                                 – Cortar el apio y el puerro en rebanadas finas.\r\n                                                                                 – Picar algo grueso la zanahoria.\r\n                                                                                 – Calentar el aceite de oliva y la manteca en una cacerola.\r\n                                                                                 – Rehogar la cebolla, el puerro, el apio y la zanahoria.\r\n                                                                                 – Agregar el caldo de pescado.\r\n                                                                                 – Salpimentar y cocinar a fuego suave durante ½ hora.\r\n                                                                                 – Limpiar bien el pescado, quitarle escamas, cuero y espinas dejando solo la carne. blanca.\r\n                                                                                 – Cortar el pescado en trozos.\r\n                                                                                 – Incorporar el pescado a la sopa.\r\n                                                                                 – Agregar el eneldo.\r\n                                                                                 – Cocinar la sopa de pescado unos 20 minutos más.\r\n                                                                                 – Mezclar la yema con la crema de leche.\r\n                                                                                 – Agregar y calentar la sopa sin dejar que hierva.\r\n                                                                                 – Espolvorear con perejil finamente picado.\r\n                                                                                 – Colocar las tostadas en una sopera.\r\n                                                                                 – Verter la sopa de pescado sobre las tostadas y servir inmediatamente.",
+        "imagenPlato": "./../../../assets/img/menu/domingo/sopa_de_pescado.jpg",
+        "idMenu": 7,
+        "ingredientes": [
+          {
+            "nombreIngrediente": "Huevo",
+            "idIngrediente": 9,
+            "descripcion": "1 yema"
+          },
+          {
+            "nombreIngrediente": "Crema de Leche",
+            "idIngrediente": 10,
+            "descripcion": "1/2 taza"
+          },
+          {
+            "nombreIngrediente": "Aceite de Girasol",
+            "idIngrediente": 12,
+            "descripcion": "2 cucharadas"
+          },
+          {
+            "nombreIngrediente": "Sal Fina",
+            "idIngrediente": 14,
+            "descripcion": "a gusto"
+          },
+          {
+            "nombreIngrediente": "Pimienta Negra Molida",
+            "idIngrediente": 15,
+            "descripcion": "a gusto"
+          },
+          {
+            "nombreIngrediente": "Cebolla",
+            "idIngrediente": 16,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Zanahoria",
+            "idIngrediente": 17,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Perejil Deshidratado",
+            "idIngrediente": 18,
+            "descripcion": "50 gr"
+          },
+          {
+            "nombreIngrediente": "Caldo Para Verduras",
+            "idIngrediente": 28,
+            "descripcion": "2 un"
+          },
+          {
+            "nombreIngrediente": "Margarina",
+            "idIngrediente": 33,
+            "descripcion": "2 cucharadas"
+          },
+          {
+            "nombreIngrediente": "Pan Lacteado",
+            "idIngrediente": 53,
+            "descripcion": "250 gr"
+          },
+          {
+            "nombreIngrediente": "Apio",
+            "idIngrediente": 59,
+            "descripcion": "1 un"
+          },
+          {
+            "nombreIngrediente": "Puerro",
+            "idIngrediente": 75,
+            "descripcion": "2 un"
+          },
+          {
+            "nombreIngrediente": "Filet de Merluza",
+            "idIngrediente": 79,
+            "descripcion": "500 gr"
+          }
+        ]
+      }
+    ]
+  }
+]

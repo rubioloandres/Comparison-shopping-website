@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+    <!-- ******************************* -->
+    <!--  CREATE FUNCTIONS CHANGE-SETS  -->
+    <!-- ******************************* -->
+    <changeSet id="Create function get_new_id" author="DAS-Team" runAlways="true" runOnChange="true">
+        <sqlFile encoding="utf8"
+                 path="/src/main/resources/liquibase/functions/get_new_id.sql"
+                 relativeToChangelogFile="false"
+                 splitStatements="true"
+                 stripComments="false"
+                 endDelimiter="\nGO"
+        />
+    </changeSet>
+
+    <changeSet id="Create function date_in_range" author="DAS-Team" runAlways="true" runOnChange="true">
+
+        <sqlFile encoding="utf8"
+                 path="/src/main/resources/liquibase/functions/date_in_range.sql"
+                 relativeToChangelogFile="false"
+                 splitStatements="true"
+                 stripComments="false"
+                 endDelimiter="\nGO"
+        />
+    </changeSet>
+</databaseChangeLog>

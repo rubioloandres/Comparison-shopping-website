@@ -1,0 +1,11 @@
+sdk\clients\genericClients\RestClient.class
+sdk\contract\CadenaServiceContract.class
+sdk\clients\factory\CadenaClientFactory.class
+sdk\ds\ProductoSucursal.class
+sdk\clients\CadenaRestClient.class
+sdk\clients\constants\Constants.class
+sdk\clients\exceptions\ClientException.class
+sdk\clients\genericClients\SoapClient.class
+sdk\utils\GSON.class
+sdk\clients\CadenaSoapClient.class
+sdk\ds\Sucursal.class

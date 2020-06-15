@@ -1,0 +1,18 @@
+
+sudo fuser -k  4200/tcp
+sudo watch docker ps
+
+sudo swapon -a
+sudo swapoff -a
+
+docker stop mssql_indec rest_one rest_two cxf_one cxf_two axis_one
+
+
+
+
+// ejecutar pagina con internacionalizacion
+npm run start-all
+
+// compilar cambios de internacionalizacion
+ng xi18n pcINDEC --output-path i18n --i18n-locale en
+sudo npm run extract-i18n

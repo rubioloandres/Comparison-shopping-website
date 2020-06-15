@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+		xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+	
+	<!-- ******************************** -->
+	<!--   TABLE POPULATION CHANGE-SETS   -->
+	<!-- ******************************** -->
+
+	<changeSet id="Populate table sucursal" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="sucursal"/>
+			<sqlCheck expectedResult="0">
+				SELECT COUNT(*)
+				FROM sucursal
+			</sqlCheck>
+		</preConditions>
+		<sqlFile path="/src/main/resources/liquibase/populates/sucursal.sql"/>
+	</changeSet>
+
+	<changeSet id="Populate table producto_sucursal" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="producto_sucursal"/>
+			<sqlCheck expectedResult="0">
+				SELECT COUNT(*)
+				FROM producto_sucursal
+			</sqlCheck>
+		</preConditions>
+		<sqlFile path="/src/main/resources/liquibase/populates/producto_sucursal.sql"/>
+	</changeSet>
+
+	<changeSet id="Populate table precioProducto" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="precioProducto"/>
+			<sqlCheck expectedResult="0">
+				SELECT COUNT(*)
+				FROM precioProducto
+			</sqlCheck>
+		</preConditions>
+		<sqlFile path="/src/main/resources/liquibase/populates/precioProducto.sql"/>
+	</changeSet>
+
+</databaseChangeLog>

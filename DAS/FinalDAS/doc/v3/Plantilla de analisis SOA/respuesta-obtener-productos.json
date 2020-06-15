@@ -1,0 +1,47 @@
+[
+  {
+    "nombreProducto": "Galletitas con Salvado Fibro Active Bagley 214 Gr",
+    "codigoDeBarras": "7790040999404",
+    "idCategoria": 2,
+    "nombreCategoria": "Galletitas de agua",
+    "nombreMarca": "BAGLEY",
+    "imagenProducto": "./../../assets/img/products/7790040999404.jpg",
+    "idIngrediente": 0
+  },
+  {
+    "nombreProducto": "Galletitas con Salvado Fibro Active Bagley 642 Gr",
+    "codigoDeBarras": "7790040999503",
+    "idCategoria": 2,
+    "nombreCategoria": "Galletitas de agua",
+    "nombreMarca": "BAGLEY",
+    "imagenProducto": "./../../assets/img/products/7790040999503.jpg",
+    "idIngrediente": 0
+  },
+  {
+    "nombreProducto": "Galletitas Clasicas Surtidas Terrabusi Variedad 400 Gr",
+    "codigoDeBarras": "7622210649225",
+    "idCategoria": 3,
+    "nombreCategoria": "Galletitas dulces",
+    "nombreMarca": "TERRABUSI",
+    "imagenProducto": "./../../assets/img/products/7622210649225.jpg",
+    "idIngrediente": 0
+  },
+  {
+    "nombreProducto": "Galletitas Chocolate Lincoln 153 Gr",
+    "codigoDeBarras": "7622300742676",
+    "idCategoria": 3,
+    "nombreCategoria": "Galletitas dulces",
+    "nombreMarca": "LINCOLN",
+    "imagenProducto": "./../../assets/img/products/7622300742676.jpg",
+    "idIngrediente": 0
+  },
+  {
+    "nombreProducto": "Sal Fina en Paquete Celusal 500 Gr",
+    "codigoDeBarras": "7790072001014",
+    "idCategoria": 26,
+    "nombreCategoria": "Sal fina",
+    "nombreMarca": "CELUSAL",
+    "imagenProducto": "./../../assets/img/products/7790072001014.jpg",
+    "idIngrediente": 0
+  }
+]

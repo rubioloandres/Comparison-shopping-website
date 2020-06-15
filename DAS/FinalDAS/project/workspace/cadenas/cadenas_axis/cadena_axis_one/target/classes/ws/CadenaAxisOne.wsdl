@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:ns="http://ws" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://ws">
+    <wsdl:types>
+        <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://ws">
+            <xs:element name="CadenaAxisOneException">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="CadenaAxisOneException" nillable="true" type="ns:Exception"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:complexType name="Exception">
+                <xs:sequence>
+                    <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="sucursales">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="codigoentidadfederal" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="localidad" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="sucursalesResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="health">
+                <xs:complexType>
+                    <xs:sequence/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="healthResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="simularPrecios">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="codigoentidadfederal" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="localidad" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="preciosSucursales">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="codigoentidadfederal" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="localidad" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="codigos" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="preciosSucursalesResponse">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="preciosSucursalesRequest">
+        <wsdl:part name="parameters" element="ns:preciosSucursales"/>
+    </wsdl:message>
+    <wsdl:message name="preciosSucursalesResponse">
+        <wsdl:part name="parameters" element="ns:preciosSucursalesResponse"/>
+    </wsdl:message>
+    <wsdl:message name="CadenaAxisOneException">
+        <wsdl:part name="parameters" element="ns:CadenaAxisOneException"/>
+    </wsdl:message>
+    <wsdl:message name="sucursalesRequest">
+        <wsdl:part name="parameters" element="ns:sucursales"/>
+    </wsdl:message>
+    <wsdl:message name="sucursalesResponse">
+        <wsdl:part name="parameters" element="ns:sucursalesResponse"/>
+    </wsdl:message>
+    <wsdl:message name="healthRequest">
+        <wsdl:part name="parameters" element="ns:health"/>
+    </wsdl:message>
+    <wsdl:message name="healthResponse">
+        <wsdl:part name="parameters" element="ns:healthResponse"/>
+    </wsdl:message>
+    <wsdl:message name="simularPreciosRequest">
+        <wsdl:part name="parameters" element="ns:simularPrecios"/>
+    </wsdl:message>
+    <wsdl:portType name="CadenaAxisOnePortType">
+        <wsdl:operation name="preciosSucursales">
+            <wsdl:input message="ns:preciosSucursalesRequest" wsaw:Action="urn:preciosSucursales"/>
+            <wsdl:output message="ns:preciosSucursalesResponse" wsaw:Action="urn:preciosSucursalesResponse"/>
+            <wsdl:fault message="ns:CadenaAxisOneException" name="CadenaAxisOneException" wsaw:Action="urn:preciosSucursalesCadenaAxisOneException"/>
+        </wsdl:operation>
+        <wsdl:operation name="sucursales">
+            <wsdl:input message="ns:sucursalesRequest" wsaw:Action="urn:sucursales"/>
+            <wsdl:output message="ns:sucursalesResponse" wsaw:Action="urn:sucursalesResponse"/>
+            <wsdl:fault message="ns:CadenaAxisOneException" name="CadenaAxisOneException" wsaw:Action="urn:sucursalesCadenaAxisOneException"/>
+        </wsdl:operation>
+        <wsdl:operation name="health">
+            <wsdl:input message="ns:healthRequest" wsaw:Action="urn:health"/>
+            <wsdl:output message="ns:healthResponse" wsaw:Action="urn:healthResponse"/>
+        </wsdl:operation>
+        <wsdl:operation name="simularPrecios">
+            <wsdl:input message="ns:simularPreciosRequest" wsaw:Action="urn:simularPrecios"/>
+            <wsdl:output message="ns:null" wsaw:Action="urn:simularPreciosResponse"/>
+            <wsdl:fault message="ns:CadenaAxisOneException" name="CadenaAxisOneException" wsaw:Action="urn:simularPreciosCadenaAxisOneException"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="CadenaAxisOneSoap11Binding" type="ns:CadenaAxisOnePortType">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="preciosSucursales">
+            <soap:operation soapAction="urn:preciosSucursales" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="CadenaAxisOneException">
+                <soap:fault use="literal" name="CadenaAxisOneException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="sucursales">
+            <soap:operation soapAction="urn:sucursales" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="CadenaAxisOneException">
+                <soap:fault use="literal" name="CadenaAxisOneException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="health">
+            <soap:operation soapAction="urn:health" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="simularPrecios">
+            <soap:operation soapAction="urn:simularPrecios" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="CadenaAxisOneException">
+                <soap:fault use="literal" name="CadenaAxisOneException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="CadenaAxisOneSoap12Binding" type="ns:CadenaAxisOnePortType">
+        <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" style="document"/>
+        <wsdl:operation name="preciosSucursales">
+            <soap12:operation soapAction="urn:preciosSucursales" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="CadenaAxisOneException">
+                <soap12:fault use="literal" name="CadenaAxisOneException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="sucursales">
+            <soap12:operation soapAction="urn:sucursales" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="CadenaAxisOneException">
+                <soap12:fault use="literal" name="CadenaAxisOneException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+        <wsdl:operation name="health">
+            <soap12:operation soapAction="urn:health" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="simularPrecios">
+            <soap12:operation soapAction="urn:simularPrecios" style="document"/>
+            <wsdl:input>
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap12:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="CadenaAxisOneException">
+                <soap12:fault use="literal" name="CadenaAxisOneException"/>
+            </wsdl:fault>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:binding name="CadenaAxisOneHttpBinding" type="ns:CadenaAxisOnePortType">
+        <http:binding verb="POST"/>
+        <wsdl:operation name="preciosSucursales">
+            <http:operation location="preciosSucursales"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="sucursales">
+            <http:operation location="sucursales"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="health">
+            <http:operation location="health"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+        <wsdl:operation name="simularPrecios">
+            <http:operation location="simularPrecios"/>
+            <wsdl:input>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:input>
+            <wsdl:output>
+                <mime:content type="application/xml" part="parameters"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="CadenaAxisOne">
+        <wsdl:port name="CadenaAxisOneHttpSoap11Endpoint" binding="ns:CadenaAxisOneSoap11Binding">
+            <soap:address location="http://localhost:8080/axis2/services/CadenaAxisOne"/>
+        </wsdl:port>
+        <wsdl:port name="CadenaAxisOneHttpSoap12Endpoint" binding="ns:CadenaAxisOneSoap12Binding">
+            <soap12:address location="http://localhost:8080/axis2/services/CadenaAxisOne"/>
+        </wsdl:port>
+        <wsdl:port name="CadenaAxisOneHttpEndpoint" binding="ns:CadenaAxisOneHttpBinding">
+            <http:address location="http://localhost:8080/axis2/services/CadenaAxisOne"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>

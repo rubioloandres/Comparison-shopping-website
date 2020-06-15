@@ -1,0 +1,152 @@
+[
+  {
+    "idCategoria": 1,
+    "nombreCategoria": "Pan",
+    "urlImagenCategoria": "./../../assets/img/cat_pan.png"
+  },
+  {
+    "idCategoria": 2,
+    "nombreCategoria": "Galletitas de agua",
+    "urlImagenCategoria": "./../../assets/img/cat_gal_s.png"
+  },
+  {
+    "idCategoria": 3,
+    "nombreCategoria": "Galletitas dulces",
+    "urlImagenCategoria": "./../../assets/img/cat_gal_d.jpg"
+  },
+  {
+    "idCategoria": 4,
+    "nombreCategoria": "Arroz",
+    "urlImagenCategoria": "./../../assets/img/cat_arroz.png"
+  },
+  {
+    "idCategoria": 5,
+    "nombreCategoria": "Harina de trigo",
+    "urlImagenCategoria": "./../../assets/img/cat_har_t.png"
+  },
+  {
+    "idCategoria": 6,
+    "nombreCategoria": "Otras harinas",
+    "urlImagenCategoria": "./../../assets/img/cat_har_o.jpeg"
+  },
+  {
+    "idCategoria": 7,
+    "nombreCategoria": "Fideos",
+    "urlImagenCategoria": "./../../assets/img/cat_fideos.jpg"
+  },
+  {
+    "idCategoria": 8,
+    "nombreCategoria": "Papa",
+    "urlImagenCategoria": "./../../assets/img/cat_papa.jpg"
+  },
+  {
+    "idCategoria": 9,
+    "nombreCategoria": "Batata",
+    "urlImagenCategoria": "./../../assets/img/cat_batata.jpg"
+  },
+  {
+    "idCategoria": 10,
+    "nombreCategoria": "Azúcar",
+    "urlImagenCategoria": "./../../assets/img/cat_azucar.png"
+  },
+  {
+    "idCategoria": 11,
+    "nombreCategoria": "Dulces",
+    "urlImagenCategoria": "./../../assets/img/cat_dulces.png"
+  },
+  {
+    "idCategoria": 12,
+    "nombreCategoria": "Legumbres secas",
+    "urlImagenCategoria": "./../../assets/img/cat_leg_sec.png"
+  },
+  {
+    "idCategoria": 13,
+    "nombreCategoria": "Hortalizas",
+    "urlImagenCategoria": "./../../assets/img/cat_hortalizas.jpg"
+  },
+  {
+    "idCategoria": 14,
+    "nombreCategoria": "Frutas",
+    "urlImagenCategoria": "./../../assets/img/cat_frutas.png"
+  },
+  {
+    "idCategoria": 15,
+    "nombreCategoria": "Carnes",
+    "urlImagenCategoria": "./../../assets/img/cat_carnes.png"
+  },
+  {
+    "idCategoria": 16,
+    "nombreCategoria": "Menudencias",
+    "urlImagenCategoria": "./../../assets/img/cat_menud.png"
+  },
+  {
+    "idCategoria": 17,
+    "nombreCategoria": "Fiambres",
+    "urlImagenCategoria": "./../../assets/img/cat_fiambres.jpg"
+  },
+  {
+    "idCategoria": 18,
+    "nombreCategoria": "Huevos",
+    "urlImagenCategoria": "./../../assets/img/cat_huevos.png"
+  },
+  {
+    "idCategoria": 19,
+    "nombreCategoria": "Leche",
+    "urlImagenCategoria": "./../../assets/img/cat_leche.png"
+  },
+  {
+    "idCategoria": 20,
+    "nombreCategoria": "Queso",
+    "urlImagenCategoria": "./../../assets/img/cat_quesos.png"
+  },
+  {
+    "idCategoria": 21,
+    "nombreCategoria": "Yogur",
+    "urlImagenCategoria": "./../../assets/img/cat_yogur.png"
+  },
+  {
+    "idCategoria": 22,
+    "nombreCategoria": "Manteca",
+    "urlImagenCategoria": "./../../assets/img/cat_manteca.png"
+  },
+  {
+    "idCategoria": 23,
+    "nombreCategoria": "Aceite",
+    "urlImagenCategoria": "./../../assets/img/cat_aceite.png"
+  },
+  {
+    "idCategoria": 24,
+    "nombreCategoria": "Bebidas no alcohólicas",
+    "urlImagenCategoria": "./../../assets/img/cat_beb_na.jpg"
+  },
+  {
+    "idCategoria": 25,
+    "nombreCategoria": "Bebidas alcohólicas",
+    "urlImagenCategoria": "./../../assets/img/cat_beb_a.png"
+  },
+  {
+    "idCategoria": 26,
+    "nombreCategoria": "Sal fina",
+    "urlImagenCategoria": "./../../assets/img/cat_sal.jpg"
+  },
+  {
+    "idCategoria": 27,
+    "nombreCategoria": "Condimentos",
+    "urlImagenCategoria": "./../../assets/img/cat_condim.png"
+  },
+  {
+    "idCategoria": 28,
+    "nombreCategoria": "Vinagre",
+    "urlImagenCategoria": "./../../assets/img/cat_vinagre.png"
+  },
+  {
+    "idCategoria": 29,
+    "nombreCategoria": "Café",
+    "urlImagenCategoria": "./../../assets/img/cat_cafe.png"
+  },
+  {
+    "idCategoria": 30,
+    "nombreCategoria": "Yerba",
+    "urlImagenCategoria": "./../../assets/img/cat_yerba.png"
+  }
+]
