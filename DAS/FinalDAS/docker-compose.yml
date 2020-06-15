@@ -1,0 +1,72 @@
+#!/usr/bin/env bash
+
+
+version: '3'
+services:
+    axis_one:
+        image: 'mssql_cadena:1.0'
+        ports:
+            - '1434:1433'
+        container_name: axis_one
+    rest_one:
+        image: 'mssql_cadena:1.0'
+        ports:
+           - '1435:1433'
+        container_name: rest_one
+    rest_two:
+         image: 'mssql_cadena:1.0'
+         ports:
+            - '1436:1433'
+         container_name: rest_two
+    cxf_one:
+         image: 'mssql_cadena:1.0'
+         ports:
+            - '1437:1433'
+         container_name: cxf_one
+    cxf_two:
+         image: 'mssql_cadena:1.0'
+         ports: 
+            - '1438:1433'
+         container_name: cxf_two
+     
+
+
+
+
+
+
+#version: '3'
+#services:
+#   axis_one:
+#     image: "mssql_cadena:1.0"
+#     ports:
+#       - "1434:1433"
+#     container_name: "axis_one"
+#   rest_one:
+#     image: "mssql_cadena:1.0"
+#     ports:
+#       - "1435:1433"
+#     container_name: "rest_one"
+#  rest_two:
+#    image: "mssql_cadena:1.0"
+#    ports:
+#      - "1436:1433"
+#   container_name: "rest_two"
+#  cxf_one:
+#     image: "mssql_cadena:1.0"
+#     ports:
+#        - "1437:1433"
+#    container_name: "cxf_one"
+#  cxf_two:
+#    image: "mssql_supermercados:1.0"
+#    ports:
+#    container_name: "cxf_two"
+#      - "1438:1433"
+
+
+# docker-compose up -d
+# docker-compose up
+# docker-compose ps
+# docker-compose run $service
+# docker-compose stop
+# docker-compose stop cxf_one rest_one cxf_two rest_two

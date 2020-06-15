@@ -1,0 +1,42 @@
+  /*  @GET
+    @Path("/buscarproductosxcodigos")
+    public void buscarproductosxcodigos( @Suspended final AsyncResponse response
+                                        ,@QueryParam("codigos") final String codigos)
+    {
+
+
+        response.setTimeout(timeOut, SECONDS);
+        response.setTimeoutHandler(
+                (resp) -> resp.resume(status(SERVICE_UNAVAILABLE)
+                        .entity("Operation timed out")
+                        .build()));
+
+        try{
+            response.resume(toJson(buscarProductosPorCodigos(codigos)));
+        }catch(Exception exception){
+            logger.error("Endpoint Failure, {}",exception.getLocalizedMessage());
+            response.resume(status(INTERNAL_SERVER_ERROR)
+                    .build());
+        }
+
+    }
+
+    @GET
+    @Path("/buscarproductos")
+    public void buscarproductos(@Suspended final AsyncResponse response
+                               ,@QueryParam("palabraclave") final String palabraclave)
+    {
+        response.setTimeout(timeOut, SECONDS);
+        response.setTimeoutHandler(
+                (resp) -> resp.resume(status(SERVICE_UNAVAILABLE)
+                        .entity("Operation timed out")
+                        .build()));
+
+        try{
+            response.resume(toJson(buscarProductos(palabraclave)));
+        }catch(Exception exception){
+            logger.error("Endpoint Failure, {}",exception.getLocalizedMessage());
+            response.resume(status(INTERNAL_SERVER_ERROR)
+                    .build());
+        }
+    }*/

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cadenas</groupId>
+    <artifactId>cadenas</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>cadenas</name>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>cadena_core</module>
+        <module>cadenas_rest</module>
+        <module>cadenas_cxf</module>
+        <module>cadenas_axis</module>
+        <module>cadenas_db</module>
+    </modules>
+
+    <prerequisites>
+        <maven>3.3.9</maven>
+    </prerequisites>
+
+    <!-- Dependency properties -->
+    <properties>
+        <!-- JAVA VERSION -->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
+
+        <liquibase.version>3.6.1</liquibase.version>
+        <maven-war-plugin.version>2.6</maven-war-plugin.version>
+        <tomcat7-maven-plugin.version>2.2</tomcat7-maven-plugin.version>
+
+        <slf4j.api.version>1.7.25</slf4j.api.version>
+        <log4j.slf4j.impl.version>2.11.0</log4j.slf4j.impl.version>
+    </properties>
+
+    <profiles>
+
+    <!-- AXIS PROFILES -->
+        <!-- AXIS ONE PROFILE -->
+    <profile>
+        <id>cadena_axis_one_profile_id</id>
+        <activation>
+            <property>
+                <name>env</name>
+                <value>cadena_axis_one_env</value>
+            </property>
+        </activation>
+        <properties>
+            <!-- SERVER -->
+            <tomcat.server>CadenaAxisOneService</tomcat.server>
+            <tomcat.url>http://localhost:8080/manager/text</tomcat.url>
+            <tomcat.path>/${project.build.finalName}</tomcat.path>
+            <tomcat.port>8000</tomcat.port>
+
+            <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
+            <webResources.resource.directory>/src/main/resources</webResources.resource.directory>
+            <webResources.resource.targetPath>WEB-INF/wsdl</webResources.resource.targetPath>
+            <includePattern>*.wsdl</includePattern>
+            <!-- DB -->
+            <driverDB>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverDB>
+            <urlDB>jdbc:sqlserver://192.168.99.100:1434;databaseName=db_cadena;</urlDB><!-- local -->
+            <usernameDB>SA</usernameDB>
+            <passwordDB>Das12345</passwordDB>
+            <contextDB>cadena_axis_one</contextDB>
+        </properties>
+    </profile>
+
+    <!-- REST PROFILES -->
+        <!-- REST ONE PROFILE -->
+    <profile>
+        <id>cadena_rest_one_profile_id</id>
+        <activation>
+            <property>
+                <name>env</name>
+                <value>cadena_rest_one_env</value>
+            </property>
+        </activation>
+        <properties>
+            <tomcat.server>CadenaRestOneService</tomcat.server>
+            <tomcat.url>http://localhost:8081/manager/text</tomcat.url>
+            <tomcat.path>/${project.build.finalName}</tomcat.path>
+            <tomcat.port>8001</tomcat.port>
+
+            <!-- SERVER -->
+            <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
+            <webResources.resource.directory>/src/main/resources</webResources.resource.directory>
+            <webResources.resource.targetPath>WEB-INF/wsdl</webResources.resource.targetPath>
+            <includePattern>*.wsdl</includePattern>
+            <!-- DB -->
+            <driverDB>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverDB>
+            <urlDB>jdbc:sqlserver://192.168.99.100:1435;databaseName=db_cadena;</urlDB>
+            <usernameDB>SA</usernameDB>
+            <passwordDB>Das12345</passwordDB>
+            <contextDB>rest_one</contextDB>
+        </properties>
+    </profile>
+
+        <!-- REST TWO PROFILE -->
+    <profile>
+        <id>cadena_rest_two_profile_id</id>
+        <activation>
+            <property>
+                <name>env</name>
+                <value>cadena_rest_two_env</value>
+            </property>
+        </activation>
+        <properties>
+            <!-- SERVER -->
+            <tomcat.server>CadenaRestTwoService</tomcat.server>
+            <tomcat.url>http://localhost:8082/manager/text</tomcat.url>
+            <tomcat.path>/${project.build.finalName}</tomcat.path>
+            <tomcat.port>8002</tomcat.port>
+
+            <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
+            <webResources.resource.directory>/src/main/resources</webResources.resource.directory>
+            <webResources.resource.targetPath>WEB-INF/wsdl</webResources.resource.targetPath>
+            <includePattern>*.wsdl</includePattern>
+            <!-- DB -->
+            <driverDB>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverDB>
+            <urlDB>jdbc:sqlserver://192.168.99.100:1436;databaseName=db_cadena;</urlDB>
+            <usernameDB>SA</usernameDB>
+            <passwordDB>Das12345</passwordDB>
+            <contextDB>rest_two</contextDB>
+        </properties>
+    </profile>
+
+    <!-- CXF PROFILES -->
+        <!-- CXF ONE PROFILE  -->
+    <profile>
+        <id>cadena_cxf_one_profile_id</id>
+        <activation>
+            <property>
+                <name>env</name>
+                <value>cadena_cxf_one_env</value>
+            </property>
+        </activation>
+        <properties>
+            <!-- SERVER -->
+            <tomcat.server>CadenaCXFOneService</tomcat.server>
+            <tomcat.url>http://localhost:8083/manager/text</tomcat.url>
+            <tomcat.path>/${project.build.finalName}</tomcat.path>
+            <tomcat.port>8003</tomcat.port>
+
+            <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
+            <webResources.resource.directory>/src/main/resources</webResources.resource.directory>
+            <webResources.resource.targetPath>WEB-INF/wsdl</webResources.resource.targetPath>
+            <includePattern>*.wsdl</includePattern>
+            <!-- DB -->
+            <driverDB>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverDB>
+            <urlDB>jdbc:sqlserver://192.168.99.100:1437;databaseName=db_cadena;</urlDB>
+            <usernameDB>SA</usernameDB>
+            <passwordDB>Das12345</passwordDB>
+            <contextDB>cadena_cxf_one</contextDB>
+        </properties>
+    </profile>
+
+        <!-- CXF TWO PROFILE  -->
+    <profile>
+        <id>cadena_cxf_two_profile_id</id>
+        <activation>
+            <property>
+                <name>env</name>
+                <value>cadena_cxf_two_env</value>
+            </property>
+        </activation>
+        <properties>
+            <!-- SERVER -->
+            <tomcat.server>CadenaCXFTwoService</tomcat.server>
+            <tomcat.url>http://localhost:8084/manager/text</tomcat.url>
+            <tomcat.path>/${project.build.finalName}</tomcat.path>
+            <tomcat.port>8004</tomcat.port>
+
+            <webXml>src/main/webapp/WEB-INF/web.xml</webXml>
+            <webResources.resource.directory>/src/main/resources</webResources.resource.directory>
+            <webResources.resource.targetPath>WEB-INF/wsdl</webResources.resource.targetPath>
+            <includePattern>*.wsdl</includePattern>
+            <!-- DB -->
+            <driverDB>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverDB>
+            <urlDB>jdbc:sqlserver://192.168.99.100:1438;databaseName=db_cadena;</urlDB>
+            <usernameDB>SA</usernameDB>
+            <passwordDB>Das12345</passwordDB>
+            <contextDB>cadena_cxf_two</contextDB>
+        </properties>
+    </profile>
+    </profiles>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
+        <dependency>
+            <groupId>com.microsoft.sqlserver</groupId>
+            <artifactId>mssql-jdbc</artifactId>
+            <version>6.1.0.jre8</version>
+            <scope>runtime</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.liquibase/liquibase-maven-plugin -->
+        <dependency>
+            <groupId>org.liquibase</groupId>
+            <artifactId>liquibase-maven-plugin</artifactId>
+            <version>${liquibase.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.2.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.api.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+            <version>${log4j.slf4j.impl.version}</version>
+        </dependency>
+    </dependencies>
+
+    <!-- Plugin configuration -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven-compiler-plugin.version}</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+            <!-- TOMCAT SERVER -->
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>${tomcat7-maven-plugin.version}</version>
+                <configuration>
+                    <skip>false</skip>
+                    <server>${tomcat.server}</server>
+                    <url>${tomcat.url}</url>
+                    <path>${tomcat.path}</path>
+                    <port>${tomcat.port}</port>
+                    <contextReloadable>true</contextReloadable>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>${maven-war-plugin.version}</version>
+                <configuration>
+                    <webXml>${webXml}</webXml>
+                    <webResources>
+                        <resource>
+                            <directory>${webResources.resource.directory}</directory>
+                            <targetPath>${webResources.resource.targetPath}</targetPath>
+                            <includes>
+                                <include>${includePattern}</include>
+                            </includes>
+                        </resource>
+                    </webResources>
+                </configuration>
+            </plugin>
+            <!-- LIQUIBASE -->
+            <plugin>
+                <groupId>org.liquibase</groupId>
+                <artifactId>liquibase-maven-plugin</artifactId>
+                <version>${liquibase.version}</version>
+                <configuration>
+                    <changeLogFile>dbchangelog.xml</changeLogFile>
+                    <driver>${driverDB}</driver>
+                    <url>${urlDB}</url>
+                    <username>${usernameDB}</username>
+                    <password>${passwordDB}</password>
+                    <contexts>${contextDB}</contexts>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>update</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

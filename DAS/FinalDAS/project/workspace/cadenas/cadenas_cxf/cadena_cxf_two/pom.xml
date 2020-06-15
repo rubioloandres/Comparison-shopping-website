@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cadenas_cxf</artifactId>
+        <groupId>cadenas</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>cadenas_cxf</groupId>
+    <artifactId>cadena_cxf_two</artifactId>
+    <packaging>war</packaging>
+
+    <!-- Dependency properties -->
+    <properties>
+        <serviceLocation>ws.CadenaCXFTwo</serviceLocation>
+    </properties>
+
+    <!-- Plugin configuration -->
+    <build>
+        <!-- Name of the generated WAR file -->
+        <finalName>cadena_cxf_two</finalName>
+        <plugins>
+            <!-- CXF SERVICE GENERATOR -->
+            <plugin>
+                <groupId>org.apache.cxf</groupId>
+                <artifactId>cxf-java2ws-plugin</artifactId>
+                <version>${cxf.version}</version>
+                <executions>
+                    <execution>
+                        <id>process-classes</id>
+                        <phase>process-classes</phase>
+                        <configuration>
+                            <className>${serviceLocation}</className>
+                            <genWsdl>true</genWsdl>
+                            <verbose>true</verbose>
+                            <genServer>true</genServer>
+                            <genClient>false</genClient>
+                            <genWrapperbean>true</genWrapperbean>
+                            <frontend>jaxws</frontend>
+                            <databinding>jaxb</databinding>
+                            <soap12>true</soap12>
+                            <quiet>false</quiet>
+                            <attachWsdl>true</attachWsdl>
+                        </configuration>
+                        <goals>
+                            <goal>java2ws</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

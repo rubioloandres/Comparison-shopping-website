@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+		xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+
+	<!--Cadenas-->
+
+	<changeSet id="Drop table cadenaServiceConfig" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="cadenaServiceConfig"/>
+		</preConditions>
+		<dropTable tableName="cadenaServiceConfig"/>
+	</changeSet>
+
+	<changeSet id="Drop table cadena" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="cadena"/>
+		</preConditions>
+		<dropTable tableName="cadena"/>
+	</changeSet>
+
+
+	<changeSet id="Drop table tecnologia" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="tecnologia"/>
+		</preConditions>
+		<dropTable tableName="tecnologia"/>
+	</changeSet>
+
+	<!--Localizacion-->
+
+	<changeSet id="Drop table localidad" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="localidad"/>
+		</preConditions>
+		<dropTable tableName="localidad"/>
+	</changeSet>
+
+	<changeSet id="Drop table provincia" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="provincia"/>
+		</preConditions>
+		<dropTable tableName="provincia"/>
+	</changeSet>
+
+
+
+   <!--Menu-->
+	<changeSet id="Drop table ingrediente_producto" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="ingrediente_producto"/>
+		</preConditions>
+		<dropTable tableName="ingrediente_producto"/>
+	</changeSet>
+
+
+	<changeSet id="Drop table ingrediente_plato" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="ingrediente_plato"/>
+		</preConditions>
+		<dropTable tableName="ingrediente_plato"/>
+	</changeSet>
+
+	<changeSet id="Drop table ingrediente" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="ingrediente"/>
+		</preConditions>
+		<dropTable tableName="ingrediente"/>
+	</changeSet>
+
+	<changeSet id="Drop table plato" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="plato"/>
+		</preConditions>
+		<dropTable tableName="plato"/>
+	</changeSet>
+
+	<changeSet id="Drop table menu" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="menu"/>
+		</preConditions>
+		<dropTable tableName="menu"/>
+	</changeSet>
+
+
+
+	<!--Canasta Basica -->
+
+	<changeSet id="Drop table producto" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="producto"/>
+		</preConditions>
+		<dropTable tableName="producto"/>
+	</changeSet>
+
+
+	<changeSet id="Drop table categoriaProducto" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="categoriaProducto"/>
+		</preConditions>
+		<dropTable tableName="categoriaProducto"/>
+	</changeSet>
+
+
+	<changeSet id="Drop table marcaProducto" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="marcaProducto"/>
+		</preConditions>
+		<dropTable tableName="marcaProducto"/>
+	</changeSet>
+
+
+
+</databaseChangeLog>

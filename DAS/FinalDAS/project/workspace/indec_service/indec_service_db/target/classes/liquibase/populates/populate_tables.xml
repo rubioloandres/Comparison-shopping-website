@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+		xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+	
+	<!-- ******************************** -->
+	<!--   TABLE POPULATION CHANGE-SETS   -->
+	<!-- ******************************** -->
+
+	<!--Canasta Basica-->
+	<changeSet id="Populate table marcaProducto" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="marcaProducto"/>
+		</preConditions>
+		<sqlFile path="/src/main/resources/liquibase/populates/marcaProducto.sql"/>
+	</changeSet>
+
+	<changeSet id="Populate table categoriaProducto" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="categoriaProducto"/>
+		</preConditions>
+		<sqlFile path="/src/main/resources/liquibase/populates/categoriaProducto.sql"/>
+	</changeSet>
+
+	<changeSet id="Populate table producto" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="producto"/>
+		</preConditions>
+		<sqlFile path="/src/main/resources/liquibase/populates/producto.sql"/>
+	</changeSet>
+
+
+	<changeSet id="Populate table menu" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="menu"/>
+		</preConditions>
+		<sqlFile path="/src/main/resources/liquibase/populates/menu.sql"/>
+	</changeSet>
+
+	<changeSet id="Populate table plato" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="plato"/>
+		</preConditions>
+		<sqlFile path="/src/main/resources/liquibase/populates/plato.sql"/>
+	</changeSet>
+
+	<changeSet id="Populate table ingrediente" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="ingrediente"/>
+		</preConditions>
+		<sqlFile path="/src/main/resources/liquibase/populates/ingrediente.sql"/>
+	</changeSet>
+
+	<changeSet id="Populate table ingrediente_plato" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="ingrediente_plato"/>
+		</preConditions>
+		<sqlFile path="/src/main/resources/liquibase/populates/ingrediente_plato.sql"/>
+	</changeSet>
+
+
+	<changeSet id="Populate table ingrediente_producto" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="ingrediente_producto"/>
+		</preConditions>
+		<sqlFile path="/src/main/resources/liquibase/populates/ingrediente_producto.sql"/>
+	</changeSet>
+
+	<changeSet id="Populate table provincia" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="provincia"/>
+		</preConditions>
+		<sqlFile path="/src/main/resources/liquibase/populates/provincia.sql"/>
+	</changeSet>
+
+	<changeSet id="Populate table localidad" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="localidad"/>
+		</preConditions>
+		<sqlFile path="/src/main/resources/liquibase/populates/localidad.sql"/>
+	</changeSet>
+
+
+	<changeSet id="Populate table tecnologia" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="tecnologia"/>
+		</preConditions>
+		<sqlFile path="/src/main/resources/liquibase/populates/tecnologia.sql"/>
+	</changeSet>
+
+
+	<changeSet id="Populate table cadena" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="cadena"/>
+		</preConditions>
+		<sqlFile path="/src/main/resources/liquibase/populates/cadena.sql"/>
+	</changeSet>
+
+	<changeSet id="Populate table cadenaServiceConfig" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<tableExists tableName="cadenaServiceConfig"/>
+		</preConditions>
+		<sqlFile path="/src/main/resources/liquibase/populates/cadenaServiceConfig.sql"/>
+	</changeSet>
+
+
+
+</databaseChangeLog>

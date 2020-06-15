@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+		xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+	
+	<!-- ########################################### -->
+	<!-- Main drops change-sets                      -->
+	<!-- ########################################### -->
+	<include file="/src/main/resources/liquibase/drops/drop_tables.xml"/>
+	
+	
+	<!-- ########################################### -->
+	<!-- Main create table change-sets               -->
+	<!-- ########################################### -->
+	<include file="/src/main/resources/liquibase/tables/create_tables.xml"/>
+	
+	<!-- ########################################### -->
+	<!-- Main create and drop views change-sets      -->
+	<!-- ########################################### -->
+	<include file="/src/main/resources/liquibase/views/views.xml"/>
+	
+	<!-- ########################################### -->
+	<!-- Main create and drop functions change-sets  -->
+	<!-- ########################################### -->
+	<include file="/src/main/resources/liquibase/functions/functions.xml"/>
+	
+	<!-- ########################################### -->
+	<!-- Main procedures change-sets                 -->
+	<!-- ########################################### -->
+	<include file="/src/main/resources/liquibase/procedures/create_procedures.xml"/>
+	
+	<!-- ########################################### -->
+	<!-- Main populate change-sets                   -->
+	<!-- ########################################### -->
+	<include file="/src/main/resources/liquibase/populates/populate_tables.xml"/>
+
+	<!-- ########################################### -->
+	<!-- Main triggers change-sets                   -->
+	<!-- ########################################### -->
+	<include file="/src/main/resources/liquibase/triggers/triggers.xml"/>
+</databaseChangeLog>

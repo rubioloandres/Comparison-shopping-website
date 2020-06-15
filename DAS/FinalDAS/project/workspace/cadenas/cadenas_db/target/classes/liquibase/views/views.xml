@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+		xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+	
+	<!-- ***************************** -->
+	<!--   DROP CHANGE-SETS            -->
+	<!-- ***************************** -->
+	
+	<changeSet id="Drop view getNewID" author="DAS-Team" runAlways="true" runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<viewExists viewName="getNewID"/>
+		</preConditions>
+		<dropView schemaName="dbo"
+		          viewName="getNewID"/>
+	</changeSet>
+	
+	<!-- ***************************** -->
+	<!--   CREATE CHANGE-SETS          -->
+	<!-- ***************************** -->
+	
+	<changeSet id="Create view getNewID" author="DAS-Team" runAlways="true" runOnChange="true">
+		<createView replaceIfExists="true" schemaName="dbo" viewName="getNewID">
+			select newid() as new_id
+		</createView>
+	</changeSet>
+</databaseChangeLog>

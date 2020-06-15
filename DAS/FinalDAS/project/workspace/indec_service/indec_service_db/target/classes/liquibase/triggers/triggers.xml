@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+		xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+	
+	<!-- ******************************* -->
+	<!--  CREATE PROCEDURES CHANGE-SETS  -->
+	<!-- ******************************* -->
+
+	<!--<changeSet id="Create trigger trigger_insert_marcas" author="DAS-Team" runAlways="true"
+	           runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<sqlCheck expectedResult="0">
+				SELECT COUNT(*)
+				FROM dbo.SysObjects
+				INNER JOIN dbo.sysComments
+				ON dbo.SysObjects.ID = dbo.sysComments.ID
+				WHERE (dbo.SysObjects.xType = 'TR')
+				AND dbo.SysObjects.Name = 'trigger_insert_marcas'
+			</sqlCheck>
+		</preConditions>
+		<sqlFile
+				path="/src/main/resources/liquibase/triggers/trigger_insert_marcas.sql"/>
+	</changeSet> -->
+</databaseChangeLog>

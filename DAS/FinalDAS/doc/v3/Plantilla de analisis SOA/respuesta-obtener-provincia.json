@@ -1,0 +1,98 @@
+[
+  {
+    "codigoEntidadFederal": "AR-A",
+    "nombreProvincia": "Salta"
+  },
+  {
+    "codigoEntidadFederal": "AR-B",
+    "nombreProvincia": "Provincia de Buenos Aires"
+  },
+  {
+    "codigoEntidadFederal": "AR-C",
+    "nombreProvincia": "Capital Federal"
+  },
+  {
+    "codigoEntidadFederal": "AR-D",
+    "nombreProvincia": "San Luis"
+  },
+  {
+    "codigoEntidadFederal": "AR-E",
+    "nombreProvincia": "Entre Ríos"
+  },
+  {
+    "codigoEntidadFederal": "AR-F",
+    "nombreProvincia": "La Rioja"
+  },
+  {
+    "codigoEntidadFederal": "AR-G",
+    "nombreProvincia": "Santiago del Estero"
+  },
+  {
+    "codigoEntidadFederal": "AR-H",
+    "nombreProvincia": "Chaco"
+  },
+  {
+    "codigoEntidadFederal": "AR-J",
+    "nombreProvincia": "San Juan"
+  },
+  {
+    "codigoEntidadFederal": "AR-K",
+    "nombreProvincia": "Catamarca"
+  },
+  {
+    "codigoEntidadFederal": "AR-L",
+    "nombreProvincia": "La Pampa"
+  },
+  {
+    "codigoEntidadFederal": "AR-M",
+    "nombreProvincia": "Mendoza"
+  },
+  {
+    "codigoEntidadFederal": "AR-N",
+    "nombreProvincia": "Misiones"
+  },
+  {
+    "codigoEntidadFederal": "AR-P",
+    "nombreProvincia": "Formosa"
+  },
+  {
+    "codigoEntidadFederal": "AR-Q",
+    "nombreProvincia": "Neuquén"
+  },
+  {
+    "codigoEntidadFederal": "AR-R",
+    "nombreProvincia": "Río Negro"
+  },
+  {
+    "codigoEntidadFederal": "AR-S",
+    "nombreProvincia": "Santa Fe"
+  },
+  {
+    "codigoEntidadFederal": "AR-T",
+    "nombreProvincia": "Tucumán"
+  },
+  {
+    "codigoEntidadFederal": "AR-U",
+    "nombreProvincia": "Chubut"
+  },
+  {
+    "codigoEntidadFederal": "AR-V",
+    "nombreProvincia": "Tierra del Fuego"
+  },
+  {
+    "codigoEntidadFederal": "AR-W",
+    "nombreProvincia": "Corrientes"
+  },
+  {
+    "codigoEntidadFederal": "AR-X",
+    "nombreProvincia": "Córdoba"
+  },
+  {
+    "codigoEntidadFederal": "AR-Y",
+    "nombreProvincia": "Jujuy"
+  },
+  {
+    "codigoEntidadFederal": "AR-Z",
+    "nombreProvincia": "Santa Cruz"
+  }
+]

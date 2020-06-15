@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+		xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+	
+	<!-- ***************************** -->
+	<!--  DROP PROCEDURES CHANGE-SETS  -->
+	<!-- ***************************** -->
+	
+	<changeSet id="Drop procedure cleanDB" author="DAS-Team" runAlways="true"
+	           runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<sqlCheck expectedResult="1">
+				SELECT COUNT(*)
+				FROM information_schema.routines
+				WHERE ROUTINE_TYPE = 'PROCEDURE'
+				AND SPECIFIC_CATALOG = 'db_cadena'
+				AND ROUTINE_NAME = 'cleanDB'
+			</sqlCheck>
+		</preConditions>
+		<dropProcedure procedureName="cleanDB"/>
+	</changeSet>
+
+	<changeSet id="Drop procedure spGetSucursales" author="DAS-Team" runAlways="true"
+			   runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<sqlCheck expectedResult="1">
+				SELECT COUNT(*)
+				FROM information_schema.routines
+				WHERE ROUTINE_TYPE = 'PROCEDURE'
+				AND SPECIFIC_CATALOG = 'db_cadena'
+				AND ROUTINE_NAME = 'SP_GETSUCURSALES'
+			</sqlCheck>
+		</preConditions>
+		<dropProcedure procedureName="SP_GETSUCURSALES"/>
+	</changeSet>
+
+	<changeSet id="Drop procedure spGetPreciosSucursales" author="DAS-Team" runAlways="true"
+			   runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<sqlCheck expectedResult="1">
+				SELECT COUNT(*)
+				FROM information_schema.routines
+				WHERE ROUTINE_TYPE = 'PROCEDURE'
+				AND SPECIFIC_CATALOG = 'db_cadena'
+				AND ROUTINE_NAME = 'SP_GETPRECIOSSUCURSALES'
+			</sqlCheck>
+		</preConditions>
+		<dropProcedure procedureName="SP_GETPRECIOSSUCURSALES"/>
+	</changeSet>
+
+
+	<changeSet id="Drop procedure spGetPreciosProductos" author="DAS-Team" runAlways="true"
+			   runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<sqlCheck expectedResult="1">
+				SELECT COUNT(*)
+				FROM information_schema.routines
+				WHERE ROUTINE_TYPE = 'PROCEDURE'
+				AND SPECIFIC_CATALOG = 'db_cadena'
+				AND ROUTINE_NAME = 'SP_GETPRECIOSPRODUCTOS'
+			</sqlCheck>
+		</preConditions>
+		<dropProcedure procedureName="SP_GETPRECIOSPRODUCTOS"/>
+	</changeSet>
+
+	<changeSet id="Drop procedure spInsertPrecioProducto" author="DAS-Team" runAlways="true"
+			   runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<sqlCheck expectedResult="1">
+				SELECT COUNT(*)
+				FROM information_schema.routines
+				WHERE ROUTINE_TYPE = 'PROCEDURE'
+				AND SPECIFIC_CATALOG = 'db_cadena'
+				AND ROUTINE_NAME = 'SP_INSERTPRECIOPRODUCTO'
+			</sqlCheck>
+		</preConditions>
+		<dropProcedure procedureName="SP_INSERTPRECIOPRODUCTO"/>
+	</changeSet>
+
+
+
+
+	<!-- ******************************* -->
+	<!--  CREATE PROCEDURES CHANGE-SETS  -->
+	<!-- ******************************* -->
+	
+	<changeSet id="Create procedure cleanDB" author="DAS-Team" runAlways="true"
+	           runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<sqlCheck expectedResult="0">
+				SELECT COUNT(*)
+				FROM information_schema.routines
+				WHERE ROUTINE_TYPE = 'PROCEDURE'
+				AND SPECIFIC_CATALOG = 'db_cadena'
+				AND ROUTINE_NAME = 'cleanDB'
+			</sqlCheck>
+		</preConditions>
+		<sqlFile
+				path="/src/main/resources/liquibase/procedures/cleanDB.sql"/>
+	</changeSet>
+
+	<changeSet id="Create procedure spGetSucursales" author="DAS-Team" runAlways="true"
+			   runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<sqlCheck expectedResult="0">
+				SELECT COUNT(*)
+				FROM information_schema.routines
+				WHERE ROUTINE_TYPE = 'PROCEDURE'
+				AND SPECIFIC_CATALOG = 'db_cadena'
+				AND ROUTINE_NAME = 'SP_GETSUCURSALES'
+			</sqlCheck>
+		</preConditions>
+		<sqlFile
+				endDelimiter="\nGO"
+				splitStatements="true"
+				path="/src/main/resources/liquibase/procedures/spGetSucursales.sql"/>
+	</changeSet>
+
+	<changeSet id="Create procedure spGetPreciosSucursales" author="DAS-Team" runAlways="true"
+			   runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<sqlCheck expectedResult="0">
+				SELECT COUNT(*)
+				FROM information_schema.routines
+				WHERE ROUTINE_TYPE = 'PROCEDURE'
+				AND SPECIFIC_CATALOG = 'db_cadena'
+				AND ROUTINE_NAME = 'SP_GETPRECIOSSUCURSALES'
+			</sqlCheck>
+		</preConditions>
+		<sqlFile
+				endDelimiter="\nGO"
+				splitStatements="true"
+				path="/src/main/resources/liquibase/procedures/spGetPreciosSucursales.sql"/>
+	</changeSet>
+
+	<changeSet id="Create procedure spGetPreciosProductos" author="DAS-Team" runAlways="true"
+			   runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<sqlCheck expectedResult="0">
+				SELECT COUNT(*)
+				FROM information_schema.routines
+				WHERE ROUTINE_TYPE = 'PROCEDURE'
+				AND SPECIFIC_CATALOG = 'db_cadena'
+				AND ROUTINE_NAME = 'SP_GETPRECIOSPRODUCTOS'
+			</sqlCheck>
+		</preConditions>
+		<sqlFile
+				endDelimiter="\nGO"
+				splitStatements="true"
+				path="/src/main/resources/liquibase/procedures/spGetPreciosProductos.sql"/>
+	</changeSet>
+
+	<changeSet id="Create procedure spInsertPrecioProducto" author="DAS-Team" runAlways="true"
+			   runOnChange="true">
+		<preConditions onFail="MARK_RAN">
+			<sqlCheck expectedResult="0">
+				SELECT COUNT(*)
+				FROM information_schema.routines
+				WHERE ROUTINE_TYPE = 'PROCEDURE'
+				AND SPECIFIC_CATALOG = 'db_cadena'
+				AND ROUTINE_NAME = 'SP_INSERTPRECIOPRODUCTO'
+			</sqlCheck>
+		</preConditions>
+		<sqlFile
+				endDelimiter="\nGO"
+				splitStatements="true"
+				path="/src/main/resources/liquibase/procedures/spInsertPrecioProducto.sql"/>
+	</changeSet>
+
+
+</databaseChangeLog>

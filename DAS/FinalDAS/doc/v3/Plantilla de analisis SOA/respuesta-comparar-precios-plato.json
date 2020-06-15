@@ -1,0 +1,506 @@
+[
+  {
+    "idCadena": 4,
+    "nombreCadena": "Libertad",
+    "sucursales": [
+      {
+        "idSucursal": 1,
+        "nombreSucursal": "Disco Velez I",
+        "direccion": "Av. Velez Sarsfield 132",
+        "latitud": "-64.187568",
+        "longitud": "-31.416599",
+        "email": "disco1email@gmail.com",
+        "telefono": "0810-777-8888",
+        "cuit": "30-53707910-6",
+        "localidad": "Capital",
+        "provincia": "Córdoba",
+        "codigoEntidadFederal": "AR-X",
+        "idCadena": 4,
+        "productos": [
+          {
+            "codigoDeBarras": "0024003300000",
+            "precio": 39.17,
+            "validoDesde": "2019-07-24 19:05:07.77",
+            "nombre": "Cebolla común 1 Kg",
+            "marca": "SIN MARCA",
+            "mejorPrecio": false,
+            "idIngrediente": 16
+          },
+          {
+            "codigoDeBarras": "7792900009025",
+            "precio": 33.24,
+            "validoDesde": "2019-07-24 19:05:07.77",
+            "nombre": "Pimienta Blanca Molida Dos Anclas 25 Gr",
+            "marca": "DOS ANCLAS",
+            "mejorPrecio": false,
+            "idIngrediente": 19
+          },
+          {
+            "codigoDeBarras": "7790150540152",
+            "precio": 20.01,
+            "validoDesde": "2019-07-24 19:05:07.77",
+            "nombre": "Oregano Naturalidad Intacta Alicante 25 Gr",
+            "marca": "ALICANTE",
+            "mejorPrecio": false,
+            "idIngrediente": 20
+          },
+          {
+            "codigoDeBarras": "7790580980900",
+            "precio": 55.04,
+            "validoDesde": "2019-07-24 19:05:07.77",
+            "nombre": "Porotos Alubia Remojados Arcor 300 Gr",
+            "marca": "ARCOR",
+            "mejorPrecio": false,
+            "idIngrediente": 21
+          },
+          {
+            "codigoDeBarras": "7790070410610",
+            "precio": 25.0,
+            "validoDesde": "2019-07-24 19:05:07.77",
+            "nombre": "Arroz Largo Fino 0000 Lucchetti 500 Gr",
+            "marca": "LUCCHETTI",
+            "mejorPrecio": false,
+            "idIngrediente": 5
+          },
+          {
+            "codigoDeBarras": "7790580982102",
+            "precio": 35.6,
+            "validoDesde": "2019-07-24 19:05:07.77",
+            "nombre": "Arvejas Secas Remojadas en Lata Arcor 320 Gr",
+            "marca": "ARCOR",
+            "mejorPrecio": false,
+            "idIngrediente": 22
+          },
+          {
+            "codigoDeBarras": "7792900009292",
+            "precio": 36.31,
+            "validoDesde": "2019-07-24 19:05:07.77",
+            "nombre": "Ajo Deshidratado Dos Anclas 25 Gr",
+            "marca": "DOS ANCLAS",
+            "mejorPrecio": false,
+            "idIngrediente": 23
+          },
+          {
+            "codigoDeBarras": "7795184003901",
+            "precio": 30.54,
+            "validoDesde": "2019-07-24 19:05:07.77",
+            "nombre": "Tomate Pelado Entero Comun Noel 400 Gr",
+            "marca": "NOEL",
+            "mejorPrecio": false,
+            "idIngrediente": 24
+          },
+          {
+            "codigoDeBarras": "7795002000020",
+            "precio": 29.46,
+            "validoDesde": "2019-07-24 19:05:07.77",
+            "nombre": "Huevos Frescos de Color Corave 6 Un",
+            "marca": "SIN MARCA",
+            "mejorPrecio": false,
+            "idIngrediente": 9
+          },
+          {
+            "codigoDeBarras": "7790787002931",
+            "precio": 104.3,
+            "validoDesde": "2019-07-24 19:05:07.77",
+            "nombre": "Queso Rallado Ilolay 120 Gr",
+            "marca": "ILOLAY",
+            "mejorPrecio": false,
+            "idIngrediente": 11
+          },
+          {
+            "codigoDeBarras": "7790070012050",
+            "precio": 48.24,
+            "validoDesde": "2019-07-24 19:05:07.77",
+            "nombre": "Aceite de Girasol Cocinero 900 Ml",
+            "marca": "COCINERO",
+            "mejorPrecio": false,
+            "idIngrediente": 12
+          }
+        ],
+        "cantidadDeProductosConPrecioMasBajo": 11,
+        "mejorOpcion": false,
+        "total": 456.91
+      },
+      {
+        "idSucursal": 2,
+        "nombreSucursal": "Disco Estrada",
+        "direccion": "Jose Manuel Estrada 66",
+        "latitud": "-64.187982",
+        "longitud": "-31.427744",
+        "email": "disco2email@gmail.com",
+        "telefono": "0351 433-3004",
+        "cuit": "30-53707910-6",
+        "localidad": "Capital",
+        "provincia": "Córdoba",
+        "codigoEntidadFederal": "AR-X",
+        "idCadena": 4,
+        "productos": [
+          {
+            "codigoDeBarras": "0024003300000",
+            "precio": 34.97,
+            "validoDesde": "2019-07-24 19:05:07.883",
+            "nombre": "Cebolla común 1 Kg",
+            "marca": "SIN MARCA",
+            "mejorPrecio": false,
+            "idIngrediente": 16
+          },
+          {
+            "codigoDeBarras": "7792900009025",
+            "precio": 32.04,
+            "validoDesde": "2019-07-24 19:05:07.883",
+            "nombre": "Pimienta Blanca Molida Dos Anclas 25 Gr",
+            "marca": "DOS ANCLAS",
+            "mejorPrecio": false,
+            "idIngrediente": 19
+          },
+          {
+            "codigoDeBarras": "7790150540152",
+            "precio": 18.68,
+            "validoDesde": "2019-07-24 19:05:07.883",
+            "nombre": "Oregano Naturalidad Intacta Alicante 25 Gr",
+            "marca": "ALICANTE",
+            "mejorPrecio": false,
+            "idIngrediente": 20
+          },
+          {
+            "codigoDeBarras": "7790580980900",
+            "precio": 58.23,
+            "validoDesde": "2019-07-24 19:05:07.883",
+            "nombre": "Porotos Alubia Remojados Arcor 300 Gr",
+            "marca": "ARCOR",
+            "mejorPrecio": false,
+            "idIngrediente": 21
+          },
+          {
+            "codigoDeBarras": "7790070410610",
+            "precio": 27.31,
+            "validoDesde": "2019-07-24 19:05:07.883",
+            "nombre": "Arroz Largo Fino 0000 Lucchetti 500 Gr",
+            "marca": "LUCCHETTI",
+            "mejorPrecio": false,
+            "idIngrediente": 5
+          },
+          {
+            "codigoDeBarras": "7790580982102",
+            "precio": 28.41,
+            "validoDesde": "2019-07-24 19:05:07.883",
+            "nombre": "Arvejas Secas Remojadas en Lata Arcor 320 Gr",
+            "marca": "ARCOR",
+            "mejorPrecio": false,
+            "idIngrediente": 22
+          },
+          {
+            "codigoDeBarras": "7792900009292",
+            "precio": 37.08,
+            "validoDesde": "2019-07-24 19:05:07.883",
+            "nombre": "Ajo Deshidratado Dos Anclas 25 Gr",
+            "marca": "DOS ANCLAS",
+            "mejorPrecio": false,
+            "idIngrediente": 23
+          },
+          {
+            "codigoDeBarras": "7795184003901",
+            "precio": 31.97,
+            "validoDesde": "2019-07-24 19:05:07.883",
+            "nombre": "Tomate Pelado Entero Comun Noel 400 Gr",
+            "marca": "NOEL",
+            "mejorPrecio": false,
+            "idIngrediente": 24
+          },
+          {
+            "codigoDeBarras": "7795002000020",
+            "precio": 28.86,
+            "validoDesde": "2019-07-24 19:05:07.883",
+            "nombre": "Huevos Frescos de Color Corave 6 Un",
+            "marca": "SIN MARCA",
+            "mejorPrecio": false,
+            "idIngrediente": 9
+          },
+          {
+            "codigoDeBarras": "7790787002931",
+            "precio": 106.0,
+            "validoDesde": "2019-07-24 19:05:07.883",
+            "nombre": "Queso Rallado Ilolay 120 Gr",
+            "marca": "ILOLAY",
+            "mejorPrecio": false,
+            "idIngrediente": 11
+          },
+          {
+            "codigoDeBarras": "7790070012050",
+            "precio": 52.94,
+            "validoDesde": "2019-07-24 19:05:07.883",
+            "nombre": "Aceite de Girasol Cocinero 900 Ml",
+            "marca": "COCINERO",
+            "mejorPrecio": false,
+            "idIngrediente": 12
+          }
+        ],
+        "cantidadDeProductosConPrecioMasBajo": 11,
+        "mejorOpcion": false,
+        "total": 456.49
+      }
+    ],
+    "disponible": true
+  },
+  {
+    "idCadena": 3,
+    "nombreCadena": "Carrefour",
+    "sucursales": [
+      {
+        "idSucursal": 1,
+        "nombreSucursal": "Disco Velez I",
+        "direccion": "Av. Velez Sarsfield 132",
+        "latitud": "-64.187568",
+        "longitud": "-31.416599",
+        "email": "disco1email@gmail.com",
+        "telefono": "0810-777-8888",
+        "cuit": "30-53707910-6",
+        "localidad": "Capital",
+        "provincia": "Córdoba",
+        "codigoEntidadFederal": "AR-X",
+        "idCadena": 3,
+        "productos": [
+          {
+            "codigoDeBarras": "0024003300000",
+            "precio": 43.31,
+            "validoDesde": "2019-07-24 19:05:05.937",
+            "nombre": "Cebolla común 1 Kg",
+            "marca": "SIN MARCA",
+            "mejorPrecio": false,
+            "idIngrediente": 16
+          },
+          {
+            "codigoDeBarras": "7792900009025",
+            "precio": 29.6,
+            "validoDesde": "2019-07-24 19:05:05.94",
+            "nombre": "Pimienta Blanca Molida Dos Anclas 25 Gr",
+            "marca": "DOS ANCLAS",
+            "mejorPrecio": false,
+            "idIngrediente": 19
+          },
+          {
+            "codigoDeBarras": "7790150540152",
+            "precio": 15.38,
+            "validoDesde": "2019-07-24 19:05:05.94",
+            "nombre": "Oregano Naturalidad Intacta Alicante 25 Gr",
+            "marca": "ALICANTE",
+            "mejorPrecio": false,
+            "idIngrediente": 20
+          },
+          {
+            "codigoDeBarras": "7790580980900",
+            "precio": 46.53,
+            "validoDesde": "2019-07-24 19:05:05.94",
+            "nombre": "Porotos Alubia Remojados Arcor 300 Gr",
+            "marca": "ARCOR",
+            "mejorPrecio": false,
+            "idIngrediente": 21
+          },
+          {
+            "codigoDeBarras": "7790070410610",
+            "precio": 23.45,
+            "validoDesde": "2019-07-24 19:05:05.94",
+            "nombre": "Arroz Largo Fino 0000 Lucchetti 500 Gr",
+            "marca": "LUCCHETTI",
+            "mejorPrecio": false,
+            "idIngrediente": 5
+          },
+          {
+            "codigoDeBarras": "7790580982102",
+            "precio": 25.22,
+            "validoDesde": "2019-07-24 19:05:05.94",
+            "nombre": "Arvejas Secas Remojadas en Lata Arcor 320 Gr",
+            "marca": "ARCOR",
+            "mejorPrecio": false,
+            "idIngrediente": 22
+          },
+          {
+            "codigoDeBarras": "7792900009292",
+            "precio": 31.0,
+            "validoDesde": "2019-07-24 19:05:05.94",
+            "nombre": "Ajo Deshidratado Dos Anclas 25 Gr",
+            "marca": "DOS ANCLAS",
+            "mejorPrecio": false,
+            "idIngrediente": 23
+          },
+          {
+            "codigoDeBarras": "7795184003901",
+            "precio": 36.13,
+            "validoDesde": "2019-07-24 19:05:05.94",
+            "nombre": "Tomate Pelado Entero Comun Noel 400 Gr",
+            "marca": "NOEL",
+            "mejorPrecio": false,
+            "idIngrediente": 24
+          },
+          {
+            "codigoDeBarras": "7795002000020",
+            "precio": 27.41,
+            "validoDesde": "2019-07-24 19:05:05.94",
+            "nombre": "Huevos Frescos de Color Corave 6 Un",
+            "marca": "SIN MARCA",
+            "mejorPrecio": false,
+            "idIngrediente": 9
+          },
+          {
+            "codigoDeBarras": "7790787002931",
+            "precio": 116.89,
+            "validoDesde": "2019-07-24 19:05:05.94",
+            "nombre": "Queso Rallado Ilolay 120 Gr",
+            "marca": "ILOLAY",
+            "mejorPrecio": false,
+            "idIngrediente": 11
+          },
+          {
+            "codigoDeBarras": "7790070012050",
+            "precio": 57.95,
+            "validoDesde": "2019-07-24 19:05:05.94",
+            "nombre": "Aceite de Girasol Cocinero 900 Ml",
+            "marca": "COCINERO",
+            "mejorPrecio": false,
+            "idIngrediente": 12
+          }
+        ],
+        "cantidadDeProductosConPrecioMasBajo": 11,
+        "mejorOpcion": false,
+        "total": 452.87
+      },
+      {
+        "idSucursal": 2,
+        "nombreSucursal": "Disco Estrada",
+        "direccion": "Jose Manuel Estrada 66",
+        "latitud": "-64.187982",
+        "longitud": "-31.427744",
+        "email": "disco2email@gmail.com",
+        "telefono": "0351 433-3004",
+        "cuit": "30-53707910-6",
+        "localidad": "Capital",
+        "provincia": "Córdoba",
+        "codigoEntidadFederal": "AR-X",
+        "idCadena": 3,
+        "productos": [
+          {
+            "codigoDeBarras": "0024003300000",
+            "precio": 36.7,
+            "validoDesde": "2019-07-24 19:05:06.083",
+            "nombre": "Cebolla común 1 Kg",
+            "marca": "SIN MARCA",
+            "mejorPrecio": false,
+            "idIngrediente": 16
+          },
+          {
+            "codigoDeBarras": "7792900009025",
+            "precio": 32.65,
+            "validoDesde": "2019-07-24 19:05:06.083",
+            "nombre": "Pimienta Blanca Molida Dos Anclas 25 Gr",
+            "marca": "DOS ANCLAS",
+            "mejorPrecio": false,
+            "idIngrediente": 19
+          },
+          {
+            "codigoDeBarras": "7790150540152",
+            "precio": 19.09,
+            "validoDesde": "2019-07-24 19:05:06.083",
+            "nombre": "Oregano Naturalidad Intacta Alicante 25 Gr",
+            "marca": "ALICANTE",
+            "mejorPrecio": false,
+            "idIngrediente": 20
+          },
+          {
+            "codigoDeBarras": "7790580980900",
+            "precio": 60.82,
+            "validoDesde": "2019-07-24 19:05:06.083",
+            "nombre": "Porotos Alubia Remojados Arcor 300 Gr",
+            "marca": "ARCOR",
+            "mejorPrecio": false,
+            "idIngrediente": 21
+          },
+          {
+            "codigoDeBarras": "7790070410610",
+            "precio": 20.38,
+            "validoDesde": "2019-07-24 19:05:06.083",
+            "nombre": "Arroz Largo Fino 0000 Lucchetti 500 Gr",
+            "marca": "LUCCHETTI",
+            "mejorPrecio": false,
+            "idIngrediente": 5
+          },
+          {
+            "codigoDeBarras": "7790580982102",
+            "precio": 30.95,
+            "validoDesde": "2019-07-24 19:05:06.083",
+            "nombre": "Arvejas Secas Remojadas en Lata Arcor 320 Gr",
+            "marca": "ARCOR",
+            "mejorPrecio": false,
+            "idIngrediente": 22
+          },
+          {
+            "codigoDeBarras": "7792900009292",
+            "precio": 27.73,
+            "validoDesde": "2019-07-24 19:05:06.083",
+            "nombre": "Ajo Deshidratado Dos Anclas 25 Gr",
+            "marca": "DOS ANCLAS",
+            "mejorPrecio": false,
+            "idIngrediente": 23
+          },
+          {
+            "codigoDeBarras": "7795184003901",
+            "precio": 28.11,
+            "validoDesde": "2019-07-24 19:05:06.083",
+            "nombre": "Tomate Pelado Entero Comun Noel 400 Gr",
+            "marca": "NOEL",
+            "mejorPrecio": false,
+            "idIngrediente": 24
+          },
+          {
+            "codigoDeBarras": "7795002000020",
+            "precio": 30.03,
+            "validoDesde": "2019-07-24 19:05:06.083",
+            "nombre": "Huevos Frescos de Color Corave 6 Un",
+            "marca": "SIN MARCA",
+            "mejorPrecio": false,
+            "idIngrediente": 9
+          },
+          {
+            "codigoDeBarras": "7790787002931",
+            "precio": 88.57,
+            "validoDesde": "2019-07-24 19:05:06.083",
+            "nombre": "Queso Rallado Ilolay 120 Gr",
+            "marca": "ILOLAY",
+            "mejorPrecio": false,
+            "idIngrediente": 11
+          },
+          {
+            "codigoDeBarras": "7790070012050",
+            "precio": 75.97,
+            "validoDesde": "2019-07-24 19:05:06.083",
+            "nombre": "Aceite de Girasol Cocinero 900 Ml",
+            "marca": "COCINERO",
+            "mejorPrecio": false,
+            "idIngrediente": 12
+          }
+        ],
+        "cantidadDeProductosConPrecioMasBajo": 11,
+        "mejorOpcion": true,
+        "total": 451.0
+      }
+    ],
+    "disponible": true
+  },
+  {
+    "idCadena": 1,
+    "nombreCadena": "Walmart",
+    "sucursales": [],
+    "disponible": false
+  },
+  {
+    "idCadena": 5,
+    "nombreCadena": "Disco",
+    "sucursales": [],
+    "disponible": false
+  },
+  {
+    "idCadena": 2,
+    "nombreCadena": "Jumbo",
+    "sucursales": [],
+    "disponible": false
+  }
+]
