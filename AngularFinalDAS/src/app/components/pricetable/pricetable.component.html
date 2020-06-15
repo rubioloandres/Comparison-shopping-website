@@ -1,0 +1,96 @@
+<div class="space"></div>
+
+<h2 i18n>Precios de Productos</h2>
+
+
+<div class="pricetable-container">
+
+<div *ngIf="loading" style="overflow:hidden">
+  <mat-progress-spinner
+    class="example-margin"
+    [color]="'primary'"
+    [mode]="'indeterminate'">
+  </mat-progress-spinner>
+</div>
+
+<div class="table-container">
+  <table mat-table [dataSource]="listaProductos" *ngIf="!sucursalesEmpty()" class="mat-elevation-z8">
+      <ng-container matColumnDef="item" class="product-column" >
+        <th mat-header-cell *matHeaderCellDef>
+          <mat-card-title i18n>Lista</mat-card-title>
+        </th>
+        <td mat-cell *matCellDef="let producto" matColumnDef>
+          <mat-card>
+            <img class="img-producto"src={{producto.imagenProducto}}>
+            <mat-card-content>
+              <span> {{producto.nombreProducto}}</span>
+              <mat-card-subtitle> {{producto.codigoDeBarras}} </mat-card-subtitle>
+            </mat-card-content>
+            <button mat-button i18n-title title="Eliminar producto" (click)="removeProduct(producto.codigoDeBarras)"><img class="remove-button" src="../../../assets/img/trash.png"></button>
+          </mat-card>
+        </td>
+        <td mat-footer-cell *matFooterCellDef class="total">
+          <mat-card-title i18n> Resumen </mat-card-title>
+          <mat-card-subtitle i18n> Detalle de resumen </mat-card-subtitle>
+        </td>
+      </ng-container>
+
+      <ng-container *ngFor="let sucursal of listaSucursalesOrdenadas; let i = index" matColumnDef="sucursal{{i+1}}">
+        <div>
+          <th mat-header-cell *matHeaderCellDef>
+            <select matNativeControl class="form-control" required [(ngModel)]="sucursal" >
+              <option *ngFor="let suc of listaSucursales" [selected]="suc === sucursal" [ngValue]="suc">
+                {{ suc.nombreSucursal }}
+              </option>
+            </select>
+            <button mat-stroked-button (click)="openDialogInfo(sucursal)" i18n-title title="Informacion sucursal" [ngClass]="{'mejorOp':sucursal.mejorOpcion == true }">
+              <mat-card>
+                  <mat-card-content>
+                    <img class="cadena-logo" src="{{sucursal.imagenCadena}}">
+                    <mat-card-title>{{sucursal.direccion}}</mat-card-title>
+                    <mat-card-subtitle>{{sucursal.nombreCadena}}</mat-card-subtitle>
+                    <mat-card-subtitle> ( {{sucursal.productos.length}} <span i18n>productos disponibles</span>  ) </mat-card-subtitle>
+                  </mat-card-content>
+              </mat-card>
+            </button>
+          </th>
+
+          <td *matCellDef="let producto" [ngClass]="{'mejorPre': esMejorPrecio(sucursal.idCadena, sucursal.idSucursal, producto.codigoDeBarras)}"> {{getProductoPriceBySucursal(sucursal,producto.codigoDeBarras)}}</td>
+
+          <td mat-footer-cell *matFooterCellDef>
+            <mat-card [ngClass]="{'mejorOp':sucursal.mejorOpcion == true
+                                 ,'total':sucursal.mejorOpcion != true}">
+              <mat-card-title> $ {{sucursal.total}} </mat-card-title>
+               <img class="cadena-logo" src="{{sucursal.imagenCadena}}">
+              <mat-card-content>
+                <mat-card-subtitle> {{sucursal.direccion}} </mat-card-subtitle>
+              </mat-card-content>
+            </mat-card>
+          </td>
+        </div>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      <tr mat-footer-row *matFooterRowDef="displayedColumns; sticky: true"></tr>
+  </table>
+
+</div>
+
+  <div class="noProds" *ngIf="error">
+    <h4 i18n>Error al comparar precios</h4>
+    <h5 i18n>Ocurrio un error al intentar comparar, vuelve a intentar.</h5>
+    <button mat-button [routerLink]="['']" routerLinkActive="router-link-active" ><img width="55" height="55" src="./../../../assets/img/home_icon.png">Volver a inicio</button>
+  </div>
+</div>
+
+<mat-divider></mat-divider>
+<div class="noCads" *ngIf="! error">
+  <mat-list>
+    <mat-list-item><h4 i18n *ngIf="(! loading) && (listaCadenasNoDisponibles.length > 0)">No fue posible obtener precios de los supermercados</h4></mat-list-item>
+      <mat-list-item *ngFor="let cadena of listaCadenasNoDisponibles">
+        <img src="{{getImagenCadena(cadena.idCadena)}}"><h5>  {{cadena.nombreCadena}}</h5>
+      </mat-list-item>
+  </mat-list>
+</div>
+<div class="space"></div>

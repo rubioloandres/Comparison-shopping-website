@@ -1,0 +1,11 @@
+<?xml version="1.0" ?><svg height="1181" viewBox="0 0 1181 1181" width="1181" xmlns="http://www.w3.org/2000/svg"><defs><style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 5px;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style></defs><rect class="cls-1" data-name="Rounded Rectangle 1" height="863" id="Rounded_Rectangle_1" rx="116" ry="116" width="863" x="159" y="159"/><path class="cls-2" d="M502,554H619s-1-96.418,2-144.347C624.175,358.918,675.642,304.5,745,293c93.326-15.471,143,3,143,3V412s-10.733-.347-53,0c-35.635.292-79.136,15.688-79,42,0.287,55.579,0,100,0,100H883L865,687H756v335l-137-1V687H502V554Z"/></svg>

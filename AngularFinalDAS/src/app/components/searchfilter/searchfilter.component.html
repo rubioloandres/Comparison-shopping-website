@@ -1,0 +1,44 @@
+<mat-sidenav-container class="searchfiltercontainer">
+  <mat-sidenav class="sidenav" #sidenav [mode]="mode.value">
+    <div>
+      <p>
+        <button mat-button (click)="sidenav.toggle()" i18n-title title="Ocultar filtos">
+          <img src="./../../../assets/img/left_icon.png">
+          <img src="./../../../assets/img/filter_icon.png">
+        </button>
+      </p>
+    </div>
+    <div >
+      <mat-divider></mat-divider>
+      <form>
+        <mat-form-field #selectcategoriacontainer>
+          <mat-label i18n>Categorias</mat-label>
+          <mat-select [formControl]="formFilterCategorias"  #selectcategoria>
+            <mat-option selected (click) = "buscarPorCategoria()" i18n>Todas las categorias</mat-option>
+            <mat-option (click)="buscarPorCategoria()" *ngFor="let categoria of listaCategorias" [value]="categoria">
+              {{categoria.nombreCategoria}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <mat-divider></mat-divider>
+        <mat-form-field>
+          <mat-label i18n>Marcas</mat-label>
+          <mat-select [formControl]="formFilterMarcas" multiple #marca>
+            <mat-option selected i18n>Todas las marcas</mat-option>
+            <mat-option *ngFor="let marca of listaMarcas" [value]="marca">{{marca}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <div class="contBusqueda">
+          <button class="botonBuscar" mat-button (click)="buscar()" i18n-title title="Buscar"><img src="./../../../assets/img/search2_icon.png"></button>
+        </div>
+      </form>
+    </div>
+  </mat-sidenav>
+  <div class="mostrarOcultarFiltro">
+    <p>
+      <button mat-button (click)="sidenav.toggle()" i18n-title title="Mostrar filtos">
+        <img src="./../../../assets/img/right_icon.png">
+        <img src="./../../../assets/img/filter_icon.png">
+      </button>
+    </p>
+  </div>
+</mat-sidenav-container>

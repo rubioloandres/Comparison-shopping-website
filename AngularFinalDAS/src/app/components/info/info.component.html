@@ -1,0 +1,20 @@
+<h1 mat-dialog-title>{{data.nombreSucursal}}</h1>
+<div mat-dialog-content class="dialog">
+  <mat-card class="info-card">
+    <img src="{{data.imagenCadena}}">
+    <mat-card-header>
+      <mat-card-title><span i18n>Cadena: </span>{{data.nombreCadena}}</mat-card-title>
+      <mat-card-subtitle><span i18n>Direccion: </span>{{data.direccion}}</mat-card-subtitle>
+    </mat-card-header>
+    <app-map></app-map>
+    <mat-card-content>
+      <ul>
+        <li><span i18n>Latitud: </span>{{data.latitud}}</li>
+        <li><span i18n>Longitud: </span>{{data.longitud}}</li>
+      </ul>
+    </mat-card-content>
+  </mat-card>
+</div>
+<div mat-dialog-actions>
+  <button mat-button [mat-dialog-close]="data"> <img src="./../../../assets/img/return_icon.png"> </button>
+</div>

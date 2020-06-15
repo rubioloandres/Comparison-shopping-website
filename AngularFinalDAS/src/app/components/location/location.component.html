@@ -1,0 +1,37 @@
+<h1 mat-dialog-title i18n>Ubicacion</h1>
+<div mat-dialog-content class="dialog">
+  <mat-card class="registrarUbicacion">
+    <mat-card-header>
+      <mat-card-title i18n>Selecciona una localidad para poder comparar precios</mat-card-title>
+    </mat-card-header>
+
+    <form>
+
+      <mat-form-field>
+        <input required type="text" i18n-placeholder i18n-aria-label placeholder="Provincia" aria-label="Provincia" matInput [formControl]="formProvincia" [matAutocomplete]="autoProv">
+        <mat-autocomplete #autoProv="matAutocomplete" [displayWith]="displayFnP">
+          <mat-option *ngFor="let provincia of filteredProvincias | async" [value]="provincia"
+            (click)="getLocalidadesByProvincia(provincia.codigoEntidadFederal)">
+            {{provincia.nombreProvincia}}
+          </mat-option>
+        </mat-autocomplete>
+      </mat-form-field>
+
+      <mat-form-field>
+        <input required type="text" i18n-placeholder i18n-aria-label placeholder="Localidad" aria-label="Localidad" matInput [formControl]="formLocalidad" [matAutocomplete]="autoLoc">
+        <mat-autocomplete #autoLoc="matAutocomplete" [displayWith]="displayFnL">
+          <mat-option *ngFor="let localidad of filteredLocalidades | async" [value]="localidad">
+            {{localidad.nombreLocalidad}}
+          </mat-option>
+        </mat-autocomplete>
+      </mat-form-field>
+    </form>
+
+  </mat-card>
+</div>
+<div mat-dialog-actions>
+  <button *ngIf="!listoParaRegistrar() " i18n-title disabled mat-button title="Faltan campos"><img src="./../../../assets/img/save_location.png"></button>
+  <button *ngIf="listoParaRegistrar() "  mat-button (click)="saveUbicacion(formLocalidad.value,formProvincia.value)" [mat-dialog-close]="data" i18n-title title="Guardar Ubicacion"><img src="./../../../assets/img/save_location.png"></button>
+  <button *ngIf="!listoParaRegistrar() " i18n-title mat-button disabled title="Faltan campos"><img src="./../../../assets/img/save_error.png"></button>
+  <button *ngIf="listoParaRegistrar() " i18n-title mat-button disabled title="Datos validos"><img src="./../../../assets/img/save_valid.png"></button>
+</div>

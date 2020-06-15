@@ -1,0 +1,23 @@
+.indec-footer{
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-bottom: 0px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    z-index: 100;
+    border-top: 2px solid rgb(50, 50, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgba(47,47,99,1);
+background: -moz-linear-gradient(left, rgba(47,47,99,1) 0%, rgba(92,165,242,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(47,47,99,1)), color-stop(100%, rgba(92,165,242,1)));
+background: -webkit-linear-gradient(left, rgba(47,47,99,1) 0%, rgba(92,165,242,1) 100%);
+background: -o-linear-gradient(left, rgba(47,47,99,1) 0%, rgba(92,165,242,1) 100%);
+background: -ms-linear-gradient(left, rgba(47,47,99,1) 0%, rgba(92,165,242,1) 100%);
+background: linear-gradient(to right, rgba(47,47,99,1) 0%, rgba(92,165,242,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f2f63', endColorstr='#5ca5f2', GradientType=1 );
+}
+

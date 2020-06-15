@@ -1,0 +1,97 @@
+.space {
+  margin-top: 70px;
+}
+
+
+
+mat-card-content ul li {
+  float:left !important;
+  display: block;
+}
+
+mat-card{
+  width: auto;
+  height: auto;
+  color: rgb(0, 102, 204);
+}
+
+.contSucursal {
+  -webkit-box-shadow: 10px 10px 42px -13px rgba(0,0,0,1);
+  -moz-box-shadow: 10px 10px 42px -13px rgba(0,0,0,1);
+  box-shadow: 10px 10px 42px -13px rgba(0,0,0,1);
+}
+
+mat-card .cad-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2% !important;
+  width: 150px;
+  height: 120px;
+}
+
+mat-card-title{
+  margin-top: 2% !important;
+  width: 100% !important;
+  height: 10%;
+  margin-left: 0% !important;
+  font-weight: bold;
+  font-size: 16px !important;
+}
+
+mat-card-subtitle {
+  margin-top: 5% !important;
+}
+
+h2 {
+  font-family: Oswald !important;
+  color: rgb(50, 50, 156);
+  font-size: 26px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-align: center !important;
+}
+
+.noSucs {
+  margin-top: 10%;
+}
+
+h4, h5 {
+  font-family: Oswald !important;
+  text-align: center !important;
+}
+
+mat-card-content {
+  padding : 5px;
+  align-content: center !important;
+}
+
+.sucursalesContainer {
+  padding-bottom:15% !important;
+}
+
+mat-card-content img {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+}
+
+mat-card-actions img {
+  width: 25px;
+  height: 25px;
+
+}
+
+
+mat-card-actions button{
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+mat-card-actions {
+  padding : 5px;
+  justify-content: center !important;
+}

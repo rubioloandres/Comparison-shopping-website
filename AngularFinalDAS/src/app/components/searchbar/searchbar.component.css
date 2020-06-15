@@ -1,0 +1,72 @@
+
+::ng-deep .mat-focused .mat-form-field-label {
+  /*change color of label*/
+  color:rgb(101, 104, 105) !important;
+ }
+
+ ::ng-deep.mat-form-field-underline {
+  /*change color of underline*/
+  background-color:rgb(101, 104, 105)!important;
+}
+
+::ng-deep.mat-form-field-ripple {
+ /*change color of underline when focused*/
+ background-color:rgb(101, 104, 105) !important;;
+}
+
+
+h2 {
+  font-family: Oswald !important;
+  color: rgb(50, 50, 156);
+  font-size: 26px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-align: center !important;
+}
+
+mat-form-field {
+  font-family: Oswald !important;
+  font-size:25px;
+  width: 45%;
+  background: rgb(255,255,255,0.8);
+  border:  rgb(50, 50, 156) 1px solid;
+}
+
+button img {
+  width: 45px;
+  height: 45px;
+}
+
+.searchButton {
+  font-family: Oswald !important;
+  margin-top: 1% ;
+  font-size: 20px;
+  height: 60px;
+  width: 130px;
+  text-align: center;
+  border: 2px rgb(50, 50, 156) solid;
+  border-radius: 25;
+  background-color: rgb(50, 50, 156);
+  color: white;
+  font-style: italic;
+}
+
+#inOwl {
+  font-family: Oswald !important;
+  color:rgb(50, 50, 156);
+  font-size: 20px;
+  position: absolute;
+  z-index: 10;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+
+.space {
+  margin-top: 70px;
+}

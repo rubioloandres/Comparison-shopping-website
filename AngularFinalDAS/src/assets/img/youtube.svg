@@ -1,0 +1,12 @@
+<?xml version="1.0" ?><svg height="1181" viewBox="0 0 1181 1181" width="1181" xmlns="http://www.w3.org/2000/svg"><defs><style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 5px;
+      }
+    </style></defs><rect data-name="Rounded Rectangle 1" height="455" id="Rounded_Rectangle_1" rx="117" ry="117" width="641" x="270" y="363"/><path class="cls-1" d="M694.992,590.51L522,682V499.025Z" data-name="Polygon 1" id="Polygon_1"/><rect class="cls-2" data-name="Rounded Rectangle 1" height="863" id="Rounded_Rectangle_1-2" rx="116" ry="116" width="863" x="159" y="159"/></svg>

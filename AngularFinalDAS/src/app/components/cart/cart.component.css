@@ -1,0 +1,114 @@
+.space {
+  margin-top: 7%;
+}
+
+.example-container {
+  height: 380px;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  grid-auto-rows: 60%;
+  align-items: center;
+  justify-content: center;
+}
+
+table td {
+  color: rgb(0, 102, 204);
+}
+
+table td img{
+  width: 60px;
+  height: 60px;
+}
+
+table td button img {
+  height: 35px;
+  width: 35px;
+}
+
+tr.mat-footer-row {
+  font-weight: bold;
+}
+
+mat-button-toggle-group{
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+}
+
+mat-button-toggle {
+  color: rgb(0, 102, 204);
+  font-weight: bold;
+}
+
+mat-button-toggle img {
+  width: 60px;
+  height: 60px;
+}
+.mat-table-sticky {
+  border-top: 1px solid #e0e0e0;
+}
+
+h2 {
+  font-family: Oswald !important;
+  color: rgb(50, 50, 156);
+  font-size: 26px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-align: center !important;
+}
+
+.noProds {
+  margin-top: 10%;
+}
+
+h4 {
+  font-family: Oswald !important;
+  text-align: center !important;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+h5 {
+  font-family: Oswald !important;
+  text-align: center !important;
+  font-size: 24px;
+  font-weight: 200;
+  color: gray;
+}
+
+.cartEmpty {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-family: Oswald !important;
+}
+
+
+th{
+  background-color:rgb(50, 50, 156);
+  color: white;
+  text-align: center !important;
+  justify-content: center;
+ }
+
+ th span {
+  font-family: Oswald !important;
+  text-align: center !important;
+  font-size: 18px;
+  font-weight: 400;
+ }
+
+ td {
+  font-family: Oswald !important;
+  font-size: 16px;
+  font-weight: 250;
+ }

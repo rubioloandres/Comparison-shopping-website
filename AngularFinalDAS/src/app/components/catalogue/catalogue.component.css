@@ -1,0 +1,181 @@
+
+/* resets */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Grid layout */
+.grid {
+  display: grid;
+  grid-auto-columns: 1fr 200px;
+}
+
+.content {
+  grid-column: 1;
+}
+
+
+.grid > * {
+  border: 0px; /* demo only */
+}
+
+/* Product Grid */
+
+h1 {
+  font-weight: 500;
+  font-size: 20px
+}
+
+
+li mat-card-title, h4 {
+  font-family: Oswald !important;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+li mat-card-subtitle, h5 {
+  font-family: Oswald !important;
+  color:gray;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+ul.rig {
+  list-style: none;
+  font-size: 0px;
+  margin-left: -2.5%;
+  /* should match li left margin */
+}
+
+ul.rig li {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin: 0 0 2.5% 2.5%;
+  background: #fff;
+  /*border: 1px solid  rgb(50, 50, 156);*/
+  font-size: 16px;
+  font-size: 1rem;
+  vertical-align: top;
+  box-shadow: 0 0 0px #000000;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+
+  -webkit-box-shadow: 10px 10px 30px -13px rgba(0,0,0,1);
+  -moz-box-shadow: 10px 10px 30px -13px rgba(0,0,0,1);
+  box-shadow: 10px 10px 30px -13px rgba(0,0,0,1);
+}
+
+mat-card {
+  border: 1px aquamarine solid;
+}
+
+ul.rig li img {
+  max-width: 80%;
+  height: auto;
+  margin: 0 0 10px;
+}
+
+
+
+ul.rig li h3 {
+  margin: 0 0 10px;
+}
+
+ul.rig li p {
+  font-size: 1.0em;
+  line-height: 1.5em;
+  color: #000000;
+}
+
+
+/* class for 2 columns */
+
+ul.rig.columns-2 li {
+  width: 47.5%;
+  /* this value + 2.5 should = 50% */
+}
+
+
+/* class for 3 columns */
+
+ul.rig.columns-3 li {
+  width: 30.83%;
+  /* this value + 2.5 should = 33% */
+}
+
+
+/* class for 4 columns */
+
+ul.rig.columns-4 li {
+  width: 22.5%;
+  /* this value + 2.5 should = 25% */
+}
+
+.agregado {
+  border: 2px greenyellow solid !important;
+}
+
+.product-actions{
+  display : flex;
+  flex-direction: row;
+}
+
+.product-action img {
+  width: 50%;
+  height: 40%;
+}
+
+
+.space {
+  margin-top: 70px;
+}
+
+
+h2 {
+  font-family: Oswald !important;
+  color: rgb(50, 50, 156);
+  font-size: 26px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-align: center !important;
+}
+
+h3 {
+  font-family: Oswald !important;
+  color: black;
+  font-size: 20px;
+  text-align: center !important;
+  font-weight: lighter;
+}
+
+
+@media (max-width: 680px) {
+  ul.grid-nav li {
+    display: inline-block;
+    margin: 0 0 5px;
+  }
+  ul.grid-nav li a {
+    display: inline-block;
+    margin: 0 0 5px;
+  }
+  ul.rig {
+    margin-left: 0;
+  }
+  ul.rig li {
+    width: 100% !important;
+    /* over-ride all li styles */
+    margin: 0 0 10px;
+  }
+}

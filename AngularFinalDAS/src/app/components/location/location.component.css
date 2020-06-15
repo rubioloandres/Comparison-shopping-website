@@ -1,0 +1,49 @@
+.registrarUbicacion {
+  max-width: 400px;
+}
+
+mat-card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(50, 50, 156);
+  font-weight: 700;
+}
+
+mat-card-title {
+  font-family: Oswald !important;
+  font-size: 20px !important;
+}
+
+form {
+  font-family: Oswald !important;
+}
+
+.dialog {
+  border: 2px lightblue solid;
+  font-family: Oswald !important;
+}
+
+.map {
+  width: 400px !important;
+  height: 271px !important;
+}
+
+button {
+  background: none;
+}
+
+button img {
+  width: 45px;
+  height: 45px;
+}
+
+mat-form-field {
+  display: flex;
+}

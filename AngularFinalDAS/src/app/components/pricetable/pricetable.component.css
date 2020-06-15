@@ -1,0 +1,160 @@
+.space {
+  margin-top: 70px;
+}
+
+
+.pricetable-container {
+  height: auto;
+  width: auto;
+  min-width: 20% !important;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.pricetable-container{
+  padding-bottom:15% !important;
+}
+
+table {
+  /* para ver el resumen sticky, la tabla tiene que ser de mayor alto que el contenedor   */
+  height: auto;
+  width: auto;
+  border: 0px lightblue solid;
+}
+
+th,td {
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+}
+
+
+mat-card {
+  background: none;
+}
+
+th mat-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+}
+
+td mat-card img,th mat-card img {
+  width: 45px;
+  height: 45px;
+}
+
+.remove-button{
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.total {
+  background-color: lightblue !important;
+}
+
+table,mat-card-title, span{
+  text-align: center !important;
+  font-family: Oswald !important;
+}
+
+.mejorOp{
+  /*background-color: greenyellow !important;*/
+  background: rgba(210,255,82,1);
+  background: -moz-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+  background: -o-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+  background: -ms-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+  background: linear-gradient(to bottom, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=0 );
+}
+
+.mejorPre{
+  background-color: rgb(194, 250, 110) !important;
+}
+
+.menorPrecioTotalStyle{
+
+  background: orange;
+  background: -moz-linear-gradient(top,orange 0%,orange 100%);
+  background: -webkit-linear-gradient(top,orange 0%, orange 100%);
+  background: -o-linear-gradient(top, orange 0%,orange 100%);
+  background: -ms-linear-gradient(top,orange 0%, orange 100%);
+  background: linear-gradient(to bottom, orange 0%, orange 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=0 );
+}
+
+h2 {
+  font-family: Oswald !important;
+  color: rgb(50, 50, 156);
+  font-size: 26px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-align: center !important;
+}
+
+.cadena-logo {
+  width: 55px !important;
+  height: 55px !important;
+}
+
+.noProds {
+  margin-top: 10%;
+}
+
+h4 {
+  font-size: 24px !important;
+
+}
+
+.noCads img {
+  width: 45px;
+  height: 45px;
+}
+
+h5 {
+  font-size: 20px !important;
+  color: gray;
+}
+
+h4, h5 {
+  font-family: Oswald !important;
+  text-align: center !important;
+}
+
+.noCads {
+  height: auto;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+select {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  font-family: Oswald !important;
+  font-size: 18px;
+}
+
+.sucursalesEmpty {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-family: Oswald !important;
+}

@@ -1,0 +1,121 @@
+<div class="space"></div>
+
+<h2 i18n>Precios de Platos</h2>
+
+<div class="pricetable-container">
+  <div *ngIf="loading" style="overflow:hidden">
+    <mat-progress-spinner
+      class="example-margin"
+      [color]="'primary'"
+      [mode]="'indeterminate'">
+    </mat-progress-spinner>
+  </div>
+
+  <table mat-table [dataSource]="listaPlatos" *ngIf="!sucursalesEmpty()" class="mat-elevation-z8">
+      <ng-container matColumnDef="item" sticky>
+        <th mat-header-cell *matHeaderCellDef>
+          <mat-card-title>Lista</mat-card-title>
+        </th>
+        <td mat-cell *matCellDef="let plato" matColumnDef>
+          <img class="imagenPlato" src={{plato.imagenPlato}}>
+          <mat-card-content>
+            <span> {{plato.nombrePlato}}</span>
+          </mat-card-content>
+        </td>
+        <td mat-footer-cell *matFooterCellDef class="total">
+          <mat-card-title i18n> Resumen </mat-card-title>
+          <mat-card-subtitle i18n> Detalle de resumen </mat-card-subtitle>
+        </td>
+      </ng-container>
+
+      <ng-container *ngFor="let sucursal of listaSucursalesOrdenadas; let i = index" matColumnDef="sucursal{{i+1}}">
+        <div>
+          <th mat-header-cell *matHeaderCellDef>
+            <select matNativeControl class="form-control" required [(ngModel)]="sucursal"
+                      (change)="cambiarSucursalSeleccionada(sucursal,i)">
+              <option *ngFor="let suc of listaSucursales" [selected]="suc === sucursal" [ngValue]="suc">
+                {{ suc.nombreSucursal }}
+              </option>
+            </select>
+            <button class="botonSucursal" mat-stroked-button (click)="openDialogInfo(sucursal)" i18n-title title="Informacion sucursal" [ngClass]="{'mejorOp': sucursal.mejorOpcion}">
+              <mat-card>
+                <img class="cadena-logo" src="{{sucursal.imagenCadena}}">
+                <mat-card-content>
+                  <mat-card-title>{{sucursal.direccion}}</mat-card-title>
+                </mat-card-content>
+              </mat-card>
+            </button>
+          </th>
+
+          <td *matCellDef="let plato">
+            <div class="items">
+              <div *ngIf="mayorCantidadProductosDisponibles(sucursal)"><img width="25" height="25" src="./../../../assets/img/ok_icon.png"> {{sucursal.productos.length}} <span i18n>ingredientes disponibles</span></div>
+              <div *ngIf="!mayorCantidadProductosDisponibles(sucursal)"><img width="25" height="25" src="./../../../assets/img/no_icon.png"> {{sucursal.productos.length}} <span i18n>ingredientes disponibles</span></div>
+              <div *ngIf="todosProductosDisponibles(sucursal)"><img width="25" height="25" src="./../../../assets/img/ok_icon.png"> <span i18n> Todos los ingredientes disponibles</span></div>
+              <div *ngIf="!todosProductosDisponibles(sucursal)"><img width="25" height="25" src="./../../../assets/img/no_icon.png"> <span i18n> Todos los ingredientes disponibles</span></div>
+              <div *ngIf="menorPrecioTotal(sucursal)"><img width="25" height="25" src="./../../../assets/img/ok_icon.png"> <span i18n> Menor precio total</span></div>
+              <div *ngIf="!menorPrecioTotal(sucursal)"><img width="25" height="25" src="./../../../assets/img/no_icon.png"> <span i18n> Menor precio total</span></div>
+            </div>
+            <mat-expansion-panel [expanded]="true">
+              <mat-expansion-panel-header
+              (opened)="panelDetallesOpenState = true"
+              (closed)="panelDetallesOpenState = false">
+                <mat-panel-description i18n>
+                  Detalles
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <table class="tablaIngredientes" mat-table [dataSource]="listaIngredientesPlato">
+                  <ng-container matColumnDef="ingredienteColumnName">
+                    <th mat-header-cell *matHeaderCellDef><span i18n>Ingrediente (producto) </span></th>
+                    <td mat-cell [ngClass]="{'precioNoDisp': completarPrecioProducto(sucursal,ing.idIngrediente) == 'No Disponible'}" *matCellDef="let ing"> {{ing.nombreIngrediente}} ({{completarNombreProducto(sucursal,ing)}}) </td>
+                  </ng-container>
+                  <ng-container matColumnDef="precioColumnName">
+                    <th mat-header-cell *matHeaderCellDef><span i18n> Precio ($) </span></th>
+                    <td mat-cell [ngClass]="{'precioNoDisp': completarPrecioProducto(sucursal,ing.idIngrediente) == 'No Disponible'}" *matCellDef="let ing"> {{completarPrecioProducto(sucursal,ing.idIngrediente)}}</td>
+                  </ng-container>
+                  <tr mat-header-row *matHeaderRowDef="displayedColumns2"></tr>
+                  <tr mat-row *matRowDef="let row; columns: displayedColumns2;"></tr>
+              </table>
+              <button mat-button (click)="agregarACarrito(sucursal)" title="Agregar productos de sucursal"><img class="cart-button" src="../../../assets/img/addtocart_icon.png"><span i18n>Agregar productos a carrito</span></button>
+            </mat-expansion-panel>
+
+          </td>
+
+          <td mat-footer-cell *matFooterCellDef>
+            <mat-card [ngClass]="sucursal.mejorOpcion ? 'mejorOp' : 'total'">
+              <mat-card-title> $ {{sucursal.total}} </mat-card-title>
+               <img src="{{sucursal.imagenCadena}}">
+              <mat-card-content>
+                <mat-card-subtitle> {{sucursal.direccion}} </mat-card-subtitle>
+              </mat-card-content>
+            </mat-card>
+          </td>
+        </div>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      <tr mat-footer-row *matFooterRowDef="displayedColumns; sticky: true"></tr>
+  </table>
+
+  <div class="noProds" *ngIf="error">
+    <h4 i18n>Error al comparar precios</h4>
+    <h5 i18n>Ocurrio un error al intentar comparar, vuelve a intentar.</h5>
+    <button mat-button [routerLink]="['']" routerLinkActive="router-link-active" ><img width="55" height="55" src="./../../../assets/img/home_icon.png">Volver a inicio</button>
+  </div>
+</div>
+<mat-divider></mat-divider>
+<div class="noCads" *ngIf="! error">
+  <mat-list>
+    <mat-list-item><h4 i18n *ngIf="(! loading) && (listaCadenasNoDisponibles.length > 0)">No fue posible obtener precios de los supermercados</h4></mat-list-item>
+      <mat-list-item *ngFor="let cadena of listaCadenasNoDisponibles">
+        <img src="{{getImagenCadena(cadena.idCadena)}}"><h5> {{cadena.nombreCadena}}</h5>
+      </mat-list-item>
+  </mat-list>
+</div>
+<div class="space"></div>
+
+<!--
+<div class="sucursalesEmpty" *ngIf="error">
+  <button mat-button [routerLink]="['/health']" routerLinkActive="router-link-active" ><img width="55" height="55" src="./../../../assets/img/health-food-icon2.png"><span i18n>Volver a saludable</span></button>
+</div> -->

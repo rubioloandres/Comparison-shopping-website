@@ -1,0 +1,169 @@
+.space {
+  margin-top: 5%;
+}
+
+.diasSemana {
+  text-align: center;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+time.dia{
+  font-size: 1em; /* change icon size */
+  display: block;
+  position: relative;
+  width: 7em;
+  height: 7em;
+  background-color: #fff;
+  border-radius: 0.6em;
+  box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+  overflow: hidden;
+}
+
+time.dia *
+{
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+
+time.dia strong
+{
+  position: absolute;
+  top: 0;
+  padding: 0.4em 0;
+  color: #fff;
+  background-color: rgb(50, 50, 156);
+  border-bottom: 1px dashed rgb(58, 58, 161);
+  box-shadow: 0 2px 0  rgb(72, 72, 172);
+}
+
+mat-grid-list{
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+}
+
+time.dia em
+{
+  position: absolute;
+  bottom: 0.3em;
+  color: black;
+}
+
+time.dia span
+{
+  font-size: 2.8em;
+  letter-spacing: -0.05em;
+  padding-top: 0.8em;
+  color: rgb(50, 50, 156);
+}
+
+.diaActual {
+  border: 2px solid greenyellow;
+}
+
+mat-card mat-card-content p {
+  height: auto;
+}
+
+mat-card-title {
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Oswald !important;
+  color: rgb(50, 50, 156);
+  font-size: 24px !important;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+mat-card-subtitle {
+  margin-left: 0;
+  margin-right: 0;
+  font-family: Oswald !important;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+mat-panel-title{
+  font-family: Oswald !important;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+mat-expansion-panel p, ul {
+  font-family: Oswald !important;
+  font-style: normal;
+  font-variant: normal;
+}
+
+
+.botonMenu {
+  border-radius: 14px 14px 14px 14px;
+  -moz-border-radius: 14px 14px 14px 14px;
+  -webkit-border-radius: 14px 14px 14px 14px;
+  border: 2px solid #3f278f;
+  height: auto;
+
+  -webkit-box-shadow: 10px 10px 30px -13px rgba(0,0,0,1);
+  -moz-box-shadow: 10px 10px 30px -13px rgba(0,0,0,1);
+  box-shadow: 10px 10px 30px -13px rgba(0,0,0,1)
+}
+
+mat-card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  /*height: auto;*/
+}
+
+mat-card-actions {
+  display: flex;
+}
+
+mat-card-actions button {
+  margin-top: -12% !important;
+}
+
+mat-card-actions img {
+  width: 45px;
+  height: 45px;
+}
+
+h2 {
+  font-family: Oswald !important;
+  color: rgb(50, 50, 156);
+  font-size: 26px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-align: center !important;
+}
+
+h3 {
+  font-family: Oswald !important;
+  color: black;
+  font-size: 20px;
+  text-align: center !important;
+  font-weight: lighter;
+}
+
+.imagePlato {
+  width: 250px !important;
+  height: 250px !important;
+}

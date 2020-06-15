@@ -1,0 +1,11 @@
+<?xml version="1.0" ?><svg height="1181" viewBox="0 0 1181 1181" width="1181" xmlns="http://www.w3.org/2000/svg"><defs><style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 5px;
+      }
+    </style></defs><ellipse cx="356.969" cy="372" rx="75.969" ry="76"/><path class="cls-1" d="M626.884,530.947L627.86,635s24.262-62.266,77.968-52c53.676,10.26,52.979,63,52.979,63H899.75c2.085,0.7-6.224-121.058-89.588-156.768C708.061,445.5,631.587,523.586,626.884,530.947Z"/><rect height="399" width="140.938" x="288" y="487"/><path class="cls-1" d="M489.916,487H630.86V886H489.916V487Z" data-name="Rectangle 1 copy" id="Rectangle_1_copy"/><rect data-name="Rectangle 1 copy 2" height="243" id="Rectangle_1_copy_2" width="140.937" x="758.813" y="643"/><rect class="cls-2" data-name="Rounded Rectangle 1" height="863" id="Rounded_Rectangle_1" rx="116" ry="116" width="863" x="159" y="159"/></svg>

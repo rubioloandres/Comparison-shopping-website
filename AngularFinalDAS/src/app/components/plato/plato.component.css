@@ -1,0 +1,30 @@
+mat-card-actions img {
+  width: 55px;
+  height: 55px;
+}
+
+.imgPlato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: Oswald !important;
+  color: rgb(50, 50, 156);
+  font-size: 26px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-align: center !important;
+}
+
+p, li, button {
+  font-family: Oswald !important;
+  font-size: 18px;
+}
+
+.resaltar {
+  font-weight: 600;
+}

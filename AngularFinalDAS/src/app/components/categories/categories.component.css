@@ -1,0 +1,76 @@
+h2 {
+  font-family: Oswald !important;
+  color: rgb(50, 50, 156);
+  font-size: 26px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-align: center !important;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+
+.descripcionCat {
+  font-family: Oswald !important;
+  color: black;
+  font-size: 20px;
+  text-align: center !important;
+  font-weight: lighter;
+}
+
+.categoriaimg {
+  width: 180px !important;
+  height: 105px !important;
+}
+
+.categoriacard{
+  margin: 1%;
+  padding: 4px;
+  display: block;
+  width: 100%;
+  border: 0.5pt solid lightblue;
+  background-color: white;
+
+  -webkit-box-shadow: 10px 10px 31px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 31px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 31px 0px rgba(0,0,0,0.75);
+}
+
+button {
+  margin-left: 5% !important;
+}
+
+.categoriacard:hover{
+  background-color: lightblue;
+}
+
+.categoriacardtitulo {
+  background-color: rgb(50, 50, 156);
+  color: white;
+  width: 100%;
+  height: 10%;
+  font-size: 20px !important;
+  font-family: Oswald;
+  font-weight: 200;
+  background: rgba(148,180,214,1);
+background: -moz-linear-gradient(top, rgba(148,180,214,1) 0%, rgba(148,180,214,1) 1%, rgba(7,7,125,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(148,180,214,1)), color-stop(1%, rgba(148,180,214,1)), color-stop(100%, rgba(7,7,125,1)));
+background: -webkit-linear-gradient(top, rgba(148,180,214,1) 0%, rgba(148,180,214,1) 1%, rgba(7,7,125,1) 100%);
+background: -o-linear-gradient(top, rgba(148,180,214,1) 0%, rgba(148,180,214,1) 1%, rgba(7,7,125,1) 100%);
+background: -ms-linear-gradient(top, rgba(148,180,214,1) 0%, rgba(148,180,214,1) 1%, rgba(7,7,125,1) 100%);
+background: linear-gradient(to bottom, rgba(148,180,214,1) 0%, rgba(148,180,214,1) 1%, rgba(7,7,125,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94b4d6', endColorstr='#07077d', GradientType=0 );
+
+}
+
+.space {
+  margin-top: 70px;
+}
+
+.cards-container{
+  padding-bottom:25% !important;
+ }

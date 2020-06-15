@@ -1,0 +1,69 @@
+
+.mostrarOcultarFiltro {
+  border-radius: 200px 0px 0px 200px;
+-moz-border-radius: 200px 0px 0px 200px;
+-webkit-border-radius: 200px 0px 0px 200px;
+border: 2px solid #61d8e0;
+  background-color: white;
+}
+
+mat-label, mat-option {
+  font-family: Oswald !important;
+}
+
+.contBusqueda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botonBuscar {
+  border: 2px aquamarine solid;
+}
+
+.botonBuscar img {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+p {
+  margin-right: 1% !important;
+  margin-left: 1% !important;
+  font-family: Oswald !important;
+  font-size: 18px;
+  align-content: center
+}
+
+
+button img {
+  width: 35px;
+  height: 35px;
+}
+
+.searchfiltercontainer {
+  background:none;
+  padding: 1px;
+  border-radius: 5px 0px 0px 5px;
+  position: fixed;
+  margin-top: 15%;
+  top: 70px;
+  bottom: 0;
+  right: 15px;
+  margin-top:5%;
+  overflow: hidden;
+  z-index: 20;
+  height: 45%;
+}
+
+.example-radio-group {
+  display: block;
+  border: 1px solid #555;
+  margin: 20px;
+  padding: 10px;
+}
+
+
+.sidenav {
+  width: 100%;
+  border: 1px solid  rgb(50, 50, 156);
+}

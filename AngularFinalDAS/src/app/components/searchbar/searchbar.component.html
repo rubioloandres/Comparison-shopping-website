@@ -1,0 +1,31 @@
+<div class="searchbarcontainer space" style="text-align:center" >
+
+
+
+    <h2 i18n>Buscador de Productos</h2>
+  <div id="inOwl">
+    <form>
+      <mat-form-field>
+        <input matInput [(ngModel)]="searchInput" name="searchInput" i18n-placeholder placeholder="Encuentra el producto que desees, por nombre, marca o categoria">
+      </mat-form-field>
+      <div>
+        <button i18n [routerLink]="['catalogue']" (click)="searchProducts()" class="searchButton" mat-raised-button color="primary">Buscar<img src="./../../../assets/img/search_icon.png"></button>
+      </div>
+    </form>
+  </div>
+
+  <owl-carousel-o [options]="customOptions">
+    <ng-template carouselSlide><img src="./../../../assets/img/carousel_slide_1.jpg"></ng-template>
+    <ng-template carouselSlide><img src="./../../../assets/img/carousel_slide_5.jpg"></ng-template>
+    <ng-template carouselSlide><img src="./../../../assets/img/carousel_slide_3.jpg"></ng-template>
+    <ng-template carouselSlide><img src="./../../../assets/img/carousel_slide_4.jpg"></ng-template>
+  </owl-carousel-o>
+
+
+<div>
+  <app-categories></app-categories>
+</div>
+
+
+
+

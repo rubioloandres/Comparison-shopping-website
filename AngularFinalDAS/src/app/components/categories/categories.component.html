@@ -1,0 +1,16 @@
+<div class="space">
+<h3 class="descripcionCat" i18n>Tambien puedes buscar tus productos seleccionando una categoria</h3>
+<h2 i18n>Categorias</h2>
+<div class="cards-container">
+<div class="cards">
+  <ng-container *ngFor='let categoria of listaCategorias'>
+      <button mat-button class="categoriacard" (click)="buscarProductos(categoria.idCategoria)"  [routerLink]="['catalogue']">
+          <img class="categoriaimg" src='{{categoria.urlImagenCategoria}}'>
+         <h3 class="categoriacardtitulo" >{{categoria.nombreCategoria}}</h3>
+      </button>
+  </ng-container>
+</div>
+</div>
+
+</div>
+

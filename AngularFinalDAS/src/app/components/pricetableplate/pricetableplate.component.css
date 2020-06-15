@@ -1,0 +1,170 @@
+.space {
+  margin-top: 6%;
+}
+
+.pricetable-container {
+  height: auto;
+  width: auto;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  /* para ver el resumen sticky, la tabla tiene que ser de mayor alto que el contenedor   */
+  height: auto;
+  width: auto;
+  border: 2px lightblue solid;
+
+}
+
+th,td {
+  align-items: center;
+  justify-content: center;
+}
+
+mat-card {
+  background: none;
+}
+
+th mat-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagenPlato {
+  margin-left: auto;
+  margin-right: 2px;
+  width: 95px;
+  height: 90px;
+}
+
+.tablaIngredientes, .tablaIngredientes th {
+  font-size: 13px !important;
+}
+
+.example-margin {
+  margin: 0 10px;
+}
+
+th mat-card img {
+  width: 75px !important;
+  height: 45px !important;
+}
+
+td mat-card img,th mat-card img {
+  width: 45px;
+  height: 45px;
+}
+
+.cart-button{
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.total {
+  background-color: lightblue !important;
+}
+
+table,mat-card-title, span{
+  text-align: center !important;
+  font-family: Oswald !important;
+}
+
+.precioNoDisp {
+  background-color: rgb(248, 109, 109);
+}
+
+.mejorOp{
+  /*background-color: greenyellow !important;*/
+  background: rgba(210,255,82,1);
+  background: -moz-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+  background: -o-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+  background: -ms-linear-gradient(top, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+  background: linear-gradient(to bottom, rgba(210,255,82,1) 0%, rgba(145,232,66,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842', GradientType=0 );
+}
+
+.mejorPre{
+  background-color: rgb(194, 250, 110) !important;
+}
+
+h2 {
+  font-family: Oswald !important;
+  color: rgb(50, 50, 156);
+  font-size: 26px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-align: center !important;
+}
+
+.noProds {
+  margin-top: 10%;
+}
+
+h4, h5 {
+  font-family: Oswald !important;
+  text-align: center !important;
+}
+
+.noCads h4 {
+  font-size: 24px;
+}
+
+.botonSucursal {
+  width: 100%;
+}
+
+.noCads h5 {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.noCads img {
+  width: 45px;
+  height: 45px;
+}
+
+.noCads {
+  width: auto;
+}
+
+select {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  font-family: Oswald !important;
+  font-size: 18px;
+}
+
+.cumpleCond {
+  color: green;
+}
+
+.noCumpleCond {
+  color: red;
+}
+
+.items {
+  font-family: Oswald !important;
+  font-size: 18px;
+  text-align: start;
+  font-weight: 200;
+}
+
+.sucursalesEmpty {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-family: Oswald !important;
+}

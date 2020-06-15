@@ -1,0 +1,54 @@
+<div class="space"></div>
+
+<h2 i18n>Productos de Canasta Basica</h2>
+<div>
+    <app-searchfilter></app-searchfilter>
+</div>
+
+
+<div class="noProds" *ngIf="(listaProductos.length === 0 )">
+  <h4 i18n>No hay productos para mostrar.</h4>
+  <h5 i18n>Puedes utilizar nuestro buscador o seleccionar una categoria.</h5>
+</div>
+
+
+<div class="container">
+  <div class="grid">
+      <div class="content">
+          <ul class="rig columns-4">
+              <ng-container *ngFor="let producto of listaProductos">
+              <li  [ngClass]="{'agregado': estaEnelCarrito(producto)}" >
+                <mat-card>
+                    <mat-card-header>
+                        <mat-card-title>{{producto.nombreProducto}}</mat-card-title>
+                        <mat-card-subtitle>{{producto.nombreCategoria}}</mat-card-subtitle>
+                    </mat-card-header>
+                    <mat-divider></mat-divider>
+                    <mat-card-content>
+                        <a href="#"><img class="product-image" src="{{producto.imagenProducto}}"></a>
+                    </mat-card-content>
+                    <mat-divider></mat-divider>
+                    <mat-card-actions>
+                        <div class="product-actions">
+                            <button class="product-action"  mat-button type="button" *ngIf="estaEnelCarrito(producto)" (click)="removerDelCarrito(producto)"><img
+                              src="./../../../assets/img/trash_icon.png" i18n-title title="Eliminar del carrito"></button>
+                            <button  class="product-action" mat-button type="button" *ngIf="!estaEnelCarrito(producto)" (click)="agregarAlCarrito(producto)"><img
+                              src="./../../../assets/img/addtocart_icon.png" i18n-title title="Agregar a carrito"></button>
+                            <button  class="product-action" mat-button type="button" *ngIf="ubicacion" (click)="compararPrecio(producto)" [routerLink]="['../prices']"><img
+                              src="./../../../assets/img/searchprice_icon.png" i18n-title title="Comparar precios"></button>
+                            <button  class="product-action" mat-button type="button" i18n-title title="Comparar precios" *ngIf="!ubicacion" value="location" (click)="registrarUbicacion()"> <img
+                              src="./../../../assets/img/price_calculator.png"></button>
+                            </div>
+                    </mat-card-actions>
+                    <hr>
+
+                </mat-card>
+
+              </li>
+            </ng-container>
+          </ul>
+      </div>
+    </div>
+  </div>
+
+
