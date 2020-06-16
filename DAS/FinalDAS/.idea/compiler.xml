@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cadena_axis_one" />
+        <module name="cadena_core" />
+        <module name="cadena_cxf_one" />
+        <module name="cadena_cxf_two" />
+        <module name="cadena_rest_one" />
+        <module name="cadena_rest_two" />
+        <module name="cadenas_db" />
+        <module name="indec_cadenas_sdk" />
+        <module name="indec_service_db" />
+        <module name="indec_service_rest" />
+        <module name="maven-archiver" />
+        <module name="maven-archiver (1)" />
+        <module name="maven-archiver (2)" />
+        <module name="maven-archiver (3)" />
+        <module name="maven-archiver (5)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="maven-archiver (4)" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
