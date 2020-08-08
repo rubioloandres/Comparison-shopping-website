@@ -106,6 +106,13 @@
         return 0;
       });
 
+      this.listaSucursalesOrdenadas = this.listaSucursalesOrdenadas.sort( (suc1, suc2) => {
+        if (suc1.cantidadDeProductosConPrecioMasBajo === suc2.cantidadDeProductosConPrecioMasBajo) {
+          if (suc1.total < suc2.total) { return -1; }
+          if (suc2.total > suc2.total) { return 1;  }
+        }
+      });
+
       // this.listaSucursalesOrdenadas = mejoresPrecios.concat(this.listaSucursalesOrdenadas);
 
 

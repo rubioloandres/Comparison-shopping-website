@@ -2,9 +2,18 @@
 <div class="sucursalesContainer">
 <h2 i18n>Informacion de sucursales</h2>
 
+<div *ngIf="loading" style="overflow:hidden">
+  <mat-progress-spinner
+    class="example-margin"
+    [color]="'primary'"
+    [mode]="'indeterminate'">
+  </mat-progress-spinner>
+</div>
+
+<!--
 <div class="noProds" *ngIf="!(listaSucursales.length > 0 )">
   <h5 i18n>No hay sucursales para mostrar.</h5>
-</div>
+</div> -->
 
 <div fxLayout="row wrap">
   <div class="contSucursal" *ngFor="let sucursal of listaSucursales" fxFlex="25"
@@ -34,4 +43,14 @@
     </mat-card>
   </div>
 </div>
+
+<div class="noCads" *ngIf="! error">
+  <mat-list>
+    <mat-list-item><h4 i18n *ngIf="(! loading) && (listaCadenasNoDisponibles.length > 0)">No fue posible obtener precios de los supermercados</h4></mat-list-item>
+      <mat-list-item *ngFor="let cadena of listaCadenasNoDisponibles">
+        <img src="{{getImagenCadena(cadena.idCadena)}}"><h5>  {{cadena.nombreCadena}}</h5>
+      </mat-list-item>
+  </mat-list>
+</div>
+
 </div>

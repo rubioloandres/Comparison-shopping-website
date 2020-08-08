@@ -2,7 +2,16 @@
   margin-top: 70px;
 }
 
+.noCads img {
+  width: 45px;
+  height: 45px;
+}
 
+.example-margin {
+  height: auto;
+  width: auto;
+  margin: auto !important;
+}
 
 mat-card-content ul li {
   float:left !important;

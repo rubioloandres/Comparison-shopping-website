@@ -13,21 +13,21 @@ services:
         ports:
            - '1435:1433'
         container_name: rest_one
-    rest_two:
-         image: 'mssql_cadena:1.0'
-         ports:
-            - '1436:1433'
-         container_name: rest_two
+#    rest_two:
+#         image: 'mssql_cadena:1.0'
+#         ports:
+#            - '1436:1433'
+#         container_name: rest_two
     cxf_one:
          image: 'mssql_cadena:1.0'
          ports:
             - '1437:1433'
          container_name: cxf_one
-    cxf_two:
-         image: 'mssql_cadena:1.0'
-         ports: 
-            - '1438:1433'
-         container_name: cxf_two
+ #   cxf_two:
+ #        image: 'mssql_cadena:1.0'
+ #        ports: 
+ #           - '1438:1433'
+ #        container_name: cxf_two
      
 
 

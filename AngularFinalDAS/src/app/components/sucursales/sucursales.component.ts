@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { SucursalesService } from 'src/app/services/indec/sucursales.service';
 import { Ubicacion } from 'src/app/interfaces/ubicacion';
 import { Sucursal } from 'src/app/interfaces/sucursal';
-import { Cadena } from 'src/app/interfaces/cadena';
+import { Cadena, CadenaSucursal } from 'src/app/interfaces/cadena';
 import { MAT_DIALOG_DATA, MatDialog } from '@angular/material';
 import { MapComponent } from '../map/map.component';
 
@@ -16,14 +16,22 @@ export class SucursalesComponent implements OnInit {
   listaSucursales: Sucursal[] = new Array();
   listaCadenas: Cadena [] = new Array();
   error: string;
+  loading = true;
+  listaCadenasNoDisponibles: CadenaSucursal [] = new Array();
 
   updateSucursales() {
+
+    this.listaCadenasNoDisponibles  = new Array();
+
     const ubicacion: Ubicacion = JSON.parse(sessionStorage.getItem('ubicacion'));
     this.sSuc.getSucursales(ubicacion.codigoEntidadFederal, ubicacion.localidad)
     .subscribe( cadenas  =>  {
+            this.loading = false;
             cadenas.forEach(cadena => {
               if (cadena.disponible) {
                 this.listaSucursales = this.listaSucursales.concat(cadena.sucursales);
+              } else {
+                this.listaCadenasNoDisponibles.push(cadena);
               }
           });
             console.log('HTTP Response Sucursales success');
@@ -33,6 +41,14 @@ export class SucursalesComponent implements OnInit {
           this.error = err;
       }, () => console.log('HTTP Request Sucursales completed')
     );
+  }
+
+  getImagenCadena(idCad: number) {
+    const cads = sessionStorage.getItem('cadenas');
+    if (cads !== null) {
+      const lcad: Cadena[] = JSON.parse(cads);
+      return lcad.find(c => c.idCadena === idCad).imagenCadena;
+    }
   }
 
   getCadena(id: number) {
