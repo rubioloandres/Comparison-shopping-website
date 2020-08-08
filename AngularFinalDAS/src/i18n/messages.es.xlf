@@ -571,6 +571,13 @@
           <context context-type="linenumber">70</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="caf7e4b0f18e8e3a1a2b8a63cc7f4072e5f7f2b3" datatype="html">
+        <source>Dia de {{menuDiario.nombreMenu}}</source><target state="new">Dia de {{menuDiario.nombreMenu}}</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/components/health/health.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="8a0cee8e75247d525b1108f589ac28d98514cf7a" datatype="html">
         <source>Precios de Platos</source><target state="new">Precios de Platos</target>
         <context-group purpose="location">

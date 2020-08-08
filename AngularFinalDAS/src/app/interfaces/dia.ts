@@ -3,4 +3,5 @@ export interface Dia {
   numero: string;
   mes: string;
   actual: boolean;
+  fecha: string;
 }

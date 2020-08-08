@@ -19,9 +19,9 @@
     <mat-grid-tile *ngFor="let dia of diasDeSemana">
       <button (click)="cargarMenuDiario(dia.nombre)">
         <time class="dia" [ngClass]="{'diaActual': dia.actual}">
-          <em>{{dia.nombre}}</em>
+          <!-- <em>{{dia.nombre}}</em> -->
           <span>{{dia.numero}}</span>
-          <strong>{{dia.mes}}</strong>
+          <strong>{{dia.fecha}}</strong>
         </time>
       </button>
     </mat-grid-tile>
@@ -29,7 +29,7 @@
 </div>
 
 <div class="menuDiario" *ngIf="menuDiario">
-  <h2>{{menuDiario.dia}}, dia de {{menuDiario.nombreMenu}}</h2>
+  <h2 i18n>Dia de {{menuDiario.nombreMenu}}</h2>
   <mat-grid-list cols="3" [gutterSize]="'7px'">
     <mat-grid-tile *ngFor="let plato of menuDiario.platos">
       <button class="botonMenu" mat-button (click)="openDialogPlato(plato)" i18n-title title="Ver Detalles">

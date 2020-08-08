@@ -65,6 +65,7 @@ export class HealthComponent implements OnInit {
           , numero: day.format('DD')
           , mes: day.format('MMMM').toUpperCase()
           , actual: (currentDay === day.locale('es').format('dddd') ? ( this.cargarMenuDiario(nombreDia) ) : false)
+          , fecha: day.format('DD/MM/YY')
         };
         day = day.clone().add(1, 'd');
         this.diasDeSemana.push(dia);
@@ -89,7 +90,8 @@ export class HealthComponent implements OnInit {
       nombre: moment().locale('es').format('dddd'),
       numero: moment().format('DD'),
       mes: moment().format('MMMM').toUpperCase(),
-      actual: true
+      actual: true,
+      fecha: moment().format('DD/MM/YY')
     };
   }
 
