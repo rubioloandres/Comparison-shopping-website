@@ -1,0 +1,4 @@
+127.0.0.1 - - [10/Aug/2020:10:35:58 -0300] "GET /cadena_axis_one/services/CadenaAxisOne?wsdl HTTP/1.1" 200 14567 http-bio-8000-exec-1 921
+127.0.0.1 - - [10/Aug/2020:10:36:02 -0300] "POST /cadena_axis_one/services/CadenaAxisOne.CadenaAxisOneHttpSoap11Endpoint/ HTTP/1.1" 200 1625 http-bio-8000-exec-2 457
+127.0.0.1 - - [10/Aug/2020:11:37:42 -0300] "POST /cadena_axis_one/services/CadenaAxisOne.CadenaAxisOneHttpSoap11Endpoint/ HTTP/1.1" 200 4330 http-bio-8000-exec-4 238
+127.0.0.1 - - [10/Aug/2020:11:46:52 -0300] "POST /cadena_axis_one/services/CadenaAxisOne.CadenaAxisOneHttpSoap11Endpoint/ HTTP/1.1" 200 865 http-bio-8000-exec-6 120

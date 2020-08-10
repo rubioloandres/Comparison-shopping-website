@@ -184,7 +184,6 @@ public class WebService {
 
             List<Producto> productosDelCarrito = buscarProductosPorCodigos(codigos);
 
-            //separar
             Comparador comparador = new Comparador(cadenas, productosDelCarrito);
 
             comparador.comparar();

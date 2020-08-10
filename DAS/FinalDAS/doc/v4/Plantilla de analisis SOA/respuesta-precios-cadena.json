@@ -1,0 +1,48 @@
+[
+  {
+    "idSucursal": 1,
+    "nombreSucursal": "Mini Libertad Fader",
+    "direccion": "Av. Fernando Fader 3903",
+    "latitud": "-64.231105",
+    "longitud": "-31.375555",
+    "email": "libertad1email@gmail.com",
+    "telefono": "0351 643-3544",
+    "cuit": "30-61292945-5",
+    "localidad": "Capital",
+    "provincia": "Córdoba",
+    "codigoEntidadFederal": "AR-X",
+    "productos": [
+      {
+        "codigoDeBarras": "00042316",
+        "precio": 132.86,
+        "validoDesde": "2019-07-17 01:20:02.393",
+        "nombre": "Bife Angosto 1 kg",
+        "marca": "SIN MARCA",
+        "idSucursal": 0
+      }
+    ]
+  },
+  {
+    "idSucursal": 2,
+    "nombreSucursal": "Mini Libertad Rafael Nuñez",
+    "direccion": "Av Rafael Núñez 5887",
+    "latitud": "-64.249119",
+    "longitud": "-31.349003000000003",
+    "email": "libertad2email@gmail.com",
+    "telefono": "0351 643-3554",
+    "cuit": "30-61292945-5",
+    "localidad": "Capital",
+    "provincia": "Córdoba",
+    "codigoEntidadFederal": "AR-X",
+    "productos": [
+      {
+        "codigoDeBarras": "00042316",
+        "precio": 132.86,
+        "validoDesde": "2019-07-17 01:20:02.393",
+        "nombre": "Bife Angosto 1 kg",
+        "marca": "SIN MARCA",
+        "idSucursal": 0
+      }
+    ]
+  }
+]

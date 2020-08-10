@@ -1,0 +1,4 @@
+127.0.0.1 - - [10/Aug/2020:10:35:58 -0300] "GET /cadena_cxf_one/services/cadena_cxf_one?wsdl HTTP/1.1" 200 7533 http-bio-8003-exec-1 482
+127.0.0.1 - - [10/Aug/2020:10:36:02 -0300] "POST /cadena_cxf_one/services/cadena_cxf_one HTTP/1.1" 200 1558 http-bio-8003-exec-2 602
+127.0.0.1 - - [10/Aug/2020:11:37:42 -0300] "POST /cadena_cxf_one/services/cadena_cxf_one HTTP/1.1" 200 4269 http-bio-8003-exec-4 226
+127.0.0.1 - - [10/Aug/2020:11:46:52 -0300] "POST /cadena_cxf_one/services/cadena_cxf_one HTTP/1.1" 200 794 http-bio-8003-exec-6 150

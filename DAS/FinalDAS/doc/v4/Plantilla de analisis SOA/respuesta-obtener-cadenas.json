@@ -1,0 +1,27 @@
+[
+  {
+    "idCadena": 1,
+    "nombreCadena": "Walmart",
+    "imagenCadena": "./../../../assets/img/walmart_logo.png"
+  },
+  {
+    "idCadena": 2,
+    "nombreCadena": "Jumbo",
+    "imagenCadena": "./../../../assets/img/jumbo_logo.png"
+  },
+  {
+    "idCadena": 3,
+    "nombreCadena": "Carrefour",
+    "imagenCadena": "./../../../assets/img/carrefour_logo.png"
+  },
+  {
+    "idCadena": 4,
+    "nombreCadena": "Libertad",
+    "imagenCadena": "./../../../assets/img/libertad_logo.png"
+  },
+  {
+    "idCadena": 5,
+    "nombreCadena": "Disco",
+    "imagenCadena": "./../../../assets/img/disco_logo.png"
+  }
+]

@@ -1,0 +1,3 @@
+127.0.0.1 - - [10/Aug/2020:10:35:58 -0300] "POST /cadena_rest_one/cadenaRestOne/preciosSucursales?codigoentidadfederal=AR-X&localidad=Capital&codigos=7791708001231,7791708001248 HTTP/1.1" 200 1333 http-bio-8001-exec-1 1117
+127.0.0.1 - - [10/Aug/2020:11:37:41 -0300] "POST /cadena_rest_one/cadenaRestOne/preciosSucursales?codigoentidadfederal=AR-X&localidad=Capital&codigos=7795002000013,7795002000020,7793940692000,7790787002931,7790072001014,7792900009025,7792900009292,7790150564806,060613001,7790070032690 HTTP/1.1" 200 4047 http-bio-8001-exec-3 220
+127.0.0.1 - - [10/Aug/2020:11:46:51 -0300] "GET /cadena_rest_one/cadenaRestOne/sucursales?codigoentidadfederal=AR-X&localidad=Capital HTTP/1.1" 200 583 http-bio-8001-exec-5 121

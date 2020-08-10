@@ -25,6 +25,14 @@
                     <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string"/>
                 </xs:sequence>
             </xs:complexType>
+            <xs:element name="simularPrecios">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element minOccurs="0" name="codigoentidadfederal" nillable="true" type="xs:string"/>
+                        <xs:element minOccurs="0" name="localidad" nillable="true" type="xs:string"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
             <xs:element name="sucursales">
                 <xs:complexType>
                     <xs:sequence>
@@ -37,14 +45,6 @@
                 <xs:complexType>
                     <xs:sequence>
                         <xs:element minOccurs="0" name="return" nillable="true" type="xs:string"/>
-                    </xs:sequence>
-                </xs:complexType>
-            </xs:element>
-            <xs:element name="simularPrecios">
-                <xs:complexType>
-                    <xs:sequence>
-                        <xs:element minOccurs="0" name="codigoentidadfederal" nillable="true" type="xs:string"/>
-                        <xs:element minOccurs="0" name="localidad" nillable="true" type="xs:string"/>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>
