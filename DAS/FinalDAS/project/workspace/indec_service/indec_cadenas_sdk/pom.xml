@@ -22,7 +22,7 @@
         <axis.version>1.6.2</axis.version>
         <xmlbeans.version>2.6.0</xmlbeans.version>
         <httpcomponents.ar.edu.ubp.das.src.core.version>4.4.9</httpcomponents.ar.edu.ubp.das.src.core.version>
-        <httpcomponents.client.version>4.5.5</httpcomponents.client.version>
+        <httpcomponents.client.version>4.5.13</httpcomponents.client.version>
     </properties>
 
     <!-- Dependency definitions -->
