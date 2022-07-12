@@ -16,7 +16,7 @@
     </modules>
     <!-- Dependency properties -->
     <properties>
-        <axis.version>1.6.2</axis.version>
+        <axis.version>1.6.3</axis.version>
         <xmlbeans.version>2.6.0</xmlbeans.version>
     </properties>
 
