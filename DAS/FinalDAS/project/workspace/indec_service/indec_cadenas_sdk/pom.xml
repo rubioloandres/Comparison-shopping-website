@@ -19,7 +19,7 @@
     <!-- Dependency properties -->
     <properties>
         <cxf.version>3.2.2</cxf.version>
-        <axis.version>1.6.2</axis.version>
+        <axis.version>1.6.3</axis.version>
         <xmlbeans.version>2.6.0</xmlbeans.version>
         <httpcomponents.ar.edu.ubp.das.src.core.version>4.4.9</httpcomponents.ar.edu.ubp.das.src.core.version>
         <httpcomponents.client.version>4.5.5</httpcomponents.client.version>
